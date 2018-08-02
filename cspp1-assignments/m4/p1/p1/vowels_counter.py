@@ -14,7 +14,7 @@ def main():
     Write a program that counts up the number of vowels contained in the string s.
     Valid vowels are: 'a', 'e', 'i', 'o', and 'u'.
     '''
-     str_input = input()
+    str_input = input()
     num_vow = 0
     for char in str_input:
         if char in "aueoi":
