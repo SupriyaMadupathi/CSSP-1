@@ -19,7 +19,7 @@ def main():
     for char in str_input:
         if char in "aueoi":
             num_vow += 1
-            print(num_vow)
+    print(num_vow)
 
 if __name__ == "__main__":
     main()
