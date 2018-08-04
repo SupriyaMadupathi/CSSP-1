@@ -36,7 +36,7 @@ def main():
     if abs(g_a**3 - c_n) >= epsilon:
         print(str(c_n) + "is not a perfect cube")
     else:
-        print(str(c_n) + "is a perfect cube")
+        print(str(c_n) +  " is a perfect cube")
 
 
 if __name__ == "__main__":
