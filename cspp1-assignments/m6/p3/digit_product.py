@@ -10,11 +10,10 @@ def main():
     '''
     i = int(input())
     produc_t = 1
-    while i > 0:
+    while i => 0:
         a_b = i % 10
         i = i // 10
         produc_t = produc_t*a_b
     print(produc_t)
 if __name__ == "__main__":
     main()
-    
