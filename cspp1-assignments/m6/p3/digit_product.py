@@ -9,7 +9,7 @@ def main():
     '''
     Read any number from the input, store it in variable int_input.
     '''
-    i = 145#int(input())
+    i = int(input())
     p = 1
     while i > 0:
         a = i % 10
