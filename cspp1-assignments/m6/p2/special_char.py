@@ -12,8 +12,6 @@ def main():
     for char in range (s):
         if char in "!@#$%^&*":
             print(" ")
-        else: 
-            print(char)
-
+    print(s)
 if __name__ == "__main__":
     main()
