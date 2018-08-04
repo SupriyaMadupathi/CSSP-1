@@ -15,6 +15,6 @@ def main():
         i = i // 10
         produc_t = produc_t*a_b
     print(produc_t)
-    
 if __name__ == "__main__":
     main()
+    
