@@ -1,4 +1,4 @@
-   '''
+'''
    # Write a python program to find the square root of the given number
    # using approximation method
 
@@ -10,7 +10,7 @@
    # input: 49
    # output: 6.999999999999991
    @ author : SupriyaMadupathi
-   '''
+'''
 
 
 def main():
@@ -30,8 +30,6 @@ def main():
             h_i = m_i
         m_i = (l_w +h_i)/2.0
     print(m_i)
-
-    
     # epsilon and step are initialized
     # don't change these values
         # your code starts here
