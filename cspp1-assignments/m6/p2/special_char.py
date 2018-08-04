@@ -8,10 +8,13 @@ def main():
     '''
     Read string from the input, store it in variable str_input.
     '''
-    s = "$upr!y@"
-    for char in range (s):
+    str_input = input()
+    str_2 = " "
+    for char in  str_input:
         if char in "!@#$%^&*":
-            print(" ")
-    print(s)
+            str_2 += " "
+        else:
+            str_2 += char
+    print(str_2)
 if __name__ == "__main__":
     main()
