@@ -21,8 +21,7 @@ def main():
     # input: 25
     # output: 4.999999999999998
     '''
-    a_i = 
-    int(input())
+    a_i = int(input())
     e_b = 0.01
     s_c = 0.1
     g_y = 0.0
