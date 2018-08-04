@@ -9,11 +9,11 @@ def main():
     '''
     Read any number from the input, store it in variable int_input.
     '''
-    i = #int(input())
+    i = 145#int(input())
     p = 1
     while i > 0:
         a = i % 10
-        i = a// 10
+        i = i // 10
         p = p*a
     print(p)
 if __name__ == "__main__":
