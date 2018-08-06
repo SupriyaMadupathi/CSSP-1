@@ -42,7 +42,7 @@ def payingdebtoffinayear(b_n, air_n, mpr_n):
         m_up = b_n-min_mp
         b_n = m_up+(m_i*m_up)
         m_n += 1
-        return round(b_n, 2)
+    return round(b_n, 2)
 
 def main():
     '''
