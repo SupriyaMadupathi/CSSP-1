@@ -37,10 +37,10 @@ def payingdebtoffinayear(b_a, an_i, mon_p):
     '''
     s_u = 0
     while s_u <= 11:
-        p_i = (an_i/12.0)
-        min_n = (mon_p*b_a)
-        m_p = b_a - min_n
-        b_a = m_p + (p_i*m_p)
+        s_i = (an_i/12.0)
+        sin_n = (mon_p*b_a)
+        m_up = b_a - sin_n
+        b_a = m_p + (s_i*m_up)
         s_u += 1
         return round(b_a, 2)
 
