@@ -29,20 +29,20 @@ balance at the end of the year in the format:
 @ Author : SupriyaMadupathi
 '''
 
-def payingdebtoffinayear(b_u, an_u, mon_u):
+def payingdebtoffinayear(b_n, air_n, mpr_n):
     '''
     # Write a program to calculate the credit card balance after one year if a
     person only pays the minimum monthly payment required by the
     # credit card company each month.
     '''
-    s_u = 0
-    while s_u <= 11:
-        s_i = (an_u/12.0)
-        sin_mp = (mon_u*b_u)
-        m_up = b_u - sin_mp
-        b_u = m_up + (s_i*m_up)
-        s_u += 1
-        return round(b_u, 2)
+    m_n = 0
+    while m_n <= 11:
+        s_i = (air_n/12.0)
+        min_mp = (mpr_n*b_n)
+        m_up = b_n - min_mp
+        b_n = m_up + (s_i*m_up)
+        m_n += 1
+        return round(b_n, 2)
 
 def main():
     '''
