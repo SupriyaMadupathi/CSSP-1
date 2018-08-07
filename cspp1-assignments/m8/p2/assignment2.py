@@ -1,6 +1,6 @@
 '''
 # Exercise: Assignment-2
-# Write a Python function, sumofdigits, that takes in one number 
+# Write a Python function, sumofdigits, that takes in one number
 and returns the sum of digits of given number.
 
 # This function takes in one number and returns one number.
@@ -17,8 +17,7 @@ def sumofdigits(n_a):
     # Your code here
     if n_a == 1:
         return 1
-    else:
-        return n_a * sumofdigits(n_a)
+    return n_a * sumofdigits(n_a)
 
 def main():
     '''
@@ -29,4 +28,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+    
