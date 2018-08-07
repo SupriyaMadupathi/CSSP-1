@@ -18,7 +18,7 @@ def iterPower(base, exp):
     result = 1
     while exp > 0:
         result = base * result
-        exp =exp - 1
+        exp = exp - 1
     return result
 
 
