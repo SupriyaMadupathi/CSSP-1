@@ -15,9 +15,9 @@ def sumofdigits(n_a):
     returns: a positive integer, the sum of digits of n.
     '''
     # Your code here
-    if n_a == 1:
-        return 1
-    return n_a * sumofdigits(n_a)
+    if n_a == 0:
+        return n_a
+    return n_a % 10 + sumofdigits(n_a//10)
 
 def main():
     '''
@@ -28,4 +28,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
