@@ -8,17 +8,17 @@
 '''
 
 
-def factorial(n):
+def factorial(n_a):
     '''
     n is positive Integer
 
     returns: a positive integer, the factorial of n.
     '''
     # Your code here
-    if n == 1 or n == 1:
+    if n_a == 1 or n_a == 1:
         return 1
     else:
-        return (n * factorial(n-1))
+        return (n_a * factorial(n_a-1))
 
 def main():
     '''
@@ -26,8 +26,8 @@ def main():
 
     returns: a positive integer, the factorial of n.
     '''
-    n = input()
-    print(factorial(int(n)))
+    n_a = input()
+    print(factorial(int(n_a)))
 
 if __name__ == "__main__":
     main()
