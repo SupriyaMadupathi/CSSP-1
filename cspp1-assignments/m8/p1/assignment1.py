@@ -24,7 +24,7 @@ def factorial(n):
 
 def main():
     n = input()
-    print(factorial(int(n)))    
+    print(factorial(int(n)))
 
 if __name__ == "__main__":
     main()
