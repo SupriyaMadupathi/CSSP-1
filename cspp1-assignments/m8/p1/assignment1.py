@@ -15,10 +15,9 @@ def factorial(n_a):
     returns: a positive integer, the factorial of n.
     '''
     # Your code here
-    if n_a == 1 or n_a == 1:
+    if n_a in (1, ):
         return 1
-    else:
-        return (n_a * factorial(n_a-1))
+    return (n_a * factorial(n_a-1))
 
 def main():
     '''
