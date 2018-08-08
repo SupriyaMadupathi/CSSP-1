@@ -17,7 +17,7 @@ def factorial(n_a):
     # Your code here
     if n_a in (0, 1):
         return 1
-    return n_a * factorial(n_a-1)
+    return n_a * factorial(n_a-1)   
 
 def main():
     '''

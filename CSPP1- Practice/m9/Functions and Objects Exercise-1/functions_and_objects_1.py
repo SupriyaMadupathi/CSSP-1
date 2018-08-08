@@ -8,7 +8,7 @@
 
 def apply_to_each(L, f):
     '''
-    five table
+   negative to positive
     '''
     for i in range(len(L)):
         L[i] = f(L[i])
@@ -16,7 +16,7 @@ def apply_to_each(L, f):
 
 def main():
     '''
-    five table
+    negative to positive
     '''
     data = input()
     data = data.split()
