@@ -18,8 +18,8 @@ def is_word_guessed(secret_word, letters_guessed):
     # FILL IN YOUR CODE HERE...
     for i in range(len(secret_word)):
         if i not in letters_guessed:
-            return False
-        return True 
+            return True
+        return False
 def main():
     '''
     Main function for the program
