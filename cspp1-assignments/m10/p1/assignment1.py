@@ -17,6 +17,7 @@ def get_available_letters(letters_guessed):
     for i in s_b:
         if i not in letters_guessed:
             p_a = p_a + i
+    
     return p_a
 
 
