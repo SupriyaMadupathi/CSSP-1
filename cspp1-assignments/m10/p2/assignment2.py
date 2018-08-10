@@ -123,7 +123,7 @@ def main():
     secret_word_giv while you're testing)
     '''
     secret_word_giv = choose_word(WORD_LIST).lower()
-    #secret_word_giv = "nani"
+    #secret_word_giv = "supriya"
     hangman(secret_word_giv)
 
 
