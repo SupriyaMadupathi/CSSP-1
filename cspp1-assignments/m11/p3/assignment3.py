@@ -11,7 +11,8 @@ Testing: Make sure the test_isValidWord tests pass. In addition, you will want
 to test your implementation by calling it multiple times on the same hand - what
 
 should the correct behavior be? Additionally, the empty string ('') is not a valid
-word - if you code this function correctly, you shouldn't need an additional check for this condition.
+word - if you code this function correctly, you shouldn't need an additional
+check for this condition.
 
 Fill in the code for isValidWord in ps4a.py and be sure you've passed the appropriate
 tests in test_ps4a.py before pasting your function definition here.
@@ -40,5 +41,3 @@ def main():
     print(is_valid_word(word_1, adict_1, l_2))
 if __name__ == "__main__":
     main()
-
-
