@@ -32,6 +32,7 @@ def get_available_letters(letters_guessed):
     """gives the available letters for guess """
     import string
     a_list = list(string.ascii_lowercase)
+    
     for i in letters_guessed:
         if i in a_list:
             a_list.remove(i)
@@ -86,7 +87,7 @@ def hangman(secret_word_giv):
     print("Welcome to the game, Hangman! \n")
     print("I am thinking of a word that is", len(secret_word_giv), "letters long.")
     print("Please enter only one guess(letter) per round \n-------------")
-    guess_count = 10
+    guess_count = 8
     letters_guessed = []
     while guess_count > 0 and (not is_word_guessed(secret_word_giv, letters_guessed)):
         print("You have", guess_count, "guesses left.")
@@ -123,7 +124,7 @@ def main():
     secret_word_giv while you're testing)
     '''
     secret_word_giv = choose_word(WORD_LIST).lower()
-    #secret_word_giv = "supriya"
+    secret_word_giv = "supriya"
     hangman(secret_word_giv)
 
 

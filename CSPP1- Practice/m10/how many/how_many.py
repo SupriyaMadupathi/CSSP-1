@@ -1,3 +1,4 @@
+
 '''
 #Exercise : how many
 # write a procedure, called how_many, which returns the
@@ -20,8 +21,8 @@ def how_many(aDict):
     for i in aDict.values():
         if type(i) == list or type(i) == tuple:
             L.extend(i)
-        else:
-             L.extend(i)
+        #else:
+         #    L.extend(i)
     return len(L)
 def main():
     '''
