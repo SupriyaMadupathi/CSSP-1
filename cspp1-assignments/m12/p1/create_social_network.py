@@ -35,10 +35,9 @@ def create_social_network(data):
     # remove the pass below and start writing your code
     dictionary_ = {}
     for i in range(0, len(data), 2):
-        if data[i] not in dictionary_:
-            dictionary_[data[i]] = data[i+2].split('\n')
+        if (data[i])  in dictionary_:
+            dictionary_[data[i]] = data[i+1].split('\n')
     return dictionary_
-
 def main():
     '''
         handling testcase input and printing output
