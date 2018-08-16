@@ -17,7 +17,8 @@ def is_straight(hand):
         Write the code for it and return True if it is a straight else return False
     '''
     face_values = [DICTIONARY_VALUE[face] for face, suit_value in hand]
-    return sum(face_values) - min(face_values)*len(face_values) == 10
+    #return sum(face_values) - min(face_values)*len(face_values) == 10
+    return max(face_values) - min(face_values) == 4
 
 
 
