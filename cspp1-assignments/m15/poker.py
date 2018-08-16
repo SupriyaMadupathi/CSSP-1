@@ -11,7 +11,7 @@ def get_face_values(hand):
     '''
     face values
     '''
-    face_values = [DICTIONARY_VALUE[face] for face, suit_valuen in hand]
+    face_values = [DICTIONARY_VALUE[face] for face, suit_values in hand]
     return face_values
 def suit_values(hand):
     '''
@@ -118,10 +118,10 @@ def hand_rank(hand):
         return 5
     if is_straight(hand):
         return 4
-    if is_two_pair_of_kind(hand):
-        return 2
     if is_three_of_kind(hand):
         return 3
+    if is_two_pair_of_kind(hand):
+        return 2
     if is_one_pair_of_kind(hand):
         return 1
     return 0
