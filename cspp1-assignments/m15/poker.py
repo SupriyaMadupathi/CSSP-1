@@ -8,28 +8,50 @@ DICTIONARY_VALUE = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,\
  'T':10, 'J':11, 'Q':12, 'K':13, 'A':14}
 
 def get_face_values(hand):
+    '''
+    face values
+    '''
     face_values = [DICTIONARY_VALUE[face] for face, suit_valuen in hand]
     return face_values
 def suit_values(hand):
+    '''
+    suit values
+    '''
     suit_values = [suit_value for face, suit_value in hand]
     return suit_values
 def is_four_of_kind(hand):
+    '''
+    four of a Kind
+    '''
     face_values = get_face_values(hand)
     face_values.sort()
     return len(set(face_values[:-1])) == 1 or len(set(face_values[-4:])) == 1
 def is_three_of_kind(hand):
+    '''
+    three of a Kind
+    '''
     face_values = get_face_values(hand)
     face_values.sort()
     return len(set(face_values)) == 3
 def is_two_pair_of_kind(hand):
+    '''
+    two of a Kind
+    '''
     face_values = get_face_values(hand)
     face_values.sort()
-    return len(set(face_values[:-1])) == 3 and len(set(face_values[:2])) == 1 or len(set(face_values[1:3])) == 1
+    return len(set(face_values[:-1])) == 3 and len(set(face_values[:2])) == 1 or\
+    len(set(face_values[1:3])) == 1
 def is_one_pair_of_kind(hand):
+    '''
+    one is_one_pair_of_kind
+    '''
     face_values = get_face_values(hand)
     face_values.sort()
     return len(set(face_values)) == 4
 def is_full_house(hand):
+    '''
+    full is_full_house
+    '''
     face_values = get_face_values(hand)
     face_values.sort()
     return len(set(face_values)) == 2
