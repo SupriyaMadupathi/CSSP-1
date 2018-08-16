@@ -4,7 +4,7 @@
     Read about poker hands here.
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
-Dictionary_value = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,'T':10, 'J':11, 'Q':12, 'K':13, 'A':14 }
+DICTIONARY_VALUE = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9, 'T':10, 'J':11, 'Q':12, 'K':13, 'A':14}
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -15,7 +15,7 @@ def is_straight(hand):
         Think of an algorithm: given the card face value how to check if it a straight
         Write the code for it and return True if it is a straight else return False
     '''
-    face_values = [Dictionary_value[face] for face, suit_value in hand]
+    face_values = [DICTIONARY_VALUE[face] for face, suit_value in hand]
     return sum(face_values) - min(face_values)*len(face_values) == 10
 
 
@@ -56,12 +56,11 @@ def hand_rank(hand):
     # max in poker function uses these return values to select the best hand
     if is_straight(hand) and is_flush(hand):
         return 3
-    elif is_flush(hand):
+    if is_flush(hand):
         return 2
-    elif is_straight(hand):
+    if is_straight(hand):
         return 1
-    else:
-        return 0
+    return 0
 
 def poker(hands):
     '''
