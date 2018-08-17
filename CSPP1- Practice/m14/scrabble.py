@@ -14,7 +14,7 @@ SCRABBLE_LETTER_VALUES = {
     'j': 8, 'k': 5, 'l': 1, 'm': 3, 'n': 1, 'o': 1, 'p': 3, 'q': 10, 'r': 1,
     's': 1, 't': 1, 'u': 1, 'v': 4, 'w': 4, 'x': 8, 'y': 4, 'z': 10
 }
-WORD_LIST_FILENAME = "words.txt"
+WORD_LIST_FILE = "words.txt"
 
 def load_words():
     """
@@ -24,10 +24,10 @@ def load_words():
     """
     print("Loading word list from file...")
     # in_file: file
-    in_file = open(WORD_LIST_FILENAME, 'r')
+    word_in_file = open(WORD_LIST_FILE, 'r')
     # word_list: list of strings
     word_list = []
-    for line in in_file:
+    for line in word_in_file:
         word_list.append(line.strip().lower())
     print(" ", len(word_list), "words loaded.")
     return word_list
@@ -42,10 +42,10 @@ def get_freuency_dict(sequence):
     return: dictionary
     """
     # freqs: dictionary (element_type -> int)
-    freq = {}
-    for x_in in sequence:
-        freq[x_in] = freq.get(x_in, 0) + 1
-    return freq
+    frequency = {}
+    for letter_in in sequence:
+        frequency[letter_in] = frequency.get(letter_in, 0) + 1
+    return frequency
 
 # Problem #1: Scoring a word
 
@@ -70,7 +70,7 @@ def get_wordscore(word, n_in):
             count = count + SCRABBLE_LETTER_VALUES[i]
         if len(word) == n_in:
             return count * len(word) + 50
-        return count * len(word)
+    return count * len(word)
 
 # Problem #2: Make sure you understand how this function works and what it does!
 
