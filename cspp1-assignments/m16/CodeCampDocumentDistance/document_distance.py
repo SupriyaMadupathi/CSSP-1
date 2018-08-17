@@ -57,6 +57,8 @@ def similarity(word_one, word_two):
     '''
     dictionary_one = create_dict_of_values(clean_up_words(word_one))
     dictionary_two = create_dict_of_values(clean_up_words(word_two))
+    print(dictionary_one)
+    print(dictionary_two)
     dictionary = combine_dict(dictionary_one, dictionary_two)
     print(dictionary)
     return calculate_similarity(dictionary)
