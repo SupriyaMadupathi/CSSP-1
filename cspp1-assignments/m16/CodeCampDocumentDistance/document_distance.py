@@ -18,13 +18,13 @@ def combine_dict(word_one, word_two):
         if word not in dictionary:
             dictionary[word] = [0, word_two[word]]
     return dictionary
-def calculate_similarity(dictionary_values):
+def calculate_similarity(dictionary):
     '''
     calculating frequency
     '''
-    numerator = sum([k[0] * k[1] for k in dictionary_values()])
-    dinominator_one = math.sqrt(sum([k[0] ** 2 for k in dictionary_values()]))
-    dinominator_two = math.sqrt(sum([k[1] ** 2 for k in dictionary_values()]))
+    numerator = sum([k[0] * k[1] for k in dictionary.values()])
+    dinominator_one = math.sqrt(sum([k[0] ** 2 for k in dictionary.values()]))
+    dinominator_two = math.sqrt(sum([k[1] ** 2 for k in dictionary.values()]))
     return numerator/(dinominator_one*dinominator_two)
 
 def create_dict_of_values(words_list):
