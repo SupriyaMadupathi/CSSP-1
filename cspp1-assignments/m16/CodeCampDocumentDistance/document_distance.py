@@ -39,8 +39,8 @@ def create_dict_of_values(words_list):
             if word not in dictionary:
                 dictionary[word] = 1
             else:
-                dictoinary[word] += 1
-    return dictoinary
+                dictionary[word] += 1
+    return dictionary
 
 def clean_up_words(word_input):
     '''
