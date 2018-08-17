@@ -32,7 +32,7 @@ def create_dict_of_values(words_list):
     removing the spaces
     '''
     dictionary = {}
-    stopwords = load_stopwords("stopwords.text")
+    stopwords = load_stopwords("stopwords.txt")
     for word in words_list:
         word = word.strip()
         if word not in stopwords and len(word) > 0:
