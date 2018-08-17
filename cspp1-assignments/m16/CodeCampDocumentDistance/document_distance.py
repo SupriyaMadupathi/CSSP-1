@@ -47,7 +47,7 @@ def clean_up_words(word_input):
     cleaning the given words
     '''
     given_words = word_input.lower().strip().replace('\'', '')
-    regex = re.compile('[^a - z]')
+    regex = re.compile('[^a-z]')
     words = regex.sub(" ", given_words).split(" ")
     return words
 
