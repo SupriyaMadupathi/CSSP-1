@@ -46,18 +46,18 @@ def clean_up_words(word_input):
     '''
     cleaning the given words
     '''
-    given_words = word_input.lower().strip()
+    given_words = word_input.lower().strip().replace('\'', '')
     regex = re.compile('[^a - z]')
-    words = regex.sub(" ", words).split("")
+    words = regex.sub(" ", words).split(" ")
     return given_words
 
 def similarity(word_one, word_two):
     '''
         Compute the document distance as given in the PDF
     '''
-    word_one = clean_up_words(word_one)
-    word_two = clean_up_words(word_two)
-    dictionary = combine_dict(word_one, word_two)
+    dictionary_one = clean_up_words(word_one)
+    dictionary_two = clean_up_words(word_two)
+    dictionary = combine_dict(dictionary_one, dictionary_two)
     return calculate_similarity(dictionary)
 
 def load_stopwords(filename):
