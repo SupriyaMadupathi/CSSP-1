@@ -49,7 +49,7 @@ def clean_up_words(word_input):
     given_words = word_input.lower().strip()
     regex = re.compile('[^a - z]')
     words = regex.sub(" ", words).split("")
-    return words
+    return given_words
 
 def similarity(word_one, word_two):
     '''
