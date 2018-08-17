@@ -7,7 +7,7 @@ def combine_dict(word_one, word_two):
     '''returns dictionary
     '''
     dictionary = {}
-    for word in word_one, word_two:
+    for word in word_one:
         if word in word_two:
             dictionary[word] = [word_one[word], word_two[word]]
 
