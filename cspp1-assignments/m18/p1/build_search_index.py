@@ -40,7 +40,7 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    given_text = text.lower().strip().replace('\'', '')
+    given_text = text.lower().strip()
     regex = re.compile('[^a-z]')
     words = regex.sub(" ", given_text.split(" "))
     return words
@@ -62,11 +62,11 @@ def build_search_index(docs):
 
     # return search index
     search_index = {}
-    word_one = word_list(docs)
-    stopwords = load_stopwords("stopwords.txt")
+    #word_one = word_list(docs)
+    #stopwords = load_stopwords("stopwords.txt")
     for word in docs:
         word = word.strip()
-        if word not in stopwords:
+        if word not in docs:
             if word in search_index:
                 search_index[word] += 1
             else:
