@@ -36,7 +36,7 @@ def hand_rank(hand):
     '''
     return_value = None
     ranks = card_ranks(hand)
-    if is_straight(ranks) and flush(hand):            # straight flush
+    if is_straight(ranks) and is_flush(hand):            # straight flush
         return_value = (8, max(ranks))
     elif kind(4, ranks):                           # 4 of a kind
         return_value = (7, kind(4, ranks), kind(1, ranks))
@@ -49,7 +49,7 @@ def hand_rank(hand):
     elif kind(3, ranks):                           # 3 of a kind
         return_value = (3, kind(3, ranks), ranks)
     elif two_pair_of_kind(ranks):                          # 2 pair
-        return_value = (2, two_pair(ranks), ranks)
+        return_value = (2, two_pair_of_kind(ranks), ranks)
     elif kind(2, ranks):                           # kind
         return_value = (1, kind(2, ranks), ranks)
     else:                                          # high card
