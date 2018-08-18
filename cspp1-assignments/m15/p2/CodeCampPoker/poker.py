@@ -68,7 +68,7 @@ def is_straight(ranks):
     '''
     Return True if the ordered ranks from a 5-card straight
     '''
-    return max(face_values) - min(face_values) = 4 and len(set(ranks)) == 5
+    return max(face_values) - min(face_values) == 4 and len(set(ranks)) == 5
     #return (max(ranks)-min(ranks) == 4) and len(set(ranks)) == 5
 
 def is_flush(hand):
