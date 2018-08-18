@@ -26,6 +26,8 @@ Since we are assuming that some functions are already
 written, this code will not RUN. Clicking SUBMIT will
 tell you if you are correct.
 '''
+DICTIONARY_VALUE = {'2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,\
+ 'T':10, 'J':11, 'Q':12, 'K':13, 'A':14}
 def hand_rank(hand):
     '''
     You will code this function. The goal of the function is to
@@ -60,7 +62,7 @@ def card_ranks(cards):
     '''
     Return a list of the ranks,sorted with higher first
     '''
-    ranks = ['--23456789TJQKA'.index(r) for r, s in cards]
+    ranks = ['--23456789TJQKA'.index(face_value) for face_value, suit_value in cards]
     ranks.sort(reverse=True)
     return ranks
 
@@ -75,7 +77,7 @@ def is_flush(hand):
     '''
     Return True if all the cards have the same suit
     '''
-    suits = [s for r, s in hand]
+    suits = [suit_value for face_value, suit_value in hand]
     return len(set(suits)) == 1
 
 def kind(count, ranks):
