@@ -51,8 +51,6 @@ def load_words(file_name):
     Depending on the size of the word list, this function may
     take a while to finish.
     '''
-    
-
     # inFile: file
     in_file = open(file_name, 'r')
     # line: string
@@ -130,3 +128,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
