@@ -13,7 +13,7 @@ def mult_matrix(m_one, m_two):
     columns = len(m_two[0])
     addition_mat = generate_matrix(rows, columns)
     if len(m_one[0]) == len(matrix_2):
-        for i in range((len(rows):
+        for i in range(rows):
             for j in range(len(m_two[0])):
                 for k in range(len(m_two)):
                     addition_mat[i][j] += m_one[k][j] * m_two[k][j]
