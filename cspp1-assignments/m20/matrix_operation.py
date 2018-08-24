@@ -11,12 +11,12 @@ def mult_matrix(m_one, m_two):
     '''
     rows = len(m_one)
     columns = len(m_two[0])
-    addition_mat = generate_matrix(rows, columns)
+    add_mat = generate_matrix(rows, columns)
     if len(m_one[0]) == len(m_two):
         for i in range(rows):
             for j in range(len(m_two[0])):
                 for k in range(len(m_two)):
-                    addition_mat[i][j] += m_one[k][j] * m_two[k][j]
+                    add_mat[i][j] += m_one[k][j] * m_two[k][j]
         return add_mat
 
     print("Error: Matrix shapes invalid for mult")
@@ -28,8 +28,8 @@ def generate_matrix(rows, columns):
     '''
     creating matrix
     '''
-    add_mat = [[0 for i in range(columns)] for j in range(rows)]
-    return add_mat
+    addition_mat = [[0 for i in range(columns)] for j in range(rows)]
+    return addition_mat
 
 def add_matrix(m_one, m_two):
     '''
