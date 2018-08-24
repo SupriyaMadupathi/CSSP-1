@@ -1,7 +1,7 @@
 '''
 @author : SupriyaMadupathi
 '''
-def mult_matrix(matrix_1, matrix_2):
+def mult_matrix(m_one, m_two):
     '''
         check if the matrix1 columns = matrix2 rows
         mult the matrices and return the result matrix
@@ -9,14 +9,14 @@ def mult_matrix(matrix_1, matrix_2):
         and return None
         error message should be "Error: Matrix shapes invalid for mult"
     '''
-    rows = len(matrix_1)
-    columns = len(matrix_2[0])
+    rows = len(m_one)
+    columns = len(m_two[0])
     addition_mat = generate_matrix(rows, columns)
-    if len(matrix_1[0]) == len(matrix_2):
-        for i in range(rows):
-            for j in range(len(matrix_2[0])):
-                for k in range(len(matrix_2)):
-                    addition_mat[i][j] += matrix_1[k][j] * matrix_2[i][j]
+    if len(m_one[0]) == len(matrix_2):
+        for i in range((len(rows):
+            for j in range(len(m_two[0])):
+                for k in range(len(m_two)):
+                    addition_mat[i][j] += m_one[k][j] * m_two[k][j]
         return addition_mat
 
     print("Error: Matrix shapes invalid for mult")
@@ -39,14 +39,14 @@ def add_matrix(matrix_1, matrix_2):
         and return None
         error message should be "Error: Matrix shapes invalid for addition"
     '''
-    rows = len(matrix_1)
-    columns = len(matrix_1[0])
-    addition_mat1 = generate_matrix(rows, columns)
-    if len(matrix_1) == len(matrix_2) and len(matrix_1[0]) == len(matrix_2[0]):
+    rows = len(m_one)
+    columns = len(m_one[0])
+    add_mat1 = generate_matrix(rows, columns)
+    if len(m_one) == len(m_two) and len(m_one[0]) == len(m_two[0]):
         for i in range(rows):
             for j in range(columns):
-                addition_mat1[i][j] = matrix_1[i][j] + matrix_2[i][j]
-        return addition_mat1
+                add_mat1[i][j] = m_one[i][j] + m_two[i][j]
+        return add_mat1
     print("Error: Matrix shapes invalid for addition")
     return None
 
@@ -75,21 +75,21 @@ def main():
     main function
     '''
     # read matrix 1
-    matrix_1 = read_matrix()
-    if matrix_1 is None:
+    m_one = read_matrix()
+    if m_one is None:
         exit()
 
 
     # read matrix 2
-    matrix_2 = read_matrix()
-    if matrix_2 is None:
+    m_two = read_matrix()
+    if m_two is None:
         exit()
 
     # add matrix 1 and matrix 2
-    print(add_matrix(matrix_1, matrix_2))
+    print(add_matrix(m_one, m_two))
 
     # multiply matrix 1 and matrix 2
-    print(mult_matrix(matrix_1, matrix_2))
+    print(mult_matrix(m_one, m_two))
 
 if __name__ == '__main__':
     main()
