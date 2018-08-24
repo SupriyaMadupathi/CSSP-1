@@ -14,7 +14,7 @@ def mult_matrix(m_one, m_two):
             for j in range(len(m_two[0])):
                 for k in range(len(m_two)):
                     multiplication_result += m_one[i][j] * m_two[i][j]
-                    return multiplication_result
+                    return add_matrix
 
 
 def generate_matrix(rows, columns):
