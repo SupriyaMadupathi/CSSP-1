@@ -26,7 +26,8 @@ def decide_winner(matrix, winner_variable):
 	transpose_matrix = new_transpose(matrix, 0, [])
 	if start_game(matrix, winner_variable) or\
 	start_game(transpose_matrix, winner_variable) or\
-	matrix[0][0] == matrix[1][1] == matrix[2][2] == winner_variable:
+	matrix[0][0] == matrix[1][1] == matrix[2][2] == winner_variable or\
+	matrix[2][0] == matrix[1][1] == matrix[0][2] == winner_variable:
 		return True
 	return False
 	
