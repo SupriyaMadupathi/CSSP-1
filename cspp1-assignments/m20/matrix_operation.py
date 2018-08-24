@@ -31,7 +31,7 @@ def generate_matrix(rows, columns):
     addition_mat = [[0 for i in range(columns)] for j in range(rows)]
     return addition_mat
 
-def add_matrix(matrix_1, matrix_2):
+def add_matrix(m_one, m_two):
     '''
         check if the matrix shapes are similar
         add the matrices and return the result matrix
