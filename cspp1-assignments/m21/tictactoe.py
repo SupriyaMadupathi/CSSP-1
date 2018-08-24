@@ -16,12 +16,12 @@ def start_game(matrix, winner_variable):
 			return True
 	return False
 
-def new_transpose(matrix, increment, temp_matrix = []):
+def new_transpose(matrix, increment, temp_matrix=[]):
 	if increment == len(matrix):
 		return temp_matrix
 	else:
-		temp_matrix.append(matri[0][increment], matrix[1][increment], matrix[2][increment])
-		return new_transpose(matrix, increment+1, temp_matrix[])
+		temp_matrix.append([matrix[0][increment], matrix[1][increment], matrix[2][increment]])
+		return new_transpose(matrix, increment+1, temp_matrix)
 def decide_winner(matrix, winner_variable):
 	transpose_matrix = new_transpose(matrix, 0, [])
 	if start_game(matrix, winner_variable) or\
@@ -40,8 +40,8 @@ def invalid_game(matrix):
 		return False
 	return True
 
-def main(matrix):
-	#matrix = tic_tac_input()
+def main():
+	matrix = tic_tac_input()
 	#print(input_validation(matrix))
 	if input_validation(matrix):
 		if invalid_game(matrix):
@@ -53,5 +53,6 @@ def main(matrix):
 				print('draw')
 	else:
 		print("invalid input")
+
 if __name__ == '__main__':
     main()
