@@ -10,7 +10,7 @@ def input_validation(matrix):
 			if j not in "x.o":
 				return False
 	return True
-def start_game():
+def start_game(matrix):
 	pass
 def invalid_game(matrix):
 	count_x = 0
@@ -18,7 +18,7 @@ def invalid_game(matrix):
 	for column in matrix:
 		count_x += column.count('x')
 		count_o += column.count('o')
-	if 	count_o > 5 or count_x > 5:
+	if 	count_o > 5 or count_x > 5 or count_x == count_o:
 		return False
 	return True
 
@@ -30,7 +30,7 @@ def main():
 	elif not invalid_game(matrix):
 		print("invalid game")
 	else:
-		start_game()
+		start_game(matrix)
 
 if __name__ == '__main__':
     main()
