@@ -9,9 +9,9 @@ def tokenize(string, input_given):
     dictionary = {}
     keys = string.split()
     for key in keys:
-        if key in dictionary:
+        if key in string:
             dictionary[key] += 1
-        elif key not in dictionary:
+        elif key not in string:
             dictionary[key] = 1
 
     return dictionary
