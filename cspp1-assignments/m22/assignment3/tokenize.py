@@ -2,16 +2,16 @@
 Write a function to tokenize a given string and return a dictionary with the frequency of
 each word
 '''
-def tokenize(string, input_given):
+def tokenize(string):
     '''
     tokenize the string
     '''
     dictionary = {}
     keys = string.split()
     for key in keys:
-        if key in string:
+        if key in dictionary:
             dictionary[key] += 1
-        elif key not in string:
+        elif key not in dictionary:
             dictionary[key] = 1
 
     return dictionary
