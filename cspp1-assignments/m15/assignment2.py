@@ -254,8 +254,8 @@ def decrypt_story():
         shift value and decrypted string in a tuple.
     '''
     # pass #delete this line when you write your code.
-    dec_obj = CiphertextMessage(get_story_string())
-    return dec_obj.decrypt_message()
+    dec_object = CiphertextMessage(get_story_string())
+    return dec_object.decrypt_message()
 
 ### DO NOT MODIFY THIS METHOD ###
 
