@@ -5,8 +5,8 @@ Write a python program to read multiple lines of text input and store the input 
 def main():
     lines = int(input())
     for i in range(lines):
-        i += 1
         lines = input()
+        i += 1
     print(lines)
 
 if __name__ == '__main__':
