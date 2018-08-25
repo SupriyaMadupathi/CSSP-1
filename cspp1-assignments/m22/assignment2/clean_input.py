@@ -7,9 +7,11 @@ def clean_string(string):
     '''
     remove special characters
     '''
+    word = ""
     regex = re.compile('[^a-zA-Z0-9]')
-    clean_words = [regex.sub("", word.strip()) for word in string.lower().split(" ")]
-    return clean_words
+    clean_words = regex.sub("", word.strip()) 
+    for word in string.lower():
+        return clean_words
 
 def main():
     '''
