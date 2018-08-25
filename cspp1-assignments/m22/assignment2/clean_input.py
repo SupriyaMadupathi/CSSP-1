@@ -8,7 +8,7 @@ def clean_string(string):
     remove special characters
     '''
     string = ''
-    words = re.sub('[^a-zA-Z0-9]', " ", text.lower().replace('\'', ''))
+    words = re.sub('[^a-zA-Z0-9]', " ", string.lower().replace('\'', ''))
     #given_input = string.lower().strip
     #regex = re.compile('[a-zA-Z0-9]')
     #words = 
