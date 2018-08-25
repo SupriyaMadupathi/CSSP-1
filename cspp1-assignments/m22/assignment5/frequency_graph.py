@@ -7,8 +7,8 @@ def frequency_graph(dictionary):
 	sorted order
 	'''
 
-    keys_in_dictionary = sorted(dictionary.keys())
-    for values in keys_in_dictionary:
+    keys_dic = sorted(dictionary.keys())
+    for values in keys_dic:
         print(values, '-', dictionary[values]*('#'))
 
 
