@@ -42,7 +42,7 @@ def is_word(word_list, word):
     False
     '''
     word = word.lower()
-    word = word.strip(" !@#$%^&*()-_+={}[]|\:;'<>?,./\"")
+    word = word.strip(" !@#$%^&*()-_+={}[]|\';:<>?,./\"")
     return word in word_list
 
 ### DO NOT MODIFY THIS FUNCTION ###
