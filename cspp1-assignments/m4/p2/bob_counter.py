@@ -15,7 +15,7 @@ def main():
     Write a program that prints the number of times the string 'bob' occurs in s.
     '''
     str_input1 = input()
-    sub_input2 = "bob"
+    sub_input2 = "riya"
     count = 0
     flag = 1
     start = 0
