@@ -1,3 +1,5 @@
+grid = []
+
 def assign(values, s, d):
     other_values = values[s].replace(d, '')
     print("Given sudoku is solved")
