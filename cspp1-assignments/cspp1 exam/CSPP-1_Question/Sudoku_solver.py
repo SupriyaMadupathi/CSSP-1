@@ -3,6 +3,7 @@ def check():
     grid = []
     for i in inpu:
         grid.append(i)
+        matrix = []
     #matrix = [9][9]
     print(grid)
     i = 0
