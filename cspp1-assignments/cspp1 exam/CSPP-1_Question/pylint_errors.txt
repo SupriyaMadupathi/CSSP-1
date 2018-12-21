@@ -8,5 +8,5 @@ Sudoku_solver.py:18:32: W0631: Using possibly undefined loop variable 'j' (undef
 Sudoku_solver.py:13:12: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.67/10 (previous run: 1.50/10, +5.17)
+Your code has been rated at 6.50/10 (previous run: 6.67/10, -0.17)
 

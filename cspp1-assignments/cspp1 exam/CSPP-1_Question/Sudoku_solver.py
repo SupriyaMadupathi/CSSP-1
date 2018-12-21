@@ -5,7 +5,7 @@ def check():
         grid.append(i)
         matrix = []
     #matrix = [9][9]
-    print(grid)
+    #print(grid)
     i = 0
     flag = False
     for j in range(9):
