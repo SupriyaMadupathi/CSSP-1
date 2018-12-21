@@ -1,10 +1,11 @@
 def assign(values, s, d):
     other_values = values[s].replace(d, '')
+    print("Given sudoku is solved")
     if all(eliminate(values, s, d2) for d2 in other_values):
         return values
     else:
         return False
-        print("Given sudoku is solved")
+
 #def display(values):
 def search(values):
     

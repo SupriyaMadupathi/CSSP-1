@@ -1,37 +1,36 @@
 ************* Module Sudoku_solver
-Sudoku_solver.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku_solver.py:11:20: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku_solver.py:11:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+Sudoku_solver.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku_solver.py:12:20: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku_solver.py:12:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
-Sudoku_solver.py:13:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-Sudoku_solver.py:14:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
-Sudoku_solver.py:14:9: C0326: Exactly one space required after comma
+Sudoku_solver.py:13:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+Sudoku_solver.py:14:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+Sudoku_solver.py:15:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+Sudoku_solver.py:15:9: C0326: Exactly one space required after comma
         n,s = min((len(values[s]), s) for s in squares if len(values[s]) > 1)
          ^ (bad-whitespace)
-Sudoku_solver.py:15:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
-Sudoku_solver.py:16:0: C0330: Wrong continued indentation (add 4 spaces).
+Sudoku_solver.py:16:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+Sudoku_solver.py:17:0: C0330: Wrong continued indentation (add 4 spaces).
                 for d in values[s])
                 ^   | (bad-continuation)
-Sudoku_solver.py:23:0: C0304: Final newline missing (missing-final-newline)
+Sudoku_solver.py:24:0: C0304: Final newline missing (missing-final-newline)
 Sudoku_solver.py:1:0: C0103: Module name "Sudoku_solver" doesn't conform to snake_case naming style (invalid-name)
 Sudoku_solver.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku_solver.py:1:0: C0103: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
 Sudoku_solver.py:1:0: C0103: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
 Sudoku_solver.py:1:0: C0111: Missing function docstring (missing-docstring)
-Sudoku_solver.py:3:4: R1705: Unnecessary "else" after "return" (no-else-return)
-Sudoku_solver.py:3:11: E0602: Undefined variable 'eliminate' (undefined-variable)
-Sudoku_solver.py:7:8: W0101: Unreachable code (unreachable)
-Sudoku_solver.py:9:0: C0111: Missing function docstring (missing-docstring)
-Sudoku_solver.py:12:8: W0101: Unreachable code (unreachable)
-Sudoku_solver.py:12:44: E0602: Undefined variable 'squares' (undefined-variable)
-Sudoku_solver.py:14:8: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Sudoku_solver.py:14:10: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku_solver.py:14:47: E0602: Undefined variable 'squares' (undefined-variable)
-Sudoku_solver.py:15:15: E0602: Undefined variable 'some' (undefined-variable)
-Sudoku_solver.py:14:8: W0612: Unused variable 'n' (unused-variable)
-Sudoku_solver.py:17:0: C0111: Missing function docstring (missing-docstring)
-Sudoku_solver.py:18:10: E1101: Instance of 'int' has no 'split' member (no-member)
+Sudoku_solver.py:4:4: R1705: Unnecessary "else" after "return" (no-else-return)
+Sudoku_solver.py:4:11: E0602: Undefined variable 'eliminate' (undefined-variable)
+Sudoku_solver.py:10:0: C0111: Missing function docstring (missing-docstring)
+Sudoku_solver.py:13:8: W0101: Unreachable code (unreachable)
+Sudoku_solver.py:13:44: E0602: Undefined variable 'squares' (undefined-variable)
+Sudoku_solver.py:15:8: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+Sudoku_solver.py:15:10: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+Sudoku_solver.py:15:47: E0602: Undefined variable 'squares' (undefined-variable)
+Sudoku_solver.py:16:15: E0602: Undefined variable 'some' (undefined-variable)
+Sudoku_solver.py:15:8: W0612: Unused variable 'n' (unused-variable)
+Sudoku_solver.py:18:0: C0111: Missing function docstring (missing-docstring)
+Sudoku_solver.py:19:10: E1101: Instance of 'int' has no 'split' member (no-member)
 
 ----------------------------------------------------------------------
-Your code has been rated at -15.26/10 (previous run: -15.26/10, +0.00)
+Your code has been rated at -14.74/10 (previous run: -15.26/10, +0.53)
 
