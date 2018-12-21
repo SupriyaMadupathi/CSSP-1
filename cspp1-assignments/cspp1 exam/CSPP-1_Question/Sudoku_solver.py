@@ -1,18 +1,19 @@
 def check():
     inpu = input()
-    li= []
+    grid= []
+    
     for i in inpu:
-        li.append(i)
-    #matrix = []
+        grid.append(i)
+    
     matrix = [9][9]
-    print(li)
+    print(grid)
     i = 0
     flag = False
     for j in range(9):
         ls = []
         for k in range(9):
             
-            ls.append(li[i]);
+            ls.append(grid[i]);
             i = i+1
         matrix.append(ls)
     for i in range(9):
