@@ -1,19 +1,18 @@
 ************* Module sudoku_solver
-sudoku_solver.py:22:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-sudoku_solver.py:23:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-sudoku_solver.py:24:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
 sudoku_solver.py:25:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-sudoku_solver.py:26:0: C0304: Final newline missing (missing-final-newline)
-sudoku_solver.py:26:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-sudoku_solver.py:1:0: C0111: Missing module docstring (missing-docstring)
-sudoku_solver.py:1:0: C0103: Constant name "Sudoku_solver" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:2:0: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:8:4: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:13:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-sudoku_solver.py:23:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-sudoku_solver.py:25:12: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:26:12: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:26:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+sudoku_solver.py:27:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+sudoku_solver.py:28:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+sudoku_solver.py:29:0: C0304: Final newline missing (missing-final-newline)
+sudoku_solver.py:29:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+sudoku_solver.py:4:0: C0103: Constant name "Sudoku_solver" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:5:0: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:11:4: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:16:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku_solver.py:26:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku_solver.py:28:12: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:29:12: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.40/10 (previous run: 4.40/10, +0.00)
+Your code has been rated at 4.80/10 (previous run: 4.40/10, +0.40)
 

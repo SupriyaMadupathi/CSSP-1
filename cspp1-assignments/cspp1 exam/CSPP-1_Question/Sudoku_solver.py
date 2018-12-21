@@ -1,3 +1,6 @@
+"""
+{ Sudoku_solver}
+"""
 Sudoku_solver = input()
 grid = [True]*9
 if '.' not in Sudoku_solver:
