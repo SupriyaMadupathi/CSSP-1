@@ -13,7 +13,6 @@ else:
                 if grid[j] == True:
                     print(j+1)
             grid = [True]*9
-            
             count = 0
         count = count + 1
         if i == '.':
