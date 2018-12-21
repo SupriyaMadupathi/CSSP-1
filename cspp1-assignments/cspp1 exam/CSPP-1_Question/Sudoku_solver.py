@@ -3,7 +3,7 @@ def check():
     li= []
     for i in inpu:
         li.append(i)
-    matrix = []
+    #matrix = []
     matrix = [9][9]
     print(li)
     i = 0
