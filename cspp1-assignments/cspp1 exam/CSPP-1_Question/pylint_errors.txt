@@ -1,6 +1,5 @@
 ************* Module Sudoku_solver
 Sudoku_solver.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku_solver.py:19:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
 Sudoku_solver.py:23:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
 Sudoku_solver.py:24:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
 Sudoku_solver.py:25:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
@@ -18,5 +17,5 @@ Sudoku_solver.py:26:12: C0103: Constant name "grid" doesn't conform to UPPER_CAS
 Sudoku_solver.py:27:12: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.20/10 (previous run: 3.20/10, +0.00)
+Your code has been rated at 3.60/10 (previous run: 3.20/10, +0.40)
 

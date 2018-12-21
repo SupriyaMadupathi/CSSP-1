@@ -16,7 +16,7 @@ else:
             
             count = 0
         count = count + 1
-        if(i == '.'):
+        if i == '.':
             continue
         grid[int(i) - 1] = False
     if count == 9:
