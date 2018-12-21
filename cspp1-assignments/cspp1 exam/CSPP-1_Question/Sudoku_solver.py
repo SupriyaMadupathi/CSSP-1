@@ -1,22 +1,20 @@
 def check():
     values = input()
-    l= []
+    li= []
     for i in values:
-        l.append(i)
+        li.append(i)
     matrix = []
-        # matrix = [9][9]
-    # print(l)
+    matrix = [9][9]
+    print(li)
     i = 0
     flag = False
     for j in range(9):
         ls = []
         for k in range(9):
-            # print(str(j)+" "+str(k))
-            # for i in l:
-            ls.append(l[i]);
+            
+            ls.append(li[i]);
             i=i+1
         matrix.append(ls)
-    # print(matrix)
     for i in range(9):
         if "." not in matrix[i]:
             flag = True
