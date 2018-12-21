@@ -31,6 +31,6 @@ Sudoku_solver.py:13:8: W0612: Unused variable 'n' (unused-variable)
 Sudoku_solver.py:16:0: C0111: Missing function docstring (missing-docstring)
 Sudoku_solver.py:17:10: E1101: Instance of 'int' has no 'split' member (no-member)
 
--------------------------------------
-Your code has been rated at -16.11/10
+----------------------------------------------------------------------
+Your code has been rated at -16.11/10 (previous run: -16.11/10, +0.00)
 
