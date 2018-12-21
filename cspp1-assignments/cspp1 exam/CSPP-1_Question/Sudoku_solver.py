@@ -13,7 +13,7 @@ def check():
         for k in range(9):
             
             ls.append(li[i]);
-            i=i+1
+            i = i+1
         matrix.append(ls)
     for i in range(9):
         if "." not in matrix[i]:

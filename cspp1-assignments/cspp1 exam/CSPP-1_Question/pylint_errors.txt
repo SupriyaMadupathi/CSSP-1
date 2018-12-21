@@ -4,9 +4,6 @@ Sudoku_solver.py:3:6: C0326: Exactly one space required before assignment
       ^ (bad-whitespace)
 Sudoku_solver.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku_solver.py:15:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
-Sudoku_solver.py:16:13: C0326: Exactly one space required around assignment
-            i=i+1
-             ^ (bad-whitespace)
 Sudoku_solver.py:22:0: C0304: Final newline missing (missing-final-newline)
 Sudoku_solver.py:1:0: C0103: Module name "Sudoku_solver" doesn't conform to snake_case naming style (invalid-name)
 Sudoku_solver.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -17,5 +14,5 @@ Sudoku_solver.py:11:8: W0612: Unused variable 'j' (unused-variable)
 Sudoku_solver.py:13:12: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.29/10 (previous run: 4.21/10, +0.08)
+Your code has been rated at 4.76/10 (previous run: 4.29/10, +0.48)
 
