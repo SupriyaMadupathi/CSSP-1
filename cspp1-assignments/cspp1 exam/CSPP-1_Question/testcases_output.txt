@@ -144,12 +144,7 @@ Expected Output:
 7
 4
 Your Output: 
-Traceback (most recent call last):
-  File "Sudoku_solver.py", line 24, in <module>
-    check()
-  File "Sudoku_solver.py", line 22, in check
-    elif len(sudoku) != 81:
-NameError: name 'sudoku' is not defined
+
 ----------------------------------------
 ########## Testcase 12: Failed ##########
 Expected Output: 
@@ -237,12 +232,7 @@ Expected Output:
 23689
 23689
 Your Output: 
-Traceback (most recent call last):
-  File "Sudoku_solver.py", line 24, in <module>
-    check()
-  File "Sudoku_solver.py", line 22, in check
-    elif len(sudoku) != 81:
-NameError: name 'sudoku' is not defined
+
 ----------------------------------------
 ########## Testcase 16: Failed ##########
 Expected Output: 

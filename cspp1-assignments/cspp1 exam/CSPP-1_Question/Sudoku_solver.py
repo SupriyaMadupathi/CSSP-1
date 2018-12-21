@@ -19,6 +19,6 @@ def check():
             flag = True
     if flag:
         print("Given sudoku is solved")
-    elif len(sudoku) != 81:
+    elif len(inpu) != 81:
         print("Invalid input") 
 check()
