@@ -1,24 +1,27 @@
-def check():
-    inpu = input()
-    grid = []
-    for i in inpu:
-        grid.append(i)
-        matrix = []
-    #matrix = [100][100]
-    #print(grid)
-    i = 0
-    flag = False
-    for j in range(9):
-        ls = []
-        for k in range(9):
-            ls.append(grid[i]);
-            i = i+1
-        matrix.append(ls)
-    for i in range(9):
-        if "." not in matrix[i][j]:
-            flag = True
-    if flag:
-        print("Given sudoku is solved")
-    elif len(inpu) != 81:
-        print("Invalid input") 
-check()
+sudoku_solver = input()
+grid = [True]*9
+if '.' not in sudoku_solver:
+    print("Given sudoku is solved")
+elif len(sudoku_solver) != 81:
+    print("Invalid input")
+else:
+    count = 0
+    i = ''
+    for i in sudoku_solver:
+        if count == 9:
+            for j in range(9):
+                if grid[j] == True:
+                    print(j+1)
+            grid = [True]*9
+            
+            count = 0
+        count = count + 1
+        if(i == '.'):
+            continue
+        grid[int(i) - 1] = False
+    if count == 9:
+            for j in range(9):
+                if grid[j] == True:
+                    print(j+1)
+            grid = [True]*9
+            count = 0
