@@ -33,5 +33,5 @@ Sudoku_solver.py:17:0: C0111: Missing function docstring (missing-docstring)
 Sudoku_solver.py:18:10: E1101: Instance of 'int' has no 'split' member (no-member)
 
 ----------------------------------------------------------------------
-Your code has been rated at -15.26/10 (previous run: -16.11/10, +0.85)
+Your code has been rated at -15.26/10 (previous run: -15.26/10, +0.00)
 
