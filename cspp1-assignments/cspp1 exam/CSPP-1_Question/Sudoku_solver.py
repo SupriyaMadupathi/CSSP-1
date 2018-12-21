@@ -1,10 +1,8 @@
 def check():
     inpu = input()
-    grid= []
-    
+    grid = []
     for i in inpu:
         grid.append(i)
-    
     matrix = [9][9]
     print(grid)
     i = 0
@@ -12,7 +10,6 @@ def check():
     for j in range(9):
         ls = []
         for k in range(9):
-            
             ls.append(grid[i]);
             i = i+1
         matrix.append(ls)
@@ -21,3 +18,4 @@ def check():
             flag = True
     if flag:
         print("Given sudoku is solved")
+check()

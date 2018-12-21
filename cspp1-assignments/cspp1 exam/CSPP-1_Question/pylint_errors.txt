@@ -1,19 +1,12 @@
 ************* Module Sudoku_solver
-Sudoku_solver.py:3:8: C0326: Exactly one space required before assignment
-    grid= []
-        ^ (bad-whitespace)
-Sudoku_solver.py:4:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku_solver.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku_solver.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku_solver.py:16:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
-Sudoku_solver.py:23:0: C0304: Final newline missing (missing-final-newline)
+Sudoku_solver.py:13:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
 Sudoku_solver.py:1:0: C0103: Module name "Sudoku_solver" doesn't conform to snake_case naming style (invalid-name)
 Sudoku_solver.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku_solver.py:1:0: C0111: Missing function docstring (missing-docstring)
-Sudoku_solver.py:13:8: C0103: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
-Sudoku_solver.py:20:32: W0631: Using possibly undefined loop variable 'j' (undefined-loop-variable)
-Sudoku_solver.py:14:12: W0612: Unused variable 'k' (unused-variable)
+Sudoku_solver.py:11:8: C0103: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
+Sudoku_solver.py:17:32: W0631: Using possibly undefined loop variable 'j' (undefined-loop-variable)
+Sudoku_solver.py:12:12: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.00/10 (previous run: 4.50/10, -0.50)
+Your code has been rated at 6.67/10 (previous run: 4.00/10, +2.67)
 
