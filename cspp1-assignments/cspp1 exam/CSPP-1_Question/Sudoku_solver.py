@@ -1,16 +1,16 @@
 """
 { Sudoku_solver}
 """
-Sudoku_solver = input()
+Sudoku_Solver = input()
 grid = [True]*9
-if '.' not in Sudoku_solver:
+if '.' not in Sudoku_Solver:
     print("Given sudoku is solved")
 elif len(Sudoku_solver) != 81:
     print("Invalid input")
 else:
     count = 0
     i = ""
-    for i in Sudoku_solver:
+    for i in Sudoku_Solver:
         if count == 9:
             for j in range(9):
                 if grid[j] == True:
