@@ -16,7 +16,7 @@ def check():
             i = i+1
         matrix.append(ls)
     for i in range(9):
-        if "." not in matrix[i]:
+        if "." not in matrix[i][j]:
             flag = True
     if flag:
         print("Given sudoku is solved")
