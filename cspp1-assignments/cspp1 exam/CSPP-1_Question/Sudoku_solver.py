@@ -4,7 +4,7 @@ def check():
     for i in inpu:
         grid.append(i)
         matrix = []
-    #matrix = [9][9]
+    #matrix = [100][100]
     #print(grid)
     i = 0
     flag = False
@@ -19,4 +19,6 @@ def check():
             flag = True
     if flag:
         print("Given sudoku is solved")
+    elif len(sudoku) != 81:
+        print("Invalid input") 
 check()
