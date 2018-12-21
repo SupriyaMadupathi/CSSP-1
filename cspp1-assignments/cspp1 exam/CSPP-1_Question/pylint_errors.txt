@@ -18,5 +18,5 @@ Sudoku_solver.py:26:12: C0103: Constant name "grid" doesn't conform to UPPER_CAS
 Sudoku_solver.py:27:12: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.20/10 (previous run: 6.36/10, -3.16)
+Your code has been rated at 2.92/10 (previous run: 3.20/10, -0.28)
 
