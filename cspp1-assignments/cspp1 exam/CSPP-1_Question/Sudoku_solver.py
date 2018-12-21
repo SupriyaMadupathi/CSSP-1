@@ -1,7 +1,7 @@
 def check():
-    values = input()
+    inpu = input()
     li= []
-    for i in values:
+    for i in inpu:
         li.append(i)
     matrix = []
     matrix = [9][9]

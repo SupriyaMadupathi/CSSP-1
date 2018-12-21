@@ -14,5 +14,5 @@ Sudoku_solver.py:11:8: W0612: Unused variable 'j' (unused-variable)
 Sudoku_solver.py:13:12: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.76/10 (previous run: 4.29/10, +0.48)
+Your code has been rated at 4.76/10 (previous run: 4.76/10, +0.00)
 
