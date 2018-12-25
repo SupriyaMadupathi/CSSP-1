@@ -15,7 +15,7 @@ def inputvalidation(sudoku1):
         raise Exception("Given sudoku is solved")
 
 def validateSudoku(sudoku):
-    for i in range(10):
+    for i in range(8):
         var = getRowValues(i, sudoku)
         duplicates = set(var)
         if len(var) != len(duplicates):
