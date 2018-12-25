@@ -7,12 +7,11 @@ sudoku_solver.py:28:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-
 sudoku_solver.py:1:0: C0111: Missing module docstring (missing-docstring)
 sudoku_solver.py:1:0: C0103: Constant name "sudoku" doesn't conform to UPPER_CASE naming style (invalid-name)
 sudoku_solver.py:11:4: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:12:13: E0602: Undefined variable 'Sudoku_solver' (undefined-variable)
 sudoku_solver.py:15:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku_solver.py:25:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku_solver.py:27:12: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
 sudoku_solver.py:28:12: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.92/10 (previous run: 2.59/10, +0.32)
+Your code has been rated at 5.00/10 (previous run: 2.92/10, +2.08)
 

@@ -9,7 +9,7 @@ else:
     #list1 = []
     #list2 = []
     count = 0
-    for i in Sudoku_solver:
+    for i in sudoku:
         if count == 9:
             for j in range(9):
                 if grid[j] == True:
