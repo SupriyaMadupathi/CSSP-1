@@ -1,18 +1,186 @@
-************* Module sudoku_solver
-sudoku_solver.py:25:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-sudoku_solver.py:26:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-sudoku_solver.py:27:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
-sudoku_solver.py:28:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-sudoku_solver.py:29:0: C0304: Final newline missing (missing-final-newline)
-sudoku_solver.py:29:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-sudoku_solver.py:4:0: C0103: Constant name "Sudoku_solver" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:5:0: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:11:4: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:16:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-sudoku_solver.py:26:19: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-sudoku_solver.py:28:12: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudoku_solver.py:29:12: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module su
+su.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:17:22: C0326: Exactly one space required around comparison
+			if i % 9 == 0 and i!=0:
+                      ^^ (bad-whitespace)
+su.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:26:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+su.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
+su.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:60:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:67:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:78:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:79:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:80:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:81:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:86:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:90:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:91:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:93:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:103:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:107:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
+su.py:117:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:118:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:119:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:120:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:121:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:122:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:123:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:125:20: C0326: No space allowed before comma
+def possibilities(i , j, list1):
+                    ^ (bad-whitespace)
+su.py:128:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:128:13: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+             ^ (bad-whitespace)
+su.py:128:15: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+               ^ (bad-whitespace)
+su.py:128:17: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+                 ^ (bad-whitespace)
+su.py:128:19: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+                   ^ (bad-whitespace)
+su.py:128:21: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+                     ^ (bad-whitespace)
+su.py:128:23: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+                       ^ (bad-whitespace)
+su.py:128:25: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+                         ^ (bad-whitespace)
+su.py:128:27: C0326: Exactly one space required after comma
+	numbers = [1,2,3,4,5,6,7,8,9]
+                           ^ (bad-whitespace)
+su.py:129:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:131:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:132:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:137:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:139:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:139:6: C0326: Exactly one space required after assignment
+	str1 =""
+      ^ (bad-whitespace)
+su.py:140:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:141:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:143:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:147:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:148:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:150:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:151:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:152:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:153:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:156:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:157:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:158:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:159:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:160:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:163:0: C0303: Trailing whitespace (trailing-whitespace)
+su.py:169:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:170:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:171:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:172:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:173:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+su.py:176:0: C0304: Final newline missing (missing-final-newline)
+su.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
+su.py:11:0: C0111: Missing function docstring (missing-docstring)
+su.py:16:2: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+su.py:14:1: W0612: Unused variable 'count' (unused-variable)
+su.py:36:0: C0111: Missing function docstring (missing-docstring)
+su.py:38:5: C0103: Variable name "no" doesn't conform to snake_case naming style (invalid-name)
+su.py:44:4: W0101: Unreachable code (unreachable)
+su.py:47:-1: W0105: String statement has no effect (pointless-string-statement)
+su.py:48:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
+su.py:48:0: C0111: Missing function docstring (missing-docstring)
+su.py:54:-1: W0105: String statement has no effect (pointless-string-statement)
+su.py:55:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+su.py:55:0: C0111: Missing function docstring (missing-docstring)
+su.py:65:-1: W0105: String statement has no effect (pointless-string-statement)
+su.py:66:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
+su.py:66:0: C0111: Missing function docstring (missing-docstring)
+su.py:68:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:68:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:72:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:72:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:76:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:76:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:80:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:80:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:84:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:84:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:88:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:88:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:92:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:92:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:96:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:96:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:100:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:100:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+su.py:66:0: R0912: Too many branches (27/12) (too-many-branches)
+su.py:115:-1: W0105: String statement has no effect (pointless-string-statement)
+su.py:116:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+su.py:116:0: C0111: Missing function docstring (missing-docstring)
+su.py:117:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+su.py:125:0: C0111: Missing function docstring (missing-docstring)
+su.py:155:0: C0111: Missing function docstring (missing-docstring)
+su.py:167:-1: W0105: String statement has no effect (pointless-string-statement)
+su.py:168:0: C0111: Missing function docstring (missing-docstring)
+su.py:172:8: W0703: Catching too general exception Exception (broad-except)
+su.py:172:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
-------------------------------------------------------------------
-Your code has been rated at 4.80/10 (previous run: 2.80/10, +2.00)
+------------------------------------
+Your code has been rated at -4.20/10
 
