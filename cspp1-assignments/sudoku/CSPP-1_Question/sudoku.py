@@ -41,11 +41,12 @@ def getRowValues(cell, sudoku):
 This  method should retunn all the values present in the ith column
 """
 def getColumnValues(cell, sudoku):
-    # col = []
-    # for i in sudoku:
-    #     col.append(row[i])
-    # return col
-    pass
+     col = []
+     for row in sudoku:
+        if row[cell] != '.':
+         col.append(row[cell])
+     return col
+    #pass
 
 
 """
