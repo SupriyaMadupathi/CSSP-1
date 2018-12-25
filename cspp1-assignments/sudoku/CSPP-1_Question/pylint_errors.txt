@@ -18,6 +18,6 @@ sudoku_solver.py:10:2: C0103: Constant name "count" doesn't conform to UPPER_CAS
 sudoku_solver.py:12:3: E1137: 'count' does not support item assignment (unsupported-assignment-operation)
 sudoku_solver.py:13:6: E1136: Value 'count' is unsubscriptable (unsubscriptable-object)
 
----------------------------------------------------------------------
-Your code has been rated at -10.00/10 (previous run: 4.80/10, -14.80)
+----------------------------------------------------------------------
+Your code has been rated at -10.00/10 (previous run: -10.00/10, +0.00)
 

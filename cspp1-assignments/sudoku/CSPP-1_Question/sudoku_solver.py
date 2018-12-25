@@ -2,7 +2,7 @@ sudoku = input()
 if len(sudoku) != 81:
  	print("Invalid Input")
 elif '.' not in sudoku:
- 	print("Sudoku solved")
+ 	print("Given sudoku is solved")
 else:
  	grid = list(sudoku)
  	list1 = []

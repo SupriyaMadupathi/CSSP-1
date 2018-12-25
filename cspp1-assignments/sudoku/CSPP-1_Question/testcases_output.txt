@@ -1,8 +1,8 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 Your Output: 
-Sudoku solved
+Given sudoku is solved
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
