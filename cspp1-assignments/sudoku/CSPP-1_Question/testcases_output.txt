@@ -26,7 +26,16 @@ Expected Output:
 7
 7
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -40,7 +49,16 @@ Expected Output:
 8
 9
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -48,7 +66,16 @@ Expected Output:
 6
 2
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -56,7 +83,16 @@ Expected Output:
 6
 9
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -70,7 +106,16 @@ Expected Output:
 19
 15
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -84,7 +129,16 @@ Expected Output:
 6
 3
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -98,7 +152,16 @@ Expected Output:
 8
 9
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 8: Failed ##########
 Expected Output: 
@@ -112,7 +175,16 @@ Expected Output:
 7
 6
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 9: Failed ##########
 Expected Output: 
@@ -126,7 +198,16 @@ Expected Output:
 469
 469
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 10: Failed ##########
 Expected Output: 
@@ -140,7 +221,16 @@ Expected Output:
 6
 8
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 11: Failed ##########
 Expected Output: 
@@ -154,7 +244,16 @@ Expected Output:
 7
 4
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 12: Failed ##########
 Expected Output: 
@@ -168,7 +267,16 @@ Expected Output:
 6
 8
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 13: Failed ##########
 Expected Output: 
@@ -182,7 +290,16 @@ Expected Output:
 469
 469
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 14: Failed ##########
 Expected Output: 
@@ -205,7 +322,16 @@ Expected Output:
 469
 469
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 15: Failed ##########
 Expected Output: 
@@ -242,13 +368,31 @@ Expected Output:
 23689
 23689
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 16: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 17: Failed ##########
 Expected Output: 
@@ -346,7 +490,16 @@ Expected Output:
 235689
 235689
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 20: Failed ##########
 Expected Output: 
@@ -418,7 +571,16 @@ Expected Output:
 2356
 1346
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 22: Failed ##########
 Expected Output: 
@@ -481,7 +643,16 @@ Expected Output:
 4567
 4567
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 23: Failed ##########
 Expected Output: 
@@ -510,7 +681,16 @@ Expected Output:
 26
 6
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 24: Failed ##########
 Expected Output: 
@@ -552,5 +732,14 @@ Expected Output:
 129
 19
 Your Output: 
-
+Traceback (most recent call last):
+  File "sudoku.py", line 84, in <module>
+    main()
+  File "sudoku.py", line 79, in main
+    validateSudoku(list1)
+  File "sudoku.py", line 19, in validateSudoku
+    var = getRowValues(i, sudoku)
+  File "sudoku.py", line 30, in getRowValues
+    for i in sudoku[cell]:
+IndexError: list index out of range
 ----------------------------------------
