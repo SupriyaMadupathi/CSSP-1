@@ -5,9 +5,9 @@ elif '.' not in sudoku:
     print("Given sudoku is solved")
 else:
     i = ""
-    grid = list(sudoku)
-    list1 = []
-    list2 = []
+    #grid = list(sudoku)
+    #list1 = []
+    #list2 = []
     count = 0
     for i in Sudoku_solver:
         if count == 9:
