@@ -1,7 +1,7 @@
 sudoku = input()
 if len(sudoku) != 81:
     print("Invalid input")
-elif '.' not in sudoku:
+if '.' not in sudoku:
     print("Given sudoku is solved")
 else:
     grid = list(sudoku)

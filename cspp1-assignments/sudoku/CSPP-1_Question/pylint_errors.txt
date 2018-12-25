@@ -1,13 +1,13 @@
 ************* Module sudoku
-sudoku.py:57:20: C0326: Exactly one space required after comma
-    for i in range(0,81,9):
-                    ^ (bad-whitespace)
-sudoku.py:57:23: C0326: Exactly one space required after comma
-    for i in range(0,81,9):
-                       ^ (bad-whitespace)
-sudoku.py:59:24: C0326: Exactly one space required after comma
-        for j in range(0,9):
+sudoku.py:54:24: C0326: Exactly one space required after comma
+        for i in range(0,81,9):
                         ^ (bad-whitespace)
+sudoku.py:54:27: C0326: Exactly one space required after comma
+        for i in range(0,81,9):
+                           ^ (bad-whitespace)
+sudoku.py:56:28: C0326: Exactly one space required after comma
+            for j in range(0,9):
+                            ^ (bad-whitespace)
 sudoku.py:68:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:17:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
@@ -27,12 +27,12 @@ sudoku.py:41:0: C0103: Function name "possibleValues" doesn't conform to snake_c
 sudoku.py:41:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:46:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:47:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:55:11: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:54:8: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
-sudoku.py:55:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:54:8: W0612: Unused variable 'exc' (unused-variable)
-sudoku.py:59:12: W0612: Unused variable 'j' (unused-variable)
+sudoku.py:62:11: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:61:12: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
+sudoku.py:62:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:56:16: W0612: Unused variable 'j' (unused-variable)
+sudoku.py:61:12: W0612: Unused variable 'exc' (unused-variable)
 
------------------------------------
-Your code has been rated at 1.14/10
+------------------------------------------------------------------
+Your code has been rated at 1.14/10 (previous run: 1.14/10, +0.00)
 

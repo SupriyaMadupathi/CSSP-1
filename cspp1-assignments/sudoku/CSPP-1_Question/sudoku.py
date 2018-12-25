@@ -51,16 +51,16 @@ def main():
     #print(type(grid))
     list1 = []
     try:
-        exc = inputvalidation(sudoku)
+        for i in range(0,81,9):
+            lst2 = []
+            for j in range(0,9):
+                lst2.append(sudoku[i])
+                i = i +1
+
+            list1.append(lst2)
+            exc = inputvalidation(sudoku)
     except Exception as e:
         print(e)
-    for i in range(0,81,9):
-        lst2 = []
-        for j in range(0,9):
-            lst2.append(sudoku[i])
-            i = i +1
-
-        list1.append(lst2)
     #print(list1)
 
 if __name__ == '__main__':

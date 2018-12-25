@@ -240,17 +240,11 @@ Invalid Sudoku:Duplicate values
 Your Output: 
 
 ----------------------------------------
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 Your Output: 
 Invalid input
-Traceback (most recent call last):
-  File "sudoku.py", line 67, in <module>
-    main()
-  File "sudoku.py", line 60, in main
-    lst2.append(sudoku[i])
-IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 18: Failed ##########
 Expected Output: 
@@ -327,17 +321,11 @@ Expected Output:
 Your Output: 
 
 ----------------------------------------
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 Your Output: 
 Invalid input
-Traceback (most recent call last):
-  File "sudoku.py", line 67, in <module>
-    main()
-  File "sudoku.py", line 60, in main
-    lst2.append(sudoku[i])
-IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 21: Failed ##########
 Expected Output: 
