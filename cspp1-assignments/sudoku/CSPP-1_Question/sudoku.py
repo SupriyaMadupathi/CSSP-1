@@ -15,18 +15,32 @@ def inputvalidation(sudoku1):
         raise Exception("Given sudoku is solved")
 
 def validateSudoku(sudoku):
-    pass
+    for i in range(9):
+        var = getRowValues(i, sudoku)
+        duplicates = set(var)
+        if len(var) != len(duplicates):
+            raise Exception("Invalid Sudoku:Duplicate values")
+    #print(var)
 
 """
 This  method should retunn all the values present in the ith row
 """
-def getRowValues():
-    pass
+def getRowValues(cell, sudoku):
+    row = []
+    for i in sudoku[cell]:
+        if i != '.':
+            row.append(i)
+    #print(row)
+    return row
+
 """
 This  method should retunn all the values present in the ith column
 """
 def getColumnValues():
+    #col = []
+    ##for i in row:
     pass
+
 
 """
 This  method should retunn all the values present in the i,j th subgrid
@@ -62,6 +76,9 @@ def main():
     except Exception as e:
         print(e)
     #print(list1)
+    validateSudoku(list1)
+
+
 
 if __name__ == '__main__':
     main()
