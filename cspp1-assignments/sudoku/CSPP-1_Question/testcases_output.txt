@@ -240,11 +240,11 @@ Invalid Sudoku:Duplicate values
 Your Output: 
 
 ----------------------------------------
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 Your Output: 
-Invalid Input
+Invalid input
 ----------------------------------------
 ########## Testcase 18: Failed ##########
 Expected Output: 
@@ -321,11 +321,11 @@ Expected Output:
 Your Output: 
 
 ----------------------------------------
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 Your Output: 
-Invalid Input
+Invalid input
 ----------------------------------------
 ########## Testcase 21: Failed ##########
 Expected Output: 
