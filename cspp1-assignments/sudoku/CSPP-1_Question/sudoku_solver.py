@@ -8,7 +8,12 @@ else:
  	list1 = []
  	list2 = []
  	count = 0
- 	for i in range(len(list1)):
- 		count[i] += 1
- 		if count[1] == 2:
- 			print("Invalid Sudoku:Duplicate values")
+ 	#print(grid)
+ 	for i in range(len(grid)):
+ 		#print(grid)
+ 		list1.append(grid[i])
+ 		print(list1)
+ 		#for i in list1:
+ 		#	count[i] += 1
+ 		#	if count[1] == 2:
+ 		#		print("Invalid Sudoku:Duplicate values")
