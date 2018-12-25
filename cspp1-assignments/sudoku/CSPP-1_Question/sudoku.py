@@ -73,10 +73,10 @@ def main():
 
             list1.append(lst2)
             exc = inputvalidation(sudoku)
+        validateSudoku(list1)
     except Exception as e:
         print(e)
     #print(list1)
-    validateSudoku(list1)
 
 
 
