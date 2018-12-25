@@ -17,7 +17,6 @@ sudoku.py:95:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:17:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:20:8: W0612: Unused variable 'var1' (unused-variable)
 sudoku.py:31:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:32:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:32:0: C0111: Missing function docstring (missing-docstring)
@@ -39,5 +38,5 @@ sudoku.py:77:16: W0612: Unused variable 'j' (unused-variable)
 sudoku.py:82:12: W0612: Unused variable 'exc' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.65/10 (previous run: 1.33/10, +1.32)
+Your code has been rated at 3.27/10 (previous run: 2.65/10, +0.62)
 

@@ -234,11 +234,11 @@ Expected Output:
 Your Output: 
 
 ----------------------------------------
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 Your Output: 
-
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 ########## Testcase 17: Passed ##########
 Expected Output: 

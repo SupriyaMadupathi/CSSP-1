@@ -19,11 +19,11 @@ def validateSudoku(sudoku):
         var = getRowValues(i, sudoku)
         var1 = getColumnValues(i, sudoku) 
         duplicates = set(var)
-        #dup2 = set(var1)
+        dup2 = set(var1)
         if len(var) != len(duplicates):
             raise Exception("Invalid Sudoku:Duplicate values")
-        #if len(var1) != len(dup2):
-         #   raise Exception("Invalid Sudoku:Duplicate values")
+        if len(var1) != len(dup2):
+            raise Exception("Invalid Sudoku:Duplicate values")
             #print(var)
 
 """
