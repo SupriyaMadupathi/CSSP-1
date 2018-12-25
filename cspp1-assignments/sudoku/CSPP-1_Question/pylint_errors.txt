@@ -1,0 +1,23 @@
+************* Module sudoku_solver
+sudoku_solver.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku_solver.py:1:0: C0111: Missing module docstring (missing-docstring)
+sudoku_solver.py:1:0: C0103: Constant name "sudoku" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:7:2: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:8:2: C0103: Constant name "list1" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:9:2: C0103: Constant name "list2" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:10:2: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudoku_solver.py:12:3: E1137: 'count' does not support item assignment (unsupported-assignment-operation)
+sudoku_solver.py:13:6: E1136: Value 'count' is unsubscriptable (unsubscriptable-object)
+
+---------------------------------------------------------------------
+Your code has been rated at -10.00/10 (previous run: 4.80/10, -14.80)
+
