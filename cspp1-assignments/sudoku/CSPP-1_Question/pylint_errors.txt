@@ -1,37 +1,42 @@
 ************* Module sudoku
-sudoku.py:68:24: C0326: Exactly one space required after comma
+sudoku.py:20:41: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:74:24: C0326: Exactly one space required after comma
         for i in range(0,81,9):
                         ^ (bad-whitespace)
-sudoku.py:68:27: C0326: Exactly one space required after comma
+sudoku.py:74:27: C0326: Exactly one space required after comma
         for i in range(0,81,9):
                            ^ (bad-whitespace)
-sudoku.py:70:28: C0326: Exactly one space required after comma
+sudoku.py:76:28: C0326: Exactly one space required after comma
             for j in range(0,9):
                             ^ (bad-whitespace)
-sudoku.py:85:0: C0304: Final newline missing (missing-final-newline)
+sudoku.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:17:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:27:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:28:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:28:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:38:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:39:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:39:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:47:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:48:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:48:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:54:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:55:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:55:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:20:8: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
+sudoku.py:20:8: W0612: Unused variable 'var1' (unused-variable)
+sudoku.py:31:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:32:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:32:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:42:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:43:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:43:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:43:20: W0613: Unused argument 'cell' (unused-argument)
+sudoku.py:43:26: W0613: Unused argument 'sudoku' (unused-argument)
+sudoku.py:53:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:54:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:54:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:60:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:61:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:61:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:77:11: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:75:12: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
-sudoku.py:77:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:70:16: W0612: Unused variable 'j' (unused-variable)
-sudoku.py:75:12: W0612: Unused variable 'exc' (unused-variable)
+sudoku.py:66:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:67:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:83:11: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:81:12: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
+sudoku.py:83:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:76:16: W0612: Unused variable 'j' (unused-variable)
+sudoku.py:81:12: W0612: Unused variable 'exc' (unused-variable)
 
-------------------------------------------------------------------
-Your code has been rated at 3.18/10 (previous run: 3.18/10, +0.00)
+-------------------------------------------------------------------
+Your code has been rated at 1.33/10 (previous run: -2.50/10, +3.83)
 

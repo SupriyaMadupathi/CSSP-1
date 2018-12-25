@@ -17,10 +17,14 @@ def inputvalidation(sudoku1):
 def validateSudoku(sudoku):
     for i in range(8):
         var = getRowValues(i, sudoku)
+        var1 = getColumnValues(i, sudoku) 
         duplicates = set(var)
+        #dup2 = set(var1)
         if len(var) != len(duplicates):
             raise Exception("Invalid Sudoku:Duplicate values")
-    #print(var)
+        #if len(var1) != len(dup2):
+         #   raise Exception("Invalid Sudoku:Duplicate values")
+            #print(var)
 
 """
 This  method should retunn all the values present in the ith row
@@ -36,9 +40,11 @@ def getRowValues(cell, sudoku):
 """
 This  method should retunn all the values present in the ith column
 """
-def getColumnValues():
-    #col = []
-    ##for i in row:
+def getColumnValues(cell, sudoku):
+    # col = []
+    # for i in sudoku:
+    #     col.append(row[i])
+    # return col
     pass
 
 
@@ -82,4 +88,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-    #   
+    ##
+    ## { item_description }
+    ##
+    
