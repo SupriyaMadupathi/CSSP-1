@@ -61,7 +61,7 @@ Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues(sudoku):
     for i in range(len(sudoku)):
-        for j in range(len(sudoku[i])):
+        for j in range(len(sudoku[0])):
             if sudoku[i][j] == '.':
                 row = getRowValues(i, sudoku)
                 col = getColumnValues(j, sudoku)
