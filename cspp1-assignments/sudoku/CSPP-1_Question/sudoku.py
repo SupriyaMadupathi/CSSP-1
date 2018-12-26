@@ -68,8 +68,8 @@ def possibleValues(sudoku):
                 totalgrid = row + col
                 str1 = ""
                 for k in range(1,10):
-                    if k not in totalgrid:
-                        str1 += k
+                    if str(k) not in totalgrid:
+                        str1 += str(k)
                 print(str1) 
 
 
