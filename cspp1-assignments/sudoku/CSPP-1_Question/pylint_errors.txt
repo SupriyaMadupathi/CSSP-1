@@ -1,45 +1,2 @@
 ************* Module sudoku
-sudoku.py:20:41: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:44:0: W0311: Bad indentation. Found 5 spaces, expected 4 (bad-indentation)
-sudoku.py:45:0: W0311: Bad indentation. Found 5 spaces, expected 4 (bad-indentation)
-sudoku.py:47:0: W0311: Bad indentation. Found 9 spaces, expected 12 (bad-indentation)
-sudoku.py:48:0: W0311: Bad indentation. Found 5 spaces, expected 4 (bad-indentation)
-sudoku.py:70:32: C0326: Exactly one space required after comma
-                for k in range(1,10):
-                                ^ (bad-whitespace)
-sudoku.py:73:27: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:89:24: C0326: Exactly one space required after comma
-        for i in range(0,81,9):
-                        ^ (bad-whitespace)
-sudoku.py:89:27: C0326: Exactly one space required after comma
-        for i in range(0,81,9):
-                           ^ (bad-whitespace)
-sudoku.py:91:28: C0326: Exactly one space required after comma
-            for j in range(0,9):
-                            ^ (bad-whitespace)
-sudoku.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:17:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:31:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:32:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:32:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:42:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:43:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:43:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:54:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:55:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:55:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:61:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:62:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:62:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:63:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-sudoku.py:81:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:82:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:99:11: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:99:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:91:16: W0612: Unused variable 'j' (unused-variable)
-
-------------------------------------------------------------------
-Your code has been rated at 4.92/10 (previous run: 4.92/10, +0.00)
-
+sudoku.py:63:0: E0001: expected an indented block (<unknown>, line 63) (syntax-error)

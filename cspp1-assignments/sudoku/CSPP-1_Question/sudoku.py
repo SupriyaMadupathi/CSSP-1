@@ -53,7 +53,9 @@ def getColumnValues(cell, sudoku):
 This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues():
-    pass
+    
+
+    #pass
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
