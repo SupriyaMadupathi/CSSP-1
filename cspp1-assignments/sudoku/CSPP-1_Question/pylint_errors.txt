@@ -34,10 +34,8 @@ sudoku.py:61:-1: W0105: String statement has no effect (pointless-string-stateme
 sudoku.py:62:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:62:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:63:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-sudoku.py:66:22: E1120: No value for argument 'cell' in function call (no-value-for-parameter)
-sudoku.py:66:22: E1120: No value for argument 'sudoku' in function call (no-value-for-parameter)
-sudoku.py:67:22: E1120: No value for argument 'cell' in function call (no-value-for-parameter)
-sudoku.py:67:22: E1120: No value for argument 'sudoku' in function call (no-value-for-parameter)
+sudoku.py:66:35: E0602: Undefined variable 'cell' (undefined-variable)
+sudoku.py:67:38: E0602: Undefined variable 'cell' (undefined-variable)
 sudoku.py:81:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:82:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:98:11: W0703: Catching too general exception Exception (broad-except)
@@ -47,5 +45,5 @@ sudoku.py:91:16: W0612: Unused variable 'j' (unused-variable)
 sudoku.py:96:12: W0612: Unused variable 'exc' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 0.65/10 (previous run: 0.65/10, +0.00)
+Your code has been rated at 2.26/10 (previous run: 0.65/10, +1.61)
 
