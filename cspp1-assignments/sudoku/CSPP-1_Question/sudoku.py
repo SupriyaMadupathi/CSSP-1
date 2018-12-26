@@ -59,8 +59,22 @@ This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
-def possibleValues():
-    pass
+def possibleValues(sudoku):
+    for i in range(len(sudoku)):
+        for j in range(len(sudoku[i])):
+            if sudoku[i][j] == '.':
+                row = getRowValues()
+                col = getColumnValues()
+                totalgrid = row + col
+                str1 = ""
+                for k in range(1,10):
+                    if k not in totalgrid:
+                        str1 += k
+                print(str1) 
+
+
+
+    #pass
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
