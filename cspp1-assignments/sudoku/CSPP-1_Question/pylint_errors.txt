@@ -41,5 +41,5 @@ sudoku.py:99:4: C0103: Variable name "e" doesn't conform to snake_case naming st
 sudoku.py:91:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.92/10 (previous run: 4.13/10, +0.79)
+Your code has been rated at 4.92/10 (previous run: 4.92/10, +0.00)
 
