@@ -95,7 +95,7 @@ def main():
             list1.append(lst2)
             inputvalidation(sudoku)
         validateSudoku(list1)
-        possibleValues(lis)
+        possibleValues(list1)
     except Exception as e:
         print(e)
     #print(list1)
