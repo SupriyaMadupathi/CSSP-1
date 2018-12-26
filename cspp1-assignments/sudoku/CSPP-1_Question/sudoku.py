@@ -60,7 +60,7 @@ You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues(sudoku):
-    for i in range(81):
+    for i in range(len(sudoku)):
         for j in range(len(sudoku[0])):
             if sudoku[i][j] == '.':
                 row = getRowValues(i, sudoku)
@@ -93,7 +93,7 @@ def main():
                 i = i +1
 
             list1.append(lst2)
-            exc = inputvalidation(sudoku)
+        inputvalidation(sudoku)
         validateSudoku(list1)
         possibleValues(list1)
     except Exception as e:
