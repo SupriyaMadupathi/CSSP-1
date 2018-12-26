@@ -4,20 +4,20 @@ sudoku.py:44:0: W0311: Bad indentation. Found 5 spaces, expected 4 (bad-indentat
 sudoku.py:45:0: W0311: Bad indentation. Found 5 spaces, expected 4 (bad-indentation)
 sudoku.py:47:0: W0311: Bad indentation. Found 9 spaces, expected 12 (bad-indentation)
 sudoku.py:48:0: W0311: Bad indentation. Found 5 spaces, expected 4 (bad-indentation)
-sudoku.py:80:32: C0326: Exactly one space required after comma
+sudoku.py:151:32: C0326: Exactly one space required after comma
                 for k in range(1,10):
                                 ^ (bad-whitespace)
-sudoku.py:83:27: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:99:24: C0326: Exactly one space required after comma
+sudoku.py:154:27: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:170:24: C0326: Exactly one space required after comma
         for i in range(0,81,9):
                         ^ (bad-whitespace)
-sudoku.py:99:27: C0326: Exactly one space required after comma
+sudoku.py:170:27: C0326: Exactly one space required after comma
         for i in range(0,81,9):
                            ^ (bad-whitespace)
-sudoku.py:101:28: C0326: Exactly one space required after comma
+sudoku.py:172:28: C0326: Exactly one space required after comma
             for j in range(0,9):
                             ^ (bad-whitespace)
-sudoku.py:120:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:191:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:17:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
@@ -31,17 +31,27 @@ sudoku.py:54:-1: W0105: String statement has no effect (pointless-string-stateme
 sudoku.py:55:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:55:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:63:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:72:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:81:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:90:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:99:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:108:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:117:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:126:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:135:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:55:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
-sudoku.py:71:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:72:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:72:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:73:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-sudoku.py:91:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:92:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:109:11: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:109:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:101:16: W0612: Unused variable 'j' (unused-variable)
+sudoku.py:55:0: R0911: Too many return statements (9/6) (too-many-return-statements)
+sudoku.py:55:0: R0912: Too many branches (36/12) (too-many-branches)
+sudoku.py:142:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:143:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:143:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:144:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudoku.py:162:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:163:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:180:11: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:180:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:172:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.21/10 (previous run: 4.92/10, +0.29)
+Your code has been rated at 6.74/10 (previous run: 5.21/10, +1.53)
 

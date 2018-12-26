@@ -63,6 +63,77 @@ def getGridValues(row, col, sudoku):
     if var == True:
         return subgrid
 
+    subgrid = []
+    for i in range(0, 3):
+        for j in range(3, 6):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
+
+    subgrid = []
+    for i in range(0, 3):
+        for j in range(6, 9):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
+
+    subgrid = []
+    for i in range(3, 6):
+        for j in range(0, 3):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
+
+    subgrid = []
+    for i in range(3, 6):
+        for j in range(3, 6):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
+
+    subgrid = []
+    for i in range(3, 6):
+        for j in range(6, 9):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
+
+    subgrid = []
+    for i in range(6, 9):
+        for j in range(0, 3):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
+
+    subgrid = []
+    for i in range(6, 9):
+        for j in range(3, 6):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
+
+    subgrid = []
+    for i in range(6, 9):
+        for j in range(6, 9):
+            if i == row and j == col:
+                var = True
+                subgrid.append(sudoku[i][j])
+    if var == True:
+        return subgrid
     #pass
 """
 This method should collect all the available values present for a "."
