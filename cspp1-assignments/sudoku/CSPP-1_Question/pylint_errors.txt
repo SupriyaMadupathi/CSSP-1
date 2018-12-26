@@ -43,5 +43,5 @@ sudoku.py:91:16: W0612: Unused variable 'j' (unused-variable)
 sudoku.py:96:12: W0612: Unused variable 'exc' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.87/10 (previous run: 2.26/10, +1.61)
+Your code has been rated at 3.87/10 (previous run: 3.87/10, +0.00)
 

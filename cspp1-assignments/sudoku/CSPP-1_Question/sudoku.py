@@ -66,7 +66,7 @@ def possibleValues(sudoku):
                 row = getRowValues(i, sudoku)
                 col = getColumnValues(j, sudoku)
                 totalgrid = row + col
-                str1 = ""
+                str1 = ''
                 for k in range(1,10):
                     if str(k) not in totalgrid:
                         str1 += str(k)
