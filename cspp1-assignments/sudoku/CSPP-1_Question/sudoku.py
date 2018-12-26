@@ -63,8 +63,8 @@ def possibleValues(sudoku):
     for i in range(len(sudoku)):
         for j in range(len(sudoku[i])):
             if sudoku[i][j] == '.':
-                row = getRowValues(cell, sudoku)
-                col = getColumnValues(cell, sudoku)
+                row = getRowValues(i, sudoku)
+                col = getColumnValues(j, sudoku)
                 totalgrid = row + col
                 str1 = ""
                 for k in range(1,10):
