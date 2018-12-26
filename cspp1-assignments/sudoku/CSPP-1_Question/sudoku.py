@@ -146,7 +146,8 @@ def possibleValues(sudoku):
             if sudoku[i][j] == '.':
                 row = getRowValues(i, sudoku)
                 col = getColumnValues(j, sudoku)
-                totalgrid = row + col
+                grid = getGridValues(i, j, sudoku)
+                totalgrid = row + col + grid
                 str1 = ''
                 for k in range(1,10):
                     if str(k) not in totalgrid:
@@ -177,6 +178,7 @@ def main():
             inputvalidation(sudoku)
         validateSudoku(list1)
         possibleValues(list1)
+
     except Exception as e:
         print(e)
     #print(list1)
