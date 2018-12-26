@@ -37,9 +37,10 @@ sudoku.py:63:4: C0200: Consider using enumerate instead of iterating with range 
 sudoku.py:81:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:82:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:99:11: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:98:23: E0602: Undefined variable 'lis' (undefined-variable)
 sudoku.py:99:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:91:16: W0612: Unused variable 'j' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.92/10 (previous run: 4.13/10, +0.79)
+Your code has been rated at 4.13/10 (previous run: 4.92/10, -0.79)
 
