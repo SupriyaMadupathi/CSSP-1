@@ -1,0 +1,14 @@
+************* Module cspp1
+cspp1.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+cspp1.py:39:0: C0304: Final newline missing (missing-final-newline)
+cspp1.py:1:0: C0111: Missing module docstring (missing-docstring)
+cspp1.py:1:0: C0103: Function name "collectAllurl" doesn't conform to snake_case naming style (invalid-name)
+cspp1.py:1:0: C0111: Missing function docstring (missing-docstring)
+cspp1.py:16:0: C0103: Function name "getAllcolors" doesn't conform to snake_case naming style (invalid-name)
+cspp1.py:16:0: C0111: Missing function docstring (missing-docstring)
+cspp1.py:28:12: W0612: Unused variable 'tail' (unused-variable)
+cspp1.py:32:0: C0111: Missing function docstring (missing-docstring)
+
+-----------------------------------
+Your code has been rated at 7.10/10
+
