@@ -9,5 +9,5 @@ resevation.py:45:16: C0103: Variable name "x" doesn't conform to snake_case nami
 resevation.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.84/10 (previous run: 7.84/10, +0.00)
+Your code has been rated at 7.71/10 (previous run: 7.84/10, -0.12)
 
