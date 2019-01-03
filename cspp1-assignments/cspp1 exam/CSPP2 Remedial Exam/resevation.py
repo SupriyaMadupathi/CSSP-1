@@ -12,6 +12,7 @@ def main():
         if data1[0] == "reserve":
             if count == capacity -1:
                 print("All Rooms are reserved")
+                break
             if dic == {}:
                 dic[1] = data1[1]
                 # print("hi")
