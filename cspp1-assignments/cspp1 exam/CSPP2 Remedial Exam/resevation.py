@@ -29,6 +29,7 @@ def main():
             # count += 1
             # print(count)
         if data1[0] == "reserveN":
+            print(len(dic))
             if len(dic) >= 6:
                 print(len(dic))
                 print("All Rooms are reserved")
