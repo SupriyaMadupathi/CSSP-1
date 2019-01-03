@@ -2,7 +2,7 @@ def main():
     data = int(input())
     dic = {}
     i = 0
-    capacity = 6
+    capacity = 5
     count = 0
     while i < data:
         # print(i)
@@ -10,21 +10,21 @@ def main():
         # print(data1[0])
 
         if data1[0] == "reserve":
-            if count == capacity -1:
+            if len(dic) == capacity:
                 print("All Rooms are reserved")
             elif dic == {}:
                 dic[1] = data1[1]
                 # print("hi")
                 print(data1[1], 1)
-                count += 1
+                # count += 1
             else:
-                for  j in range(1, capacity):
+                for  j in range(1, capacity+1):
                     if  j not in dic.keys():
                         # if j == capacity - 1:
                             #
                             # break
                         dic[j] = data1[1]
-                        count += 1
+                        # count += 1
                         print(data1[1], j)
                         break
                     # print(len(data1))
@@ -32,7 +32,7 @@ def main():
             # count += 1
             # print(count)
         if data1[0] == "reserveN":
-            if count == capacity -1:
+            if len(dic) == capacity:
             # print(len(dic))
             # if len(dic) >= 6:
                 # print(len(dic))
@@ -41,7 +41,7 @@ def main():
                 print("Room is already reserved")
             else:
                 dic[int(data1[2])] = data1[1]
-                count += 1
+                # count += 1
                 print(data1[1], data1[2])
         if data1[0] == "build":
             capacity += int(data1[1]) + 2
