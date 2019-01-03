@@ -40,12 +40,12 @@ kiran 2
 murthy 1
 rajiv 3
 kalyani 4
-All Rooms are reserved
-All Rooms are reserved
+kumar 5
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
+kumar 5
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -66,14 +66,13 @@ kiran 2
 murthy 1
 rajiv 3
 kalyani 4
+kumar 5
 All Rooms are reserved
-All Rooms are reserved
-alekhya 5
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
-alekhya 5
+kumar 5
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -95,13 +94,13 @@ murthy 1
 Room is already reserveddddd
 kalyani 3
 kumar 4
+swathi 5
 All Rooms are reserved
-alekhya 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-alekhya 5
+swathi 5
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -127,16 +126,17 @@ murthy 1
 Room is already reserveddddd
 kalyani 3
 kumar 4
-All Rooms are reserved
+swathi 5
 Added 2 more rooms
 alekhya 6
-manasa 5
+manasa 7
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-manasa 5
+swathi 5
 alekhya 6
+manasa 7
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -233,25 +233,27 @@ murthy 1
 Room is already reserveddddd
 kalyani 3
 kumar 4
-All Rooms are reserved
+swathi 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
+swathi 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
+swathi 5
 Added 2 more rooms
 alekhya 6
-manasa 5
-All Rooms are reserved
+manasa 7
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-manasa 5
+swathi 5
 alekhya 6
+manasa 7
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -294,30 +296,31 @@ murthy 1
 Room is already reserveddddd
 kalyani 3
 kumar 4
-All Rooms are reserved
+kumar 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
+kumar 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
+kumar 5
 Added 5 more rooms
 alekhya 6
-manasa 5
-kumar 7
-karthik 8
-manohar 9
-All Rooms are reserved
-All Rooms are reserved
+manasa 7
+kumar 8
+karthik 9
+manohar 10
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-manasa 5
+kumar 5
 alekhya 6
-kumar 7
-karthik 8
-manohar 9
+manasa 7
+kumar 8
+karthik 9
+manohar 10
 ----------------------------------------

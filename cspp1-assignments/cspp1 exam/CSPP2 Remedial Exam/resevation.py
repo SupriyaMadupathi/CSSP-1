@@ -18,9 +18,9 @@ def main():
             else:
                 for  j in range(1, capacity):
                     if  j not in dic.keys():
-                        if j == capacity - 1:
-                            print("All Rooms are reserved")
-                            break
+                        # if j == capacity - 1:
+                            # print("All Rooms are reserved")
+                            # break
                         dic[j] = data1[1]
                         count += 1
                         print(data1[1], j)
@@ -30,8 +30,9 @@ def main():
             # count += 1
             # print(count)
         if data1[0] == "reserveN":
+            if count == capacity -1:
             # print(len(dic))
-            if len(dic) >= 6:
+            # if len(dic) >= 6:
                 # print(len(dic))
                 print("All Rooms are reserved")
             elif int(data1[2]) in dic.keys():
