@@ -11,10 +11,18 @@ karan 3
 kalyani 4
 rajiv 5
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+karan 3
+rajiv 5
+rehana 1
+karan 3
+murthy 2
+rajiv 5
+kalyani 4
+rehana 1
+murthy 2
+karan 3
+kalyani 4
+rajiv 5
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -30,10 +38,19 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+kiran 2
+murthy 1
+All Rooms are reserved
+kiran 2
+murthy 1
+rajiv 3
+kalyani 4
+kumar 5
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -50,10 +67,20 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+kiran 2
+murthy 1
+All Rooms are reserved
+Room is already reserved
+kiran 2
+murthy 1
+rajiv 3
+kalyani 4
+kumar 5
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -70,10 +97,20 @@ kalyani 3
 kumar 4
 swathi 5
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+kiran 2
+murthy 1
+Room is already reserved
+Room is already reserved
+kiran 2
+murthy 1
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -94,10 +131,22 @@ swathi 5
 alekhya 6
 manasa 7
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+kiran 2
+murthy 1
+Room is already reserved
+alekhya 6
+kiran 2
+murthy 1
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -135,10 +184,22 @@ manohar 8
 swetha 9
 reddy 10
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+kiran 2
+murthy 1
+Room is already reserved
+alekhya 6
+kiran 2
+murthy 1
+kumar 3
+alekhya 6
+manasa 4
+kumar 5
+murthy 1
+kiran 2
+kumar 3
+manasa 4
+kumar 5
+alekhya 6
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -170,10 +231,22 @@ swathi 5
 alekhya 6
 kumar 7
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+kiran 2
+murthy 1
+Room is already reserved
+alekhya 6
+kiran 2
+murthy 1
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -211,8 +284,20 @@ manohar 8
 swetha 9
 reddy 10
 Your Output: 
-  File "resevation.py", line 17
-    dic[int(data1[2])] = data1[1]
-    ^
-IndentationError: expected an indented block
+kiran 2
+murthy 1
+Room is already reserved
+alekhya 6
+kiran 2
+murthy 1
+kalyani 3
+kumar 4
+kumar 5
+alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+alekhya 6
 ----------------------------------------
