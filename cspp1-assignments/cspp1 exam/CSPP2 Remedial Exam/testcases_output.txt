@@ -13,11 +13,6 @@ rajiv 5
 Your Output: 
 rehana 1
 rehana 1
-karan 3
-murthy 2
-rajiv 5
-kalyani 4
-rehana 1
 murthy 2
 karan 3
 kalyani 4
@@ -37,11 +32,6 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
-kiran 2
-murthy 1
-rajiv 3
-kalyani 4
-kumar 5
 murthy 1
 kiran 2
 rajiv 3
@@ -64,11 +54,6 @@ kalyani 4
 kumar 5
 Your Output: 
 Room is already reserved
-kiran 2
-murthy 1
-rajiv 3
-kalyani 4
-kumar 5
 murthy 1
 kiran 2
 rajiv 3
@@ -92,11 +77,6 @@ swathi 5
 Your Output: 
 Room is already reserved
 Room is already reserved
-kiran 2
-murthy 1
-kalyani 3
-kumar 4
-swathi 5
 murthy 1
 kiran 2
 kalyani 3
@@ -124,12 +104,6 @@ manasa 7
 Your Output: 
 Room is already reserved
 Added 2 more rooms
-kiran 2
-murthy 1
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
 murthy 1
 kiran 2
 kalyani 3
@@ -174,13 +148,10 @@ swetha 9
 reddy 10
 Your Output: 
 Room is already reserved
-Added 5 more rooms
-kiran 2
 murthy 1
+kiran 2
 kumar 3
-alekhya 6
-manasa 4
-kumar 5
+Added 5 more rooms
 murthy 1
 kiran 2
 kumar 3
@@ -219,13 +190,17 @@ alekhya 6
 kumar 7
 Your Output: 
 Room is already reserved
-Added 2 more rooms
-kiran 2
 murthy 1
+kiran 2
 kalyani 3
 kumar 4
 swathi 5
-alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+Added 2 more rooms
 murthy 1
 kiran 2
 kalyani 3
@@ -270,13 +245,17 @@ swetha 9
 reddy 10
 Your Output: 
 Room is already reserved
-Added 5 more rooms
-kiran 2
 murthy 1
+kiran 2
 kalyani 3
 kumar 4
 kumar 5
-alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+Added 5 more rooms
 murthy 1
 kiran 2
 kalyani 3

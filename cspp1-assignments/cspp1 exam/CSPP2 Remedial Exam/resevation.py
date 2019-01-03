@@ -37,12 +37,14 @@ def main():
         if data1[0] == "build":
             capacity += int(data1[1])
             print("Added" + " " + data1[1] + " " + "more rooms")
+        if data1[0] == "print":
+            for x in sorted(dic):
+                print(dic[x], x)
+            
         i += 1
-    for a in dic:
-        print(dic[a], a)
+    # for a in dic:
+        # print(dic[a], a)
     # print(dic)
-    for x in sorted(dic):
-        print(dic[x], x)
 
     # sort = sorted(dic)
     # print(sort)
