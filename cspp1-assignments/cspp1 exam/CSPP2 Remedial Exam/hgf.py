@@ -15,7 +15,7 @@ def main():
                     # print(i)
                     if i >= maxcapacity:
                         print("All Rooms are reserved")
-                        break
+                        break   
                     dic[i] = temp[1]
                     print(temp[1],i)
                     # print(hi)

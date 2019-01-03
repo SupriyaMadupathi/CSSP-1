@@ -49,6 +49,11 @@ def main():
         if data1[0] == "print":
             for x in sorted(dic):
                 print(dic[x], x)
+        if data1[0] == "cancel":
+            if keys in dic:
+                dic.pop(keys)
+                print(dic)
+
             
     # for a in dic:
         # print(dic[a], a)

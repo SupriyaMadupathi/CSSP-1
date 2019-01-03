@@ -1,12 +1,14 @@
 ************* Module resevation
-resevation.py:52:0: C0303: Trailing whitespace (trailing-whitespace)
-resevation.py:61:0: C0303: Trailing whitespace (trailing-whitespace)
-resevation.py:64:0: C0304: Final newline missing (missing-final-newline)
+resevation.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+resevation.py:66:0: C0303: Trailing whitespace (trailing-whitespace)
+resevation.py:69:0: C0304: Final newline missing (missing-final-newline)
 resevation.py:1:0: C0111: Missing module docstring (missing-docstring)
 resevation.py:1:0: C0111: Missing function docstring (missing-docstring)
 resevation.py:50:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-resevation.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
+resevation.py:53:15: E0602: Undefined variable 'keys' (undefined-variable)
+resevation.py:54:24: E0602: Undefined variable 'keys' (undefined-variable)
+resevation.py:1:0: R0912: Too many branches (16/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 8.16/10 (previous run: 8.16/10, +0.00)
+Your code has been rated at 5.95/10 (previous run: 8.16/10, -2.21)
 
