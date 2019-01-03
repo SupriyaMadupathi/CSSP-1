@@ -12,8 +12,8 @@ def main():
         if data1[0] == "reserve":
             if dic == {}:
                 dic[1] = data1[1]
-                print("hi")
-                print(data1[1], 1)
+                # print("hi")
+                # print(data1[1], 1)
                 # count += 1
             else:
                 for  j in range(1, 6):
@@ -43,8 +43,8 @@ def main():
                 print(dic[x], x)
             
         i += 1
-    # for a in dic:
-        # print(dic[a], a)
+    for a in dic:
+        print(dic[a], a)
     # print(dic)
 
     # sort = sorted(dic)
