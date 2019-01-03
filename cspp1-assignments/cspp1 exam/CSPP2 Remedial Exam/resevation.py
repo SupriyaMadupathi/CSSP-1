@@ -13,10 +13,6 @@ def main():
             if dic == {}:
                 dic[1] = data1[1]
                 # count += 1
-            # if count > 5:
-                            # print(len(d))
-                # print("All Rooms are reserved")
-                # break
             else:
                 for  j in range(1, 7):
                     if  j not in dic.keys():
