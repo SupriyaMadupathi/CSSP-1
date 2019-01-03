@@ -1,13 +1,65 @@
 ************* Module resevation
-resevation.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
-resevation.py:48:0: C0304: Final newline missing (missing-final-newline)
+resevation.py:2:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+resevation.py:3:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+resevation.py:4:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+resevation.py:5:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+resevation.py:6:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
+resevation.py:7:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+resevation.py:8:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+resevation.py:9:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:10:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:11:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:11:25: C0326: Exactly one space required after comma
+            print(temp[1],1)
+                         ^ (bad-whitespace)
+resevation.py:12:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:13:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:13:28: C0326: Exactly one space required after comma
+            for i in range(1,maxcapacity):
+                            ^ (bad-whitespace)
+resevation.py:14:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+resevation.py:16:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+resevation.py:17:0: W0311: Bad indentation. Found 24 spaces, expected 28 (bad-indentation)
+resevation.py:18:0: W0311: Bad indentation. Found 24 spaces, expected 28 (bad-indentation)
+resevation.py:19:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+resevation.py:20:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+resevation.py:20:33: C0326: Exactly one space required after comma
+                    print(temp[1],i)
+                                 ^ (bad-whitespace)
+resevation.py:22:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+resevation.py:23:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+resevation.py:25:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:26:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+resevation.py:28:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:29:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:31:13: C0303: Trailing whitespace (trailing-whitespace)
+resevation.py:31:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:32:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:34:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:34:25: C0326: Exactly one space required after comma
+            print(temp[1],temp[2])
+                         ^ (bad-whitespace)
+resevation.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+resevation.py:37:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+resevation.py:38:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:38:15: C0326: Exactly one space required after comma
+        for key,value in sorted(dic.items()):
+               ^ (bad-whitespace)
+resevation.py:39:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+resevation.py:39:23: C0326: Exactly one space required after comma
+            print(value,key)
+                       ^ (bad-whitespace)
+resevation.py:40:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+resevation.py:41:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:42:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+resevation.py:43:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+resevation.py:45:0: C0304: Final newline missing (missing-final-newline)
 resevation.py:1:0: C0111: Missing module docstring (missing-docstring)
 resevation.py:1:0: C0111: Missing function docstring (missing-docstring)
-resevation.py:7:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
-resevation.py:37:8: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
-resevation.py:40:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-resevation.py:1:0: R0912: Too many branches (13/12) (too-many-branches)
+resevation.py:6:2: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+resevation.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
 
-------------------------------------------------------------------
-Your code has been rated at 7.33/10 (previous run: 6.77/10, +0.56)
+--------------------------------------------------------------------
+Your code has been rated at -3.71/10 (previous run: 7.33/10, -11.05)
 
