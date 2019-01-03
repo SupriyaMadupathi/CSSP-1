@@ -45,7 +45,6 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
-All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
@@ -74,7 +73,6 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
-All Rooms are reserved
 5
 Room is already reserveddddd
 murthy 1
