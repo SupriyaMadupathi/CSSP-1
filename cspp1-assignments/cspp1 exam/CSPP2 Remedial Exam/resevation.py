@@ -50,9 +50,11 @@ def main():
             for x in sorted(dic):
                 print(dic[x], x)
         if data1[0] == "cancel":
-            if keys in dic:
-                dic.pop(keys)
-                print(dic)
+            dic2 = dic.copy()
+            for k in dic2.values():
+                if k == data1[1]:
+                    dic.pop(k)
+            print(data1[1], "now has no reservations.")
 
             
     # for a in dic:

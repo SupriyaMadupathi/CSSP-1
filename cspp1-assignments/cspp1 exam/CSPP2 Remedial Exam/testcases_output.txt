@@ -242,11 +242,11 @@ kalyani 3
 kumar 4
 swathi 5
 Traceback (most recent call last):
-  File "resevation.py", line 69, in <module>
+  File "resevation.py", line 71, in <module>
     main()
-  File "resevation.py", line 53, in main
-    if keys in dic:
-NameError: name 'keys' is not defined
+  File "resevation.py", line 56, in main
+    dic.pop(k)
+KeyError: 'kumar'
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -296,9 +296,9 @@ kalyani 3
 kumar 4
 kumar 5
 Traceback (most recent call last):
-  File "resevation.py", line 69, in <module>
+  File "resevation.py", line 71, in <module>
     main()
-  File "resevation.py", line 53, in main
-    if keys in dic:
-NameError: name 'keys' is not defined
+  File "resevation.py", line 56, in main
+    dic.pop(k)
+KeyError: 'kumar'
 ----------------------------------------
