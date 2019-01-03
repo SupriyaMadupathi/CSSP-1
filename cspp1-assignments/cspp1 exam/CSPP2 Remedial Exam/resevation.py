@@ -32,7 +32,7 @@ def main():
                 print("Room is already reserved")
             else:
                 dic[int(data1[2])] = data1[1]
-                print(data1[1], data1[2])
+                # print(data1[1], data1[2])
         i += 1
     for a in dic:
         print(dic[a], a)
