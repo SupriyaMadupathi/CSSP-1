@@ -13,7 +13,7 @@ def main():
             if dic == {}:
                 dic[1] = data1[1]
                 # print("hi")
-                # print(data1[1], 1)
+                print(data1[1], 1)
                 # count += 1
             else:
                 for  j in range(1, 6):
@@ -22,6 +22,7 @@ def main():
                             print("All Rooms are reserved")
                             break
                         dic[j] = data1[1]
+                        print(data1[1], j)
                         break
                     # print(len(data1))
                 # print(count)
@@ -42,9 +43,9 @@ def main():
             for x in sorted(dic):
                 print(dic[x], x)
             
+    # for a in dic:
+        # print(dic[a], a)
         i += 1
-    for a in dic:
-        print(dic[a], a)
     # print(dic)
 
     # sort = sorted(dic)

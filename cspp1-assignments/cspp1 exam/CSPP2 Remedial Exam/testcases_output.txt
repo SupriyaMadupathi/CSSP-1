@@ -13,14 +13,12 @@ rajiv 5
 Your Output: 
 rehana 1
 murthy 2
-karan 3
 kalyani 4
-rajiv 5
 rehana 1
-karan 3
 murthy 2
-rajiv 5
+karan 3
 kalyani 4
+rajiv 5
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -36,13 +34,11 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
-murthy 1
-kiran 2
 rajiv 3
 kalyani 4
 kumar 5
-kiran 2
 murthy 1
+kiran 2
 rajiv 3
 kalyani 4
 kumar 5
@@ -62,14 +58,12 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
-Room is already reserved
-murthy 1
-kiran 2
 rajiv 3
 kalyani 4
 kumar 5
-kiran 2
+Room is already reserved
 murthy 1
+kiran 2
 rajiv 3
 kalyani 4
 kumar 5
@@ -90,14 +84,12 @@ kumar 4
 swathi 5
 Your Output: 
 Room is already reserved
-Room is already reserved
-murthy 1
-kiran 2
 kalyani 3
 kumar 4
 swathi 5
-kiran 2
+Room is already reserved
 murthy 1
+kiran 2
 kalyani 3
 kumar 4
 swathi 5
@@ -122,15 +114,12 @@ alekhya 6
 manasa 7
 Your Output: 
 Room is already reserved
-Added 2 more rooms
-murthy 1
-kiran 2
 kalyani 3
 kumar 4
 swathi 5
-alekhya 6
-kiran 2
+Added 2 more rooms
 murthy 1
+kiran 2
 kalyani 3
 kumar 4
 swathi 5
@@ -172,23 +161,20 @@ manohar 8
 swetha 9
 reddy 10
 Your Output: 
+kumar 3
 Room is already reserved
 murthy 1
 kiran 2
 kumar 3
 Added 5 more rooms
+manasa 4
+kumar 5
 murthy 1
 kiran 2
 kumar 3
 manasa 4
 kumar 5
 alekhya 6
-kiran 2
-murthy 1
-kumar 3
-alekhya 6
-manasa 4
-kumar 5
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -221,6 +207,9 @@ alekhya 6
 kumar 7
 Your Output: 
 Room is already reserved
+kalyani 3
+kumar 4
+swathi 5
 murthy 1
 kiran 2
 kalyani 3
@@ -234,12 +223,6 @@ swathi 5
 Added 2 more rooms
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-kiran 2
-murthy 1
 kalyani 3
 kumar 4
 swathi 5
@@ -282,6 +265,9 @@ swetha 9
 reddy 10
 Your Output: 
 Room is already reserved
+kalyani 3
+kumar 4
+kumar 5
 murthy 1
 kiran 2
 kalyani 3
@@ -295,12 +281,6 @@ kumar 5
 Added 5 more rooms
 murthy 1
 kiran 2
-kalyani 3
-kumar 4
-kumar 5
-alekhya 6
-kiran 2
-murthy 1
 kalyani 3
 kumar 4
 kumar 5
