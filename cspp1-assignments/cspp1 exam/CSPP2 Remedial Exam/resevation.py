@@ -16,7 +16,7 @@ def main():
             else:
                 for  j in range(1, 6):
                     if  j not in dic.keys():
-                        if j >= 6:
+                        if j > 6:
                             print("All Rooms are reserved")
                             break
                         dic[j] = data1[1]
