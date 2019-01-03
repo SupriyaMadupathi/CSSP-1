@@ -241,12 +241,24 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
-Traceback (most recent call last):
-  File "resevation.py", line 71, in <module>
-    main()
-  File "resevation.py", line 56, in main
-    dic.pop(k)
-KeyError: 'kumar'
+kumar now has no reservations.
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+Added 2 more rooms
+alekhya 6
+manasa 7
+kumar 8
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+manasa 7
+kumar 8
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -295,10 +307,30 @@ kiran 2
 kalyani 3
 kumar 4
 kumar 5
-Traceback (most recent call last):
-  File "resevation.py", line 71, in <module>
-    main()
-  File "resevation.py", line 56, in main
-    dic.pop(k)
-KeyError: 'kumar'
+kumar now has no reservations.
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+Added 5 more rooms
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
+swetha 11
+reddy 12
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
+swetha 11
+reddy 12
 ----------------------------------------
