@@ -1,45 +1,52 @@
 def main():
-  rangeofinputs = int(input())
-  j = 0
-  dic = {}
-  maxcapacity = 6
-  while j < rangeofinputs:
-    temp = input().split(" ")
-    if temp[0] == "reserve":
-        if dic == {}:
-            dic[1] = temp[1]
-            print(temp[1],1)
-        else:
-            for i in range(1,maxcapacity):
-                if i not in dic.keys():
-                    # print(i)
-                    if i >= maxcapacity:
-                        print("All Rooms are reserved")
+    data = int(input())
+    dic = {}
+    i = 0
+    capacity = 6
+    # count = 1
+    while i < data:
+        # print(i)
+        data1 = input().split(" ")
+        # print(data1[0])
+
+        if data1[0] == "reserve":
+            if dic == {}:
+                dic[1] = data1[1]
+                # count += 1
+            else:
+                for  j in range(1, 7):
+                    if  j not in dic.keys():
+                        if j >= int(capacity):
+                            print("All Rooms are reserved")
+                            break
+                        dic[j] = data1[1]
                         break
-                    dic[i] = temp[1]
-                    print(temp[1],i)
-                    # print(hi)
-                    break
-    if temp[0] == "reserveN":
-        # print(len(dic),"lp")
-        if len(dic) >= maxcapacity:
-            print("All Rooms are reserved")
+                    # print(len(data1))
+                # print(count)
+            # count += 1
+            # print(count)
+        if data1[0] == "reserveN":
+            if len(dic) >= 6:
+                print("All Rooms are reserved")
+            elif int(data1[2]) in dic.keys():
+                print("Room is already reserved")
+            else:
+                dic[int(data1[2])] = data1[1]
+                # print(data1[1], data1[2])
+        if data1[0] == "build":
+            capacity += int(data1[1])
+            print("Added" + " " + data1[1] + " " + "more rooms")
+        i += 1
+    for a in dic:
+        print(dic[a], a)
+    # print(dic)
+    for x in sorted(dic):
+        print(dic[x], x)
+
+    # sort = sorted(dic)
+    # print(sort)
+
         
-        elif int(temp[2]) in dic.keys():
-            print("Room is already reserved")
-            # break
-        else:    
-            dic[int(temp[2])] = temp[1]
-            # print(len(dic),"idc")
-            print(temp[1],temp[2])
-            # return
-        
-    if temp[0] == "print":
-        for key,value in sorted(dic.items()):
-            print(value,key)
-    if temp[0] == "build":
-        maxcapacity += int(temp[1])
-        print("Added" +" "+ temp[1] +" "+ "more rooms")
-    j += 1
+
 if __name__ == '__main__':
     main()

@@ -36,6 +36,7 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
+All Rooms are reserved
 kiran 2
 murthy 1
 rajiv 3
@@ -62,12 +63,13 @@ rajiv 3
 kalyani 4
 kumar 5
 Your Output: 
+All Rooms are reserved
+Room is already reserved
 kiran 2
 murthy 1
 rajiv 3
 kalyani 4
 kumar 5
-Room is already reserved
 murthy 1
 kiran 2
 rajiv 3
@@ -89,20 +91,20 @@ kalyani 3
 kumar 4
 swathi 5
 Your Output: 
+Room is already reserved
+Room is already reserved
 kiran 2
 murthy 1
-Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
-Room is already reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
 swathi 5
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -121,22 +123,20 @@ swathi 5
 alekhya 6
 manasa 7
 Your Output: 
-kiran 2
-murthy 1
 Room is already reserved
+Added 2 more rooms
+kiran 2
+murthy 1
 kalyani 3
 kumar 4
 swathi 5
-Added 2 more rooms
 alekhya 6
-manasa 7
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
 swathi 5
 alekhya 6
-manasa 7
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -174,29 +174,20 @@ manohar 8
 swetha 9
 reddy 10
 Your Output: 
-kiran 2
-murthy 1
-kumar 3
 Room is already reserved
-murthy 1
-kiran 2
-kumar 3
 Added 5 more rooms
+kiran 2
+murthy 1
+kumar 3
 alekhya 6
 manasa 4
 kumar 5
-karthik 7
-manohar 8
-kumar 9
 murthy 1
 kiran 2
 kumar 3
 manasa 4
 kumar 5
 alekhya 6
-karthik 7
-manohar 8
-kumar 9
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -228,32 +219,20 @@ swathi 5
 alekhya 6
 kumar 7
 Your Output: 
-kiran 2
-murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
 Added 2 more rooms
+kiran 2
+murthy 1
+kalyani 3
+kumar 4
+swathi 5
 alekhya 6
-manasa 7
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
 swathi 5
 alekhya 6
-manasa 7
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -291,36 +270,18 @@ manohar 8
 swetha 9
 reddy 10
 Your Output: 
-kiran 2
-murthy 1
 Room is already reserved
-kalyani 3
-kumar 4
-kumar 5
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-kumar 5
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-kumar 5
 Added 5 more rooms
+kiran 2
+murthy 1
+kalyani 3
+kumar 4
+kumar 5
 alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
 kumar 5
 alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
 ----------------------------------------
