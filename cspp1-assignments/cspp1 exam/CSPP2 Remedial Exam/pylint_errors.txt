@@ -9,5 +9,5 @@ resevation.py:6:4: W0612: Unused variable 'count' (unused-variable)
 resevation.py:1:0: R0912: Too many branches (17/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 8.05/10 (previous run: 8.41/10, -0.36)
+Your code has been rated at 8.05/10 (previous run: 8.05/10, +0.00)
 

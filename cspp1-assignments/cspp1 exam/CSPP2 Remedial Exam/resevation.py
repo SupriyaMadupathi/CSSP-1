@@ -44,7 +44,7 @@ def main():
                 # count += 1
                 print(data1[1], data1[2])
         if data1[0] == "build":
-            capacity += int(data1[1]) + 2
+            capacity += int(data1[1])
             print("Added" + " " + data1[1] + " " + "more rooms")
         if data1[0] == "print":
             for x in sorted(dic):
