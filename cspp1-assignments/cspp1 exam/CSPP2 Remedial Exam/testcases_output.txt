@@ -76,7 +76,7 @@ rajiv 3
 kalyani 4
 kumar 5
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -93,7 +93,7 @@ swathi 5
 Your Output: 
 kiran 2
 murthy 1
-Room is already reserveddddd
+Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
@@ -104,7 +104,7 @@ kalyani 3
 kumar 4
 swathi 5
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -125,7 +125,7 @@ manasa 7
 Your Output: 
 kiran 2
 murthy 1
-Room is already reserveddddd
+Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
@@ -179,7 +179,7 @@ Your Output:
 kiran 2
 murthy 1
 kumar 3
-Room is already reserveddddd
+Room is already reserved
 murthy 1
 kiran 2
 kumar 3
@@ -232,7 +232,7 @@ kumar 7
 Your Output: 
 kiran 2
 murthy 1
-Room is already reserveddddd
+Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
@@ -296,7 +296,7 @@ reddy 10
 Your Output: 
 kiran 2
 murthy 1
-Room is already reserveddddd
+Room is already reserved
 kalyani 3
 kumar 4
 kumar 5

@@ -38,7 +38,7 @@ def main():
                 # print(len(dic))
                 print("All Rooms are reserved")
             elif int(data1[2]) in dic.keys():
-                print("Room is already reserveddddd")
+                print("Room is already reserved")
             else:
                 dic[int(data1[2])] = data1[1]
                 count += 1
