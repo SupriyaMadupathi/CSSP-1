@@ -12,6 +12,7 @@ def main():
         if data1[0] == "reserve":
             if dic == {}:
                 dic[1] = data1[1]
+                print("hi")
                 print(data1[1], 1)
                 # count += 1
             else:
