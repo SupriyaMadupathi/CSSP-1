@@ -26,7 +26,7 @@ def main():
             # count += 1
             # print(count)
         if data1[0] == "reserveN":
-            if len(dic) >= capacity:
+            if len(dic) >= 6:
                 print("All Rooms are reserved")
             elif int(data1[2]) in dic.keys():
                 print("Room is already reserved")
