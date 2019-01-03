@@ -8,18 +8,7 @@ def main():
         # print(i)
         data1 = input().split(" ")
         # print(data1[0])
-        if data1[0] == "reserveN":
-            if len(dic) >= capacity:
-                print("All Rooms are reserved")
-            elif int(data1[2]) in dic.keys():
-                print("Room is already reserved")
-            else:
-                dic[int(data1[2])] = data1[1]
-                print(data1[1], data1[2])
 
-            # count += 1
-    # print(dic)s
-        # print(dic)
         if data1[0] == "reserve":
             if dic == {}:
                 dic[1] = data1[1]
@@ -30,23 +19,24 @@ def main():
                 # break
             else:
                 for  j in range(1, 7):
-                    # print(j)
-                    
                     if  j not in dic.keys():
-                        # print(j, "j")
-                        # print(capacity, "capacity")
                         if j >= int(capacity):
-                        # print(len(d))
                             print("All Rooms are reserved")
                             break
-
                         dic[j] = data1[1]
-                        # count += 1
                         break
                     # print(len(data1))
                 # print(count)
             # count += 1
             # print(count)
+        if data1[0] == "reserveN":
+            if len(dic) >= capacity:
+                print("All Rooms are reserved")
+            elif int(data1[2]) in dic.keys():
+                print("Room is already reserved")
+            else:
+                dic[int(data1[2])] = data1[1]
+                print(data1[1], data1[2])
         i += 1
     for a in dic:
         print(dic[a], a)
