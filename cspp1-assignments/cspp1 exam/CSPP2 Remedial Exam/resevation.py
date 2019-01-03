@@ -26,14 +26,12 @@ def main():
             # count += 1
             # print(count)
         if data1[0] == "reserveN":
-            if dic == {}:
-                dic[int(data1[2])] = data1[1]
-                
+            if len(dic) >= 6:
+                print("All Rooms are reserved")
             elif int(data1[2]) in dic.keys():
                 print("Room is already reserved")
             else:
-                len(dic) >= 6
-                print("All Rooms are reserved")
+                dic[int(data1[2])] = data1[1]
                 # print(data1[1], data1[2])
         i += 1
     for a in dic:
