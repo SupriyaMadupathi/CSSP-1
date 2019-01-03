@@ -35,7 +35,7 @@ def main():
                 print("Room is already reserved")
             else:
                 dic[int(data1[2])] = data1[1]
-                # print(data1[1], data1[2])
+                print(data1[1], data1[2])
         if data1[0] == "build":
             capacity += int(data1[1])
             print("Added" + " " + data1[1] + " " + "more rooms")
