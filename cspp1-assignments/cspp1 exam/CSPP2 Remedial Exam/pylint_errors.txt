@@ -8,6 +8,6 @@ resevation.py:40:8: C0103: Variable name "a" doesn't conform to snake_case namin
 resevation.py:43:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 resevation.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
 
---------------------------------------------------------------------
-Your code has been rated at 7.58/10 (previous run: -3.71/10, +11.29)
+------------------------------------------------------------------
+Your code has been rated at 7.58/10 (previous run: 7.58/10, +0.00)
 
