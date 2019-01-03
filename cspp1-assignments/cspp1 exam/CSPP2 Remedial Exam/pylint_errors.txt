@@ -10,5 +10,5 @@ resevation.py:54:24: E0602: Undefined variable 'keys' (undefined-variable)
 resevation.py:1:0: R0912: Too many branches (16/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.95/10 (previous run: 8.16/10, -2.21)
+Your code has been rated at 5.95/10 (previous run: 5.95/10, +0.00)
 
