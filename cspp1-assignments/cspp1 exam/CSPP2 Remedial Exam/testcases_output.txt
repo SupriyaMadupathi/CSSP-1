@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -11,6 +11,7 @@ karan 3
 kalyani 4
 rajiv 5
 Your Output: 
+rehana 1
 rehana 1
 karan 3
 murthy 2
