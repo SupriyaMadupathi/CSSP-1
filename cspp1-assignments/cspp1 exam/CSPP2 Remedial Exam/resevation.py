@@ -16,7 +16,7 @@ def main():
                 print(data1[1], 1)
                 # count += 1
             else:
-                for  j in range(1, 6):
+                for  j in range(1, 7):
                     if  j not in dic.keys():
                         if j > 6:
                             print("All Rooms are reserved")

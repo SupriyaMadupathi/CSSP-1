@@ -41,11 +41,13 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
+swathi 6
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
 kumar 5
+swathi 6
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -67,12 +69,14 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
-Room is already reserved
+swathi 6
+All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
 kumar 5
+swathi 6
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
