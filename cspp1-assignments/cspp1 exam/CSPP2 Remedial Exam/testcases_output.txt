@@ -200,7 +200,7 @@ karthik 7
 manohar 8
 kumar 9
 ----------------------------------------
-########## Testcase 6: Passed ##########
+########## Testcase 6: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -241,7 +241,7 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
-kumar now has no reservations.
+kumar now has no reserva2tions.
 murthy 1
 kiran 2
 kalyani 3
@@ -258,7 +258,7 @@ swathi 5
 alekhya 6
 kumar 7
 ----------------------------------------
-########## Testcase 7: Passed ##########
+########## Testcase 7: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -305,7 +305,7 @@ kiran 2
 kalyani 3
 kumar 4
 kumar 5
-kumar now has no reservations.
+kumar now has no reserva2tions.
 murthy 1
 kiran 2
 kalyani 3

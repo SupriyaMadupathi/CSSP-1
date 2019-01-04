@@ -21,7 +21,6 @@ def main():
                 for  j in range(1, capacity+1):
                     if  j not in dic.keys():
                         # if j == capacity - 1:
-                            #
                             # break
                         dic[j] = data1[1]
                         # count += 1
@@ -53,8 +52,8 @@ def main():
             dic2 = dic.copy()
             for k,v in dic2.items():
                 if v == data1[1]:
-                    dic.pop(k,v)
-            print(data1[1], "now has no reservations.")
+                    dic.pop(k)
+            print(data1[1], "now has no reserva2tions.")
 
             
     # for a in dic:
