@@ -50,9 +50,9 @@ def main():
                 print(dic[x], x)
         if data1[0] == "cancel":
             dic2 = dic.copy()
-            for v in dic2.values():
+            for k,v in dic2.items():
                 if v == data1[1]:
-                    dic.pop(v)
+                    dic.pop(k, v)
             print(data1[1], "now has no reservations.")
 
             
