@@ -241,10 +241,11 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
+{2: 'kiran', 1: 'murthy', 3: 'kalyani', 4: 'kumar', 5: 'swathi'}
 Traceback (most recent call last):
-  File "resevation.py", line 70, in <module>
+  File "resevation.py", line 71, in <module>
     main()
-  File "resevation.py", line 55, in main
+  File "resevation.py", line 56, in main
     dic.pop(v)
 KeyError: 'kumar'
 ----------------------------------------
@@ -295,10 +296,11 @@ kiran 2
 kalyani 3
 kumar 4
 kumar 5
+{2: 'kiran', 1: 'murthy', 3: 'kalyani', 4: 'kumar', 5: 'kumar'}
 Traceback (most recent call last):
-  File "resevation.py", line 70, in <module>
+  File "resevation.py", line 71, in <module>
     main()
-  File "resevation.py", line 55, in main
+  File "resevation.py", line 56, in main
     dic.pop(v)
 KeyError: 'kumar'
 ----------------------------------------

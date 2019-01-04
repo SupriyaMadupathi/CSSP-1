@@ -50,6 +50,7 @@ def main():
                 print(dic[x], x)
         if data1[0] == "cancel":
             dic2 = dic.copy()
+            print(dic2)
             for v in dic2.values():
                 if v == data1[1]:
                     dic.pop(v)
