@@ -52,7 +52,7 @@ def main():
             dic2 = dic.copy()
             for k,v in dic2.items():
                 if v == data1[1]:
-                    dic.pop(k)
+                    dic.pop(k, v)
             print(data1[1], "now has no reserva2tions.")
 
             
