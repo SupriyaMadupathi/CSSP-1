@@ -1,6 +1,6 @@
 ************* Module resevation
 resevation.py:53:17: C0326: Exactly one space required after comma
-            for k,v in dic2.items():
+            for k,v in dic2.values():
                  ^ (bad-whitespace)
 resevation.py:58:0: C0303: Trailing whitespace (trailing-whitespace)
 resevation.py:67:0: C0303: Trailing whitespace (trailing-whitespace)
