@@ -53,7 +53,7 @@ def main():
             for k,v in dic2.items():
                 if v == data1[1]:
                     dic.pop(k, v)
-            print(data1[1], "now has no reserva2tions.")
+            print(data1[1], "now has no reservations.")
 
             
     # for a in dic:
