@@ -3,14 +3,24 @@ Expected Output:
 76.8
 6
 Your Output: 
-9
+Traceback (most recent call last):
+  File "week2.py", line 25, in <module>
+    main()
+  File "week2.py", line 8, in main
+    summ = summ + data(each)
+TypeError: 'list' object is not callable
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
-10
+Traceback (most recent call last):
+  File "week2.py", line 25, in <module>
+    main()
+  File "week2.py", line 10, in main
+    summ = summ +each
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -18,18 +28,23 @@ Expected Output:
 6
 Your Output: 
 Traceback (most recent call last):
-  File "week2.py", line 21, in <module>
+  File "week2.py", line 25, in <module>
     main()
-  File "week2.py", line 7, in main
-    for i1 in range(len(data[1])-1):
-IndexError: list index out of range
+  File "week2.py", line 8, in main
+    summ = summ + data(each)
+TypeError: 'list' object is not callable
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
 5
 4
 Your Output: 
-1
+Traceback (most recent call last):
+  File "week2.py", line 25, in <module>
+    main()
+  File "week2.py", line 8, in main
+    summ = summ + data(each)
+TypeError: 'list' object is not callable
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -37,11 +52,11 @@ Expected Output:
 8
 Your Output: 
 Traceback (most recent call last):
-  File "week2.py", line 21, in <module>
+  File "week2.py", line 25, in <module>
     main()
-  File "week2.py", line 7, in main
-    for i1 in range(len(data[1])-1):
-IndexError: list index out of range
+  File "week2.py", line 8, in main
+    summ = summ + data(each)
+TypeError: 'list' object is not callable
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -49,9 +64,9 @@ Expected Output:
 10
 Your Output: 
 Traceback (most recent call last):
-  File "week2.py", line 21, in <module>
+  File "week2.py", line 25, in <module>
     main()
-  File "week2.py", line 7, in main
-    for i1 in range(len(data[1])-1):
-TypeError: object of type 'int' has no len()
+  File "week2.py", line 8, in main
+    summ = summ + data(each)
+TypeError: 'list' object is not callable
 ----------------------------------------

@@ -3,17 +3,20 @@ week2.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 week2.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:17:21: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:21:0: C0304: Final newline missing (missing-final-newline)
-week2.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:7:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+week2.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:21:21: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:25:0: C0304: Final newline missing (missing-final-newline)
+week2.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
 week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:8: W0123: Use of eval (eval-used)
-week2.py:7:6: C0103: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
-week2.py:7:6: W0612: Unused variable 'i1' (unused-variable)
+week2.py:7:6: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.56/10 (previous run: -5.56/10, +0.00)
+Your code has been rated at -7.00/10 (previous run: -5.56/10, -1.44)
 
