@@ -1,48 +1,90 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 76.8
 6
 Your Output: 
 76.8
-6
+Traceback (most recent call last):
+  File "week2.py", line 60, in <module>
+    main()
+  File "week2.py", line 28, in main
+    count(data)
+  File "week2.py", line 5, in count
+    s =''.join(data)
+TypeError: sequence item 0: expected str instance, list found
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
 5.5
-1
+Traceback (most recent call last):
+  File "week2.py", line 60, in <module>
+    main()
+  File "week2.py", line 28, in main
+    count(data)
+  File "week2.py", line 5, in count
+    s =''.join(data)
+TypeError: sequence item 3: expected str instance, int found
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 1
 6
 Your Output: 
 1
-6
+Traceback (most recent call last):
+  File "week2.py", line 60, in <module>
+    main()
+  File "week2.py", line 28, in main
+    count(data)
+  File "week2.py", line 5, in count
+    s =''.join(data)
+TypeError: sequence item 0: expected str instance, list found
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 5
 4
 Your Output: 
 5
-4
+Traceback (most recent call last):
+  File "week2.py", line 60, in <module>
+    main()
+  File "week2.py", line 28, in main
+    count(data)
+  File "week2.py", line 5, in count
+    s =''.join(data)
+TypeError: sequence item 0: expected str instance, int found
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 0
 8
 Your Output: 
 0
-8
+Traceback (most recent call last):
+  File "week2.py", line 60, in <module>
+    main()
+  File "week2.py", line 28, in main
+    count(data)
+  File "week2.py", line 5, in count
+    s =''.join(data)
+TypeError: sequence item 0: expected str instance, list found
 ----------------------------------------
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 5654134.9
 10
 Your Output: 
 5654134.9
-10
+Traceback (most recent call last):
+  File "week2.py", line 60, in <module>
+    main()
+  File "week2.py", line 28, in main
+    count(data)
+  File "week2.py", line 5, in count
+    s =''.join(data)
+TypeError: sequence item 0: expected str instance, list found
 ----------------------------------------

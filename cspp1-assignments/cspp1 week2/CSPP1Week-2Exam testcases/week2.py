@@ -2,7 +2,7 @@
 def count(data):
     c = 0
     s = ""
-    s =''.join(str(e) for e in data)
+    s =''.join(data)
     for i in range(len(s)):
         if s[i] == "[":
             c += 1
