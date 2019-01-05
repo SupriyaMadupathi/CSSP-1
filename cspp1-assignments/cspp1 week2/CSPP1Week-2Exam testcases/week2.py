@@ -1,15 +1,16 @@
-def nested_sum(a) :
+# 
+def add_all(t):
     total = 0
-    for item in a :
-        try:
-            if str != type(item):
-                total += item
-        except TypeError:
-            total += nested_sum(item)
-    print(total)
+    for i in t:
+        if type(i) == list: # check whether i is list or not
+            total = total + add_all(i)
+        else:
+            total += i
+    return total
+
 def main():
     data = eval(input())
-    nested_sum(data)
+    add_all(data)
     # summ = 0
     # li = []
     # x =list(sum(data, []))

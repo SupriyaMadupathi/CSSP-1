@@ -3,258 +3,58 @@ Expected Output:
 76.8
 6
 Your Output: 
-6
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
 
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 44, in <module>
-    main()
-  File "week2.py", line 12, in main
-    nested_sum(data)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
-3.5
 Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 44, in <module>
+  File "week2.py", line 45, in <module>
     main()
-  File "week2.py", line 12, in main
-    nested_sum(data)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+  File "week2.py", line 13, in main
+    add_all(data)
+  File "week2.py", line 8, in add_all
+    total += i
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 1
 6
 Your Output: 
-1
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
 
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 44, in <module>
-    main()
-  File "week2.py", line 12, in main
-    nested_sum(data)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  [Previous line repeated 2 more times]
-TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
 5
 4
 Your Output: 
-1
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
 
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 44, in <module>
-    main()
-  File "week2.py", line 12, in main
-    nested_sum(data)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
 0
 8
 Your Output: 
-0
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
 
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 44, in <module>
-    main()
-  File "week2.py", line 12, in main
-    nested_sum(data)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  [Previous line repeated 4 more times]
-TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 5654134.9
 10
 Your Output: 
--618
 Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 6, in nested_sum
-    total += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'list'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "week2.py", line 44, in <module>
+  File "week2.py", line 45, in <module>
     main()
-  File "week2.py", line 12, in main
-    nested_sum(data)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-  File "week2.py", line 8, in nested_sum
-    total += nested_sum(item)
-TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+  File "week2.py", line 13, in main
+    add_all(data)
+  File "week2.py", line 6, in add_all
+    total = total + add_all(i)
+  File "week2.py", line 6, in add_all
+    total = total + add_all(i)
+  File "week2.py", line 8, in add_all
+    total += i
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
