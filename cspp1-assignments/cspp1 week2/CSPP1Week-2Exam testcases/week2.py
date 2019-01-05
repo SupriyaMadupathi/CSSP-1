@@ -4,9 +4,9 @@ def main():
 	# li = []
 	# li.append(data)
 	for each in range(len(data)):
-		if (type(each) == type([])):
-			summ = summ + data(each)
-		else:
+		# if (type(each) == type([])):
+			# summ = summ + data(each)
+		# else:
 			summ = summ +each
 		
 			# for i2 in range(len(data))
