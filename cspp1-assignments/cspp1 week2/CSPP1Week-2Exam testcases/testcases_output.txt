@@ -11,11 +11,11 @@ Expected Output:
 1
 Your Output: 
 Traceback (most recent call last):
-  File "week2.py", line 49, in <module>
+  File "week2.py", line 51, in <module>
     main()
-  File "week2.py", line 17, in main
+  File "week2.py", line 19, in main
     nested_sum(data)
-  File "week2.py", line 12, in nested_sum
+  File "week2.py", line 14, in nested_sum
     result += item
 TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
@@ -46,11 +46,11 @@ Expected Output:
 10
 Your Output: 
 Traceback (most recent call last):
-  File "week2.py", line 49, in <module>
+  File "week2.py", line 51, in <module>
     main()
-  File "week2.py", line 17, in main
+  File "week2.py", line 19, in main
     nested_sum(data)
-  File "week2.py", line 12, in nested_sum
+  File "week2.py", line 14, in nested_sum
     result += item
 TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------

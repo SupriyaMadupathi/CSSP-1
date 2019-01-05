@@ -8,6 +8,8 @@ def nested_sum(seq):
         if isinstance(item, list):
             for x in item:
                 li.append(x)
+        elif str != type(item):
+            result += item
         else:
             result += item
     print(result)
