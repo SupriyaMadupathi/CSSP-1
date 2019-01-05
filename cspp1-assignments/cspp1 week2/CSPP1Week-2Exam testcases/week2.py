@@ -10,7 +10,7 @@ def nested_sum(seq):
                 stack.append(e)
         else:
             result += item
-    return result
+    print(result)
 
 def main():
     data = eval(input())
