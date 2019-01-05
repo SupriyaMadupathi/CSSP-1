@@ -3,70 +3,40 @@ Expected Output:
 76.8
 6
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 25, in <module>
-    main()
-  File "week2.py", line 8, in main
-    summ = summ + data(each)
-TypeError: 'list' object is not callable
+3
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 25, in <module>
-    main()
-  File "week2.py", line 10, in main
-    summ = summ +each
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+10
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 1
 6
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 25, in <module>
-    main()
-  File "week2.py", line 8, in main
-    summ = summ + data(each)
-TypeError: 'list' object is not callable
+0
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
 5
 4
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 25, in <module>
-    main()
-  File "week2.py", line 8, in main
-    summ = summ + data(each)
-TypeError: 'list' object is not callable
+1
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
 0
 8
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 25, in <module>
-    main()
-  File "week2.py", line 8, in main
-    summ = summ + data(each)
-TypeError: 'list' object is not callable
+0
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 5654134.9
 10
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 25, in <module>
-    main()
-  File "week2.py", line 8, in main
-    summ = summ + data(each)
-TypeError: 'list' object is not callable
+6
 ----------------------------------------

@@ -18,5 +18,5 @@ week2.py:2:8: W0123: Use of eval (eval-used)
 week2.py:7:6: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 
 --------------------------------------------------------------------
-Your code has been rated at -7.00/10 (previous run: -5.56/10, -1.44)
+Your code has been rated at -7.00/10 (previous run: -7.00/10, +0.00)
 

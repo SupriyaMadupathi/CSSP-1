@@ -3,7 +3,7 @@ def main():
 	summ = 0
 	# li = []
 	# li.append(data)
-	for each in data:
+	for each in range(len(data)):
 		if (type(each) == type([])):
 			summ = summ + data(each)
 		else:
