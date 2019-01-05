@@ -4,7 +4,7 @@ def main():
 	# li = []
 	# li.append(data)
 	for each in range(len(data)):
-		for i1 in range(len(data[1])):
+		for i1 in range(len(data[1])-1):
 			# for i2 in range(len(data))
 
 		# if type(each) == list:
