@@ -2,22 +2,18 @@
 week2.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:27:21: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:31:0: C0304: Final newline missing (missing-final-newline)
-week2.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:22:0: C0304: Final newline missing (missing-final-newline)
+week2.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
 week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:8: W0123: Use of eval (eval-used)
-week2.py:6:6: C0103: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
-week2.py:7:7: C0103: Variable name "i2" doesn't conform to snake_case naming style (invalid-name)
-week2.py:6:6: W0612: Unused variable 'i1' (unused-variable)
-week2.py:7:7: W0612: Unused variable 'i2' (unused-variable)
+week2.py:5:1: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -8.00/10 (previous run: -8.00/10, +0.00)
+Your code has been rated at -4.00/10 (previous run: -8.00/10, +4.00)
 
