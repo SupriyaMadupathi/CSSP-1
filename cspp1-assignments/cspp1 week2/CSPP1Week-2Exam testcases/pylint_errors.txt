@@ -18,6 +18,6 @@ week2.py:7:7: C0103: Variable name "i2" doesn't conform to snake_case naming sty
 week2.py:6:6: W0612: Unused variable 'i1' (unused-variable)
 week2.py:7:7: W0612: Unused variable 'i2' (unused-variable)
 
----------------------------------------------------------------------
-Your code has been rated at -8.00/10 (previous run: -13.00/10, +5.00)
+--------------------------------------------------------------------
+Your code has been rated at -8.00/10 (previous run: -8.00/10, +0.00)
 

@@ -3,8 +3,8 @@ def main():
 	summ = 0
 	# li.append(data)
 	for each in range(len(data)):
-		for i1 in range(len(data[0])):
-			for i2 in range(len(data[1])):
+		for i1 in range(data[0]):
+			for i2 in range(data[1]):
 		# li =[]
 		# if (type(each) == type([])):
 		 	# remove(each)
