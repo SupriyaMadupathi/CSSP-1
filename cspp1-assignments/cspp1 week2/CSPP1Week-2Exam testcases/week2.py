@@ -8,7 +8,7 @@ def main():
 		# if type(i) == list:
 			summ += each
 			count += 1
-			avg = summ/count
+			avg = summ//count
 		# else:
 			# summ += i
 	# print(summ)
