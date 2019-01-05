@@ -10,8 +10,7 @@ def nested_sum(data):
                 li.append(x)
         elif str != type(item):
             summ += item
-        else:
-            summ += item
+        
     print(summ)
 
 def main():
