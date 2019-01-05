@@ -1,16 +1,20 @@
 # 
-def add_all(t):
-    total = 0
-    for i in t:
-        if type(i) == list: # check whether i is list or not
-            total = total + add_all(i)
+def nested_sum(seq):
+    stack = []
+    stack.append(seq)
+    result = 0
+    while stack:
+        item = stack.pop()
+        if isinstance(item, list):
+            for e in item:
+                stack.append(e)
         else:
-            total += i
-    return total
+            result += item
+    return result
 
 def main():
     data = eval(input())
-    add_all(data)
+    nested_sum(data)
     # summ = 0
     # li = []
     # x =list(sum(data, []))

@@ -1,14 +1,13 @@
 ************* Module week2
 week2.py:1:1: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:45:0: C0304: Final newline missing (missing-final-newline)
+week2.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:49:0: C0304: Final newline missing (missing-final-newline)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
-week2.py:2:0: C0103: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
 week2.py:2:0: C0111: Missing function docstring (missing-docstring)
-week2.py:5:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
-week2.py:11:0: C0111: Missing function docstring (missing-docstring)
-week2.py:12:11: W0123: Use of eval (eval-used)
+week2.py:9:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+week2.py:15:0: C0111: Missing function docstring (missing-docstring)
+week2.py:16:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.50/10 (previous run: 3.57/10, -1.07)
+Your code has been rated at 5.00/10 (previous run: 2.50/10, +2.50)
 
