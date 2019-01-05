@@ -3,12 +3,12 @@ def main():
 	summ = 0
 	# li = []
 	# li.append(data)
-	for i in range(len(data)):
+	for each in range(len(data)):
 		# if type(i) == list:
-			summ += i
+			summ += each
 		# else:
 			# summ += i
-	print(summ)
+			print(summ)
 	# for each in data:
 	# 	summ += int(each) 
 	# 	print(summ)

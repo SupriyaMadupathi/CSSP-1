@@ -12,5 +12,5 @@ week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:8: W0123: Use of eval (eval-used)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.75/10 (previous run: -4.55/10, +0.80)
+Your code has been rated at -3.75/10 (previous run: -3.75/10, +0.00)
 
