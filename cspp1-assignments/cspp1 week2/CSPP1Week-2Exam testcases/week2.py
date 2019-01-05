@@ -5,7 +5,7 @@ def nested_sum(data):
     summ = 0
     while li:
         item = li.pop()
-        if (item, list):
+        if isinstance(item, list):
             for x in item:
                 li.append(x)
         elif str != type(item):
