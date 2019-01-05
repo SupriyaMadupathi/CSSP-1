@@ -5,7 +5,7 @@ week2.py:51:0: C0304: Final newline missing (missing-final-newline)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
 week2.py:2:0: C0111: Missing function docstring (missing-docstring)
 week2.py:3:4: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
-week2.py:11:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+week2.py:9:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 week2.py:17:0: C0111: Missing function docstring (missing-docstring)
 week2.py:18:11: W0123: Use of eval (eval-used)
 
