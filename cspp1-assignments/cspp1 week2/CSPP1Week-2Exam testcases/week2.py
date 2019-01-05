@@ -5,7 +5,8 @@ def main():
 	# li.append(data)
 	for each in range(len(data)):
 		# if type(i) == list:
-			summ += each
+		print("hi")
+		summ += each
 			# summ += i
 	print(summ)
 	# print(avg)
