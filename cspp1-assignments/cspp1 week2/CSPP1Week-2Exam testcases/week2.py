@@ -1,13 +1,13 @@
 # 
 def nested_sum(seq):
-    stack = []
-    stack.append(seq)
+    li = []
+    li.append(seq)
     result = 0
-    while stack:
-        item = stack.pop()
+    while li:
+        item = li.pop()
         if isinstance(item, list):
-            for e in item:
-                stack.append(e)
+            for x in item:
+                li.append(x)
         else:
             result += item
     print(result)
