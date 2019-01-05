@@ -4,6 +4,7 @@ def main():
 	# li.append(data)
 	for each in range(len(data)):
 		for i1 in range(len(data[0])):
+			for i2 in range(lenO(data[1])):
 		# li =[]
 		# if (type(each) == type([])):
 		 	# remove(each)
@@ -12,7 +13,7 @@ def main():
 
 			# summ = summ + data(each)
 		# else:
-			summ = summ +each
+				summ = summ +each
 		
 			# for i2 in range(len(data))
 

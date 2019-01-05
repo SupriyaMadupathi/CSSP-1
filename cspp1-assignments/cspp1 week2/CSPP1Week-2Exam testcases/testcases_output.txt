@@ -3,21 +3,36 @@ Expected Output:
 76.8
 6
 Your Output: 
-9
+Traceback (most recent call last):
+  File "week2.py", line 31, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i2 in range(lenO(data[1])):
+NameError: name 'lenO' is not defined
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
-20
+Traceback (most recent call last):
+  File "week2.py", line 31, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i2 in range(lenO(data[1])):
+NameError: name 'lenO' is not defined
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 1
 6
 Your Output: 
-0
+Traceback (most recent call last):
+  File "week2.py", line 31, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i2 in range(lenO(data[1])):
+NameError: name 'lenO' is not defined
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -25,7 +40,7 @@ Expected Output:
 4
 Your Output: 
 Traceback (most recent call last):
-  File "week2.py", line 30, in <module>
+  File "week2.py", line 31, in <module>
     main()
   File "week2.py", line 6, in main
     for i1 in range(len(data[0])):
@@ -36,12 +51,22 @@ Expected Output:
 0
 8
 Your Output: 
-0
+Traceback (most recent call last):
+  File "week2.py", line 31, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i2 in range(lenO(data[1])):
+NameError: name 'lenO' is not defined
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 5654134.9
 10
 Your Output: 
-54
+Traceback (most recent call last):
+  File "week2.py", line 31, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i2 in range(lenO(data[1])):
+NameError: name 'lenO' is not defined
 ----------------------------------------
