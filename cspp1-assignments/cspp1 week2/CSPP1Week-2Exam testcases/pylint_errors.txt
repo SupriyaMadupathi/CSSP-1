@@ -15,6 +15,6 @@ week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:4:1: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
 week2.py:7:5: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 
-------------------------------------
-Your code has been rated at -3.64/10
+--------------------------------------------------------------------
+Your code has been rated at -3.64/10 (previous run: -3.64/10, +0.00)
 

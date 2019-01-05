@@ -6,7 +6,7 @@ def main():
 	for each in range(len(li)):
 		if type(each) == list:
 			summ += each
-			print(summ)
+	print(summ)
 	# for each in data:
 	# 	summ += int(each) 
 	# 	print(summ)
