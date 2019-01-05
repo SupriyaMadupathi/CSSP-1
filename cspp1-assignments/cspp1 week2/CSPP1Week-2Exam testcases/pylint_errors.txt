@@ -1,15 +1,18 @@
 ************* Module week2
-week2.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:40:0: C0304: Final newline missing (missing-final-newline)
+week2.py:1:18: C0326: No space allowed before :
+def nested_sum(a) :
+                  ^ (bad-whitespace)
+week2.py:3:18: C0326: No space allowed before :
+    for item in a :
+                  ^ (bad-whitespace)
+week2.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:44:0: C0304: Final newline missing (missing-final-newline)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
-week2.py:1:0: W0622: Redefining built-in 'sum' (redefined-builtin)
-week2.py:1:0: C0103: Argument name "numList" doesn't conform to snake_case naming style (invalid-name)
+week2.py:1:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
 week2.py:1:0: C0111: Missing function docstring (missing-docstring)
-week2.py:2:4: C0103: Variable name "theSum" doesn't conform to snake_case naming style (invalid-name)
-week2.py:4:8: C0103: Variable name "theSum" doesn't conform to snake_case naming style (invalid-name)
-week2.py:6:0: C0111: Missing function docstring (missing-docstring)
-week2.py:7:11: W0123: Use of eval (eval-used)
+week2.py:10:0: C0111: Missing function docstring (missing-docstring)
+week2.py:11:11: W0123: Use of eval (eval-used)
 
--------------------------------------------------------------------
-Your code has been rated at 0.00/10 (previous run: -4.00/10, +4.00)
+------------------------------------------------------------------
+Your code has been rated at 3.57/10 (previous run: 0.00/10, +3.57)
 

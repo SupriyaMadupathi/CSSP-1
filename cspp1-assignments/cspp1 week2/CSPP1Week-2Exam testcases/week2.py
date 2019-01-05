@@ -1,11 +1,15 @@
-def sum(numList):
-    theSum = 0
-    for i in numList:
-        theSum = theSum + i
-    return theSum
+def nested_sum(a) :
+    total = 0
+    for item in a :
+        try:
+            if str != type(item):
+                total += item
+        except TypeError:
+            total += nested_sum(item)
+    print(total)
 def main():
     data = eval(input())
-    sum(data)
+    nested_sum(data)
     # summ = 0
     # li = []
     # x =list(sum(data, []))
