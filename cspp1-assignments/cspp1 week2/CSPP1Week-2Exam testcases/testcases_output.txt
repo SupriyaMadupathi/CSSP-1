@@ -3,14 +3,14 @@ Expected Output:
 76.8
 6
 Your Output: 
-3
+9
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
-10
+20
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -24,7 +24,12 @@ Expected Output:
 5
 4
 Your Output: 
-1
+Traceback (most recent call last):
+  File "week2.py", line 30, in <module>
+    main()
+  File "week2.py", line 6, in main
+    for i1 in range(len(data[0])):
+TypeError: object of type 'int' has no len()
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -38,5 +43,5 @@ Expected Output:
 5654134.9
 10
 Your Output: 
-6
+54
 ----------------------------------------

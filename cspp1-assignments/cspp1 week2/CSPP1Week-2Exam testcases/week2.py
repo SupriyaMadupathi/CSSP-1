@@ -1,10 +1,15 @@
 def main():
 	data = eval(input())
 	summ = 0
-	# li = []
 	# li.append(data)
 	for each in range(len(data)):
+		for i1 in range(len(data[0])):
+		# li =[]
 		# if (type(each) == type([])):
+		 	# remove(each)
+		# else:
+
+
 			# summ = summ + data(each)
 		# else:
 			summ = summ +each
