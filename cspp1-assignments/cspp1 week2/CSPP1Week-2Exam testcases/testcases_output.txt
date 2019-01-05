@@ -3,56 +3,55 @@ Expected Output:
 76.8
 6
 Your Output: 
-hi
-hi
-hi
-3
+12
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
-hi
-hi
-hi
-hi
-hi
-10
+20
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 1
 6
 Your Output: 
-hi
-0
+Traceback (most recent call last):
+  File "week2.py", line 21, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i1 in range(len(data[1])):
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
 5
 4
 Your Output: 
-hi
-hi
-1
+2
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
 0
 8
 Your Output: 
-hi
-0
+Traceback (most recent call last):
+  File "week2.py", line 21, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i1 in range(len(data[1])):
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 5654134.9
 10
 Your Output: 
-hi
-hi
-hi
-hi
-6
+Traceback (most recent call last):
+  File "week2.py", line 21, in <module>
+    main()
+  File "week2.py", line 7, in main
+    for i1 in range(len(data[1])):
+TypeError: object of type 'int' has no len()
 ----------------------------------------

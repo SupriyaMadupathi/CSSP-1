@@ -4,9 +4,12 @@ def main():
 	# li = []
 	# li.append(data)
 	for each in range(len(data)):
-		# if type(i) == list:
-		print("hi")
-		summ += each
+		for i1 in range(len(data[1])):
+			# for i2 in range(len(data))
+
+		# if type(each) == list:
+		# print("hi")
+			summ += each
 			# summ += i
 	print(summ)
 	# print(avg)
