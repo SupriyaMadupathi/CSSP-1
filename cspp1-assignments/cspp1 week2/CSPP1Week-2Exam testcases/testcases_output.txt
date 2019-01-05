@@ -3,24 +3,14 @@ Expected Output:
 76.8
 6
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 31, in <module>
-    main()
-  File "week2.py", line 7, in main
-    for i2 in range(lenO(data[1])):
-NameError: name 'lenO' is not defined
+36
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
 5.5
 1
 Your Output: 
-Traceback (most recent call last):
-  File "week2.py", line 31, in <module>
-    main()
-  File "week2.py", line 7, in main
-    for i2 in range(lenO(data[1])):
-NameError: name 'lenO' is not defined
+40
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -31,8 +21,8 @@ Traceback (most recent call last):
   File "week2.py", line 31, in <module>
     main()
   File "week2.py", line 7, in main
-    for i2 in range(lenO(data[1])):
-NameError: name 'lenO' is not defined
+    for i2 in range(len(data[1])):
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -55,8 +45,8 @@ Traceback (most recent call last):
   File "week2.py", line 31, in <module>
     main()
   File "week2.py", line 7, in main
-    for i2 in range(lenO(data[1])):
-NameError: name 'lenO' is not defined
+    for i2 in range(len(data[1])):
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -67,6 +57,6 @@ Traceback (most recent call last):
   File "week2.py", line 31, in <module>
     main()
   File "week2.py", line 7, in main
-    for i2 in range(lenO(data[1])):
-NameError: name 'lenO' is not defined
+    for i2 in range(len(data[1])):
+TypeError: object of type 'int' has no len()
 ----------------------------------------

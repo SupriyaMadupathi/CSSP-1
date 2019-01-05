@@ -15,10 +15,9 @@ week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:8: W0123: Use of eval (eval-used)
 week2.py:6:6: C0103: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
 week2.py:7:7: C0103: Variable name "i2" doesn't conform to snake_case naming style (invalid-name)
-week2.py:7:19: E0602: Undefined variable 'lenO' (undefined-variable)
 week2.py:6:6: W0612: Unused variable 'i1' (unused-variable)
 week2.py:7:7: W0612: Unused variable 'i2' (unused-variable)
 
 ---------------------------------------------------------------------
-Your code has been rated at -13.00/10 (previous run: -6.67/10, -6.33)
+Your code has been rated at -8.00/10 (previous run: -13.00/10, +5.00)
 
