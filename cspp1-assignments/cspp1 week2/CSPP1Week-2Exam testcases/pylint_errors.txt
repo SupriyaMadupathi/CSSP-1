@@ -1,16 +1,19 @@
 ************* Module week2
 week2.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week2.py:13:21: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:17:0: C0304: Final newline missing (missing-final-newline)
-week2.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week2.py:17:21: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:21:0: C0304: Final newline missing (missing-final-newline)
+week2.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
 week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:8: W0123: Use of eval (eval-used)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.75/10 (previous run: -3.75/10, +0.00)
+Your code has been rated at -2.73/10 (previous run: -3.75/10, +1.02)
 
