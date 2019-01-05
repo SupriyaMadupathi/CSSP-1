@@ -13,8 +13,9 @@ week2.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-inden
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
 week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:4:1: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
+week2.py:6:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 week2.py:7:5: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.64/10 (previous run: -3.64/10, +0.00)
+Your code has been rated at -4.55/10 (previous run: -3.64/10, -0.91)
 

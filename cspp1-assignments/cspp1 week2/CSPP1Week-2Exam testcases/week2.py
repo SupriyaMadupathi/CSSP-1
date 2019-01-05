@@ -3,9 +3,9 @@ def main():
 	summ = 0
 	li = []
 	li.append(data)
-	for each in range(len(li)):
-		if type(each) == list:
-			summ += each
+	for i in range(len(li)):
+		if type(i) == list:
+			summ += li[i]
 	print(summ)
 	# for each in data:
 	# 	summ += int(each) 
