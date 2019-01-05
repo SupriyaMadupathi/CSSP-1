@@ -1,18 +1,18 @@
 # 
-def nested_sum(seq):
+def nested_sum(data):
     li = []
-    li.append(seq)
-    result = 0
+    li.append(data)
+    summ = 0
     while li:
         item = li.pop()
         if isinstance(item, list):
             for x in item:
                 li.append(x)
         elif str != type(item):
-            result += item
+            summ += item
         else:
-            result += item
-    print(result)
+            summ += item
+    print(summ)
 
 def main():
     data = eval(input())
