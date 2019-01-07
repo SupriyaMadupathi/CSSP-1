@@ -4,7 +4,7 @@ def depth(data):
     for i in data:
         if i == "[" :
             c += 1
-        elif i == "]":
+        if i == "]":
             li.append(i)
     print(li)
     print(c)
