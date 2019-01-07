@@ -1,7 +1,4 @@
 ************* Module week2
-week2.py:5:23: C0326: No space allowed before :
-        if each == "[" :
-                       ^ (bad-whitespace)
 week2.py:16:15: C0326: Exactly one space required around comparison
         if s[i]=="[":
                ^^ (bad-whitespace)
@@ -11,7 +8,7 @@ week2.py:70:0: C0304: Final newline missing (missing-final-newline)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
 week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-week2.py:3:4: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
+week2.py:5:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 week2.py:6:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
 week2.py:11:0: C0111: Missing function docstring (missing-docstring)
 week2.py:12:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
@@ -26,5 +23,5 @@ week2.py:34:0: C0111: Missing function docstring (missing-docstring)
 week2.py:35:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.32/10 (previous run: 4.32/10, +0.00)
+Your code has been rated at 3.94/10 (previous run: 4.32/10, -0.38)
 
