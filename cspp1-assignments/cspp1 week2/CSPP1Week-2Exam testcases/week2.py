@@ -1,3 +1,9 @@
+def depth(data):
+    c = 0
+    for i in data:
+        if type(i) == type([]):
+            c += 1
+    print(c)
 def count(data):
     c = 0
     s = " "
@@ -25,6 +31,7 @@ def main():
     data = eval(input())
     nested_sum(data)
     count(data)
+    depth(data)
     # summ = 0
     # li = []
     # x =list(sum(data, []))
