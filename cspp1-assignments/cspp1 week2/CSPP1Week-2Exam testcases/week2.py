@@ -12,7 +12,7 @@ def depth(data):
         if each == "]":
             li.append(c)
             break
-    print(c)
+    print(li)
 
 
 
@@ -25,7 +25,7 @@ def depth(data):
         # if each == "]":
             # li.append(c)
     # li.append(c)
-    print(c)
+    # print(c)
 def count(data):
     c = 0
     s = " "
