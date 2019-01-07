@@ -8,14 +8,7 @@ def depth(data):
             c += 1
         if s[i] == "]":
             li.append(c)
-            break
-        if s[i] == "[":
-            c += 1
-        if s[i] == "]":
-            li.append(c)
-            break
-        i =+1
-    print(li)
+    print(max(li)+1)
 
 
 
