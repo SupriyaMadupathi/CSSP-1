@@ -2,6 +2,8 @@
 week2.py:7:15: C0326: Exactly one space required around comparison
         if s[i]=="[":
                ^^ (bad-whitespace)
+week2.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
 week2.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
 week2.py:36:15: C0326: Exactly one space required around comparison
         if s[i]=="[":
@@ -31,5 +33,5 @@ week2.py:54:0: C0111: Missing function docstring (missing-docstring)
 week2.py:55:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.09/10 (previous run: 4.76/10, -0.67)
+Your code has been rated at 3.33/10 (previous run: 4.09/10, -0.76)
 
