@@ -5,7 +5,14 @@ Expected Output:
 Your Output: 
 76.8
 6
-7
+Traceback (most recent call last):
+  File "week2.py", line 84, in <module>
+    main()
+  File "week2.py", line 52, in main
+    depth(data)
+  File "week2.py", line 11, in depth
+    print((li)+1)
+TypeError: can only concatenate list (not "int") to list
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -14,7 +21,14 @@ Expected Output:
 Your Output: 
 5.5
 1
-2
+Traceback (most recent call last):
+  File "week2.py", line 84, in <module>
+    main()
+  File "week2.py", line 52, in main
+    depth(data)
+  File "week2.py", line 11, in depth
+    print((li)+1)
+TypeError: can only concatenate list (not "int") to list
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -23,7 +37,14 @@ Expected Output:
 Your Output: 
 1
 6
-7
+Traceback (most recent call last):
+  File "week2.py", line 84, in <module>
+    main()
+  File "week2.py", line 52, in main
+    depth(data)
+  File "week2.py", line 11, in depth
+    print((li)+1)
+TypeError: can only concatenate list (not "int") to list
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -32,7 +53,14 @@ Expected Output:
 Your Output: 
 5
 4
-5
+Traceback (most recent call last):
+  File "week2.py", line 84, in <module>
+    main()
+  File "week2.py", line 52, in main
+    depth(data)
+  File "week2.py", line 11, in depth
+    print((li)+1)
+TypeError: can only concatenate list (not "int") to list
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -41,7 +69,14 @@ Expected Output:
 Your Output: 
 0
 8
-9
+Traceback (most recent call last):
+  File "week2.py", line 84, in <module>
+    main()
+  File "week2.py", line 52, in main
+    depth(data)
+  File "week2.py", line 11, in depth
+    print((li)+1)
+TypeError: can only concatenate list (not "int") to list
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -50,5 +85,12 @@ Expected Output:
 Your Output: 
 5654134.9
 10
-11
+Traceback (most recent call last):
+  File "week2.py", line 84, in <module>
+    main()
+  File "week2.py", line 52, in main
+    depth(data)
+  File "week2.py", line 11, in depth
+    print((li)+1)
+TypeError: can only concatenate list (not "int") to list
 ----------------------------------------
