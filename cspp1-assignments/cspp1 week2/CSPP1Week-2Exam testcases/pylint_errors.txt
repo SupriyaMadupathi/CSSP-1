@@ -1,27 +1,28 @@
 ************* Module week2
-week2.py:16:15: C0326: Exactly one space required around comparison
+week2.py:17:15: C0326: Exactly one space required around comparison
         if s[i]=="[":
                ^^ (bad-whitespace)
-week2.py:31:0: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:67:0: C0303: Trailing whitespace (trailing-whitespace)
-week2.py:70:0: C0304: Final newline missing (missing-final-newline)
+week2.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
+week2.py:71:0: C0304: Final newline missing (missing-final-newline)
 week2.py:1:0: C0111: Missing module docstring (missing-docstring)
 week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-week2.py:5:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
-week2.py:6:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-week2.py:11:0: C0111: Missing function docstring (missing-docstring)
-week2.py:12:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-week2.py:13:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+week2.py:6:15: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+week2.py:7:16: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+week2.py:5:12: W0612: Unused variable 'i' (unused-variable)
+week2.py:12:0: C0111: Missing function docstring (missing-docstring)
+week2.py:13:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
 week2.py:14:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-week2.py:15:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-week2.py:17:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-week2.py:19:0: C0111: Missing function docstring (missing-docstring)
-week2.py:20:4: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
-week2.py:26:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-week2.py:34:0: C0111: Missing function docstring (missing-docstring)
-week2.py:35:11: W0123: Use of eval (eval-used)
+week2.py:15:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+week2.py:16:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+week2.py:18:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+week2.py:20:0: C0111: Missing function docstring (missing-docstring)
+week2.py:21:4: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
+week2.py:27:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+week2.py:35:0: C0111: Missing function docstring (missing-docstring)
+week2.py:36:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.94/10 (previous run: 4.32/10, -0.38)
+Your code has been rated at 3.82/10 (previous run: 3.94/10, -0.12)
 

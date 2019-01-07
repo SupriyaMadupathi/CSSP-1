@@ -2,8 +2,9 @@ def depth(data):
     c = 0
     # li = []
     for each in data:
-        if type(each) == type([]):
-            c += 1
+        for i in each:
+            if type(each) == type([]):
+                c += 1
         # if each == "]":
             # li.append(c)
     # li.append(c)
