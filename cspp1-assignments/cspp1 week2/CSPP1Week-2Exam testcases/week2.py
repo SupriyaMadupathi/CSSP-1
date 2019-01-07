@@ -3,7 +3,7 @@ def depth(data):
     for i in data:
         if type(i) == type([]):
             c += 1
-    print(c)
+        print(c)
 def count(data):
     c = 0
     s = " "
