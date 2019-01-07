@@ -1,10 +1,25 @@
 def depth(data):
     c = 0
-    # li = []
+    li = []
     for each in data:
-        # for i in :
-            if type(each) == type([]):
-                c += 1
+        if each == "[":
+            c += 1
+        if each == "]":
+            li.append(c)
+            break
+        if each == "[":
+            c += 1
+        if each == "]":
+            li.append(c)
+            break
+    print(li)
+
+
+    
+    # for each in data:
+    #     # for i in :
+    #         if type(each) == type([]):
+    #             c += 1
         # if each == "]":
             # li.append(c)
     # li.append(c)
