@@ -1,15 +1,17 @@
 def depth(data):
     c = 0
+    s = " "
     li = []
-    for each in data:
-        if each == "[":
+    s = " ".join(str(x) for x in data)
+    for i in range(len(s)):
+        if s[i]=="[":
             c += 1
-        if each == "]":
+        if s[i] == "]":
             li.append(c)
             break
-        if each == "[":
+        if s[i] == "[":
             c += 1
-        if each == "]":
+        if s[i] == "]":
             li.append(c)
             break
     print(li)
