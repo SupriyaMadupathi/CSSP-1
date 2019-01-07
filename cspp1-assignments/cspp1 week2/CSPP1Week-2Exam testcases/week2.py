@@ -3,7 +3,7 @@ def count(data):
     s = " "
     s = " ".join(str(x) for x in data)
     for i in range(len(s)):
-        if "[" in s:
+        if s[i]=="[":
             c += 1
     print(c)
 def nested_sum(data):

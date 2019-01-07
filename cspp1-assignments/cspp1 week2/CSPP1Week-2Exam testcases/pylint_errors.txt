@@ -1,4 +1,7 @@
 ************* Module week2
+week2.py:6:15: C0326: Exactly one space required around comparison
+        if s[i]=="[":
+               ^^ (bad-whitespace)
 week2.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
 week2.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
 week2.py:59:0: C0304: Final newline missing (missing-final-newline)
@@ -7,8 +10,8 @@ week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
 week2.py:3:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 week2.py:4:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+week2.py:5:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 week2.py:7:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-week2.py:5:8: W0612: Unused variable 'i' (unused-variable)
 week2.py:9:0: C0111: Missing function docstring (missing-docstring)
 week2.py:10:4: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
 week2.py:16:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
@@ -16,5 +19,5 @@ week2.py:24:0: C0111: Missing function docstring (missing-docstring)
 week2.py:25:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.23/10 (previous run: 4.23/10, +0.00)
+Your code has been rated at 3.85/10 (previous run: 4.23/10, -0.38)
 
