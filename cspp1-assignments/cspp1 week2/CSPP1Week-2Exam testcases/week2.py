@@ -1,5 +1,11 @@
-# def count(data):
-    
+def count(data):
+    c = 0
+    s = ""
+    s= " ".join(str(x) for x in data)
+    for i in s:
+        if "[" in s:
+            c += 1
+    print(c)
 def nested_sum(data):
     li = []
     li.append(data)
@@ -18,7 +24,7 @@ def nested_sum(data):
 def main():
     data = eval(input())
     nested_sum(data)
-    # count(data)
+    count(data)
     # summ = 0
     # li = []
     # x =list(sum(data, []))
