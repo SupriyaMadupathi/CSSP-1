@@ -1,10 +1,12 @@
 def depth(data):
     c = 0
+    li = []
     for i in data:
         if i == "[" :
             c += 1
         elif i == "]":
-            c += 1
+            li.append(i)
+    print(li)
     print(c)
 def count(data):
     c = 0
