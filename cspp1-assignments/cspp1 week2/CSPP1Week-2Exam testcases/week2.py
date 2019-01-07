@@ -14,6 +14,7 @@ def depth(data):
         if s[i] == "]":
             li.append(c)
             break
+        i =+1
     print(li)
 
 
