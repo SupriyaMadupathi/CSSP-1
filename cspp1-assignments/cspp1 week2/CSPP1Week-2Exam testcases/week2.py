@@ -5,7 +5,7 @@ def count(data):
     for i in s:
         if "[" in s:
             c += 1
-    print(c)
+        print(c)
 def nested_sum(data):
     li = []
     li.append(data)
