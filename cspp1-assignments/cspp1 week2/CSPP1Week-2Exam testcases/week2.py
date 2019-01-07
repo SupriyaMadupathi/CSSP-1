@@ -2,10 +2,10 @@ def count(data):
     c = 0
     s = ""
     s= " ".join(str(x) for x in data)
-    for i in s:
+    for i in range(len(s)):
         if "[" in s:
             c += 1
-        print(c)
+    print(c)
 def nested_sum(data):
     li = []
     li.append(data)
