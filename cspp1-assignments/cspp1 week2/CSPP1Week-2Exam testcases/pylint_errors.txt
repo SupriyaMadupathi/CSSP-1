@@ -1,7 +1,4 @@
 ************* Module week2
-week2.py:4:5: C0326: Exactly one space required before assignment
-    s= " ".join(str(x) for x in data)
-     ^ (bad-whitespace)
 week2.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
 week2.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
 week2.py:59:0: C0304: Final newline missing (missing-final-newline)
@@ -19,5 +16,5 @@ week2.py:24:0: C0111: Missing function docstring (missing-docstring)
 week2.py:25:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.85/10 (previous run: 3.85/10, +0.00)
+Your code has been rated at 4.23/10 (previous run: 3.85/10, +0.38)
 
