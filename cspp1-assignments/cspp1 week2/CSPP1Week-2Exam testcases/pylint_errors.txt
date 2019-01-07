@@ -1,4 +1,6 @@
 ************* Module week2
+week2.py:6:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+week2.py:7:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
 week2.py:17:15: C0326: Exactly one space required around comparison
         if s[i]=="[":
                ^^ (bad-whitespace)
@@ -10,7 +12,6 @@ week2.py:1:0: C0111: Missing function docstring (missing-docstring)
 week2.py:2:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
 week2.py:6:15: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 week2.py:7:16: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-week2.py:5:12: W0612: Unused variable 'i' (unused-variable)
 week2.py:12:0: C0111: Missing function docstring (missing-docstring)
 week2.py:13:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
 week2.py:14:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
@@ -24,5 +25,5 @@ week2.py:35:0: C0111: Missing function docstring (missing-docstring)
 week2.py:36:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.82/10 (previous run: 3.94/10, -0.12)
+Your code has been rated at 3.33/10 (previous run: 3.82/10, -0.49)
 

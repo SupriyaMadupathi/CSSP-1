@@ -5,7 +5,7 @@ Expected Output:
 Your Output: 
 76.8
 6
-11
+3
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -14,14 +14,7 @@ Expected Output:
 Your Output: 
 5.5
 1
-Traceback (most recent call last):
-  File "week2.py", line 71, in <module>
-    main()
-  File "week2.py", line 39, in main
-    depth(data)
-  File "week2.py", line 5, in depth
-    for i in each:
-TypeError: 'int' object is not iterable
+1
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -39,14 +32,7 @@ Expected Output:
 Your Output: 
 5
 4
-Traceback (most recent call last):
-  File "week2.py", line 71, in <module>
-    main()
-  File "week2.py", line 39, in main
-    depth(data)
-  File "week2.py", line 5, in depth
-    for i in each:
-TypeError: 'int' object is not iterable
+1
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -64,12 +50,5 @@ Expected Output:
 Your Output: 
 5654134.9
 10
-Traceback (most recent call last):
-  File "week2.py", line 71, in <module>
-    main()
-  File "week2.py", line 39, in main
-    depth(data)
-  File "week2.py", line 5, in depth
-    for i in each:
-TypeError: 'int' object is not iterable
+3
 ----------------------------------------

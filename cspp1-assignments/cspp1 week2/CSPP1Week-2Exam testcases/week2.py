@@ -2,7 +2,7 @@ def depth(data):
     c = 0
     # li = []
     for each in data:
-        for i in each:
+        # for i in :
             if type(each) == type([]):
                 c += 1
         # if each == "]":
