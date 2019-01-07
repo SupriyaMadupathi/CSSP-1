@@ -1,13 +1,13 @@
 def depth(data):
     c = 0
     li = []
-    for i in data:
-        if i == "[" :
+    for each in data:
+        if each == "[" :
             c += 1
-        if i == "]":
+        if each == "]":
             li.append(c)
-        print(li)
-        print(c)
+    print(li)
+    print(c)
 def count(data):
     c = 0
     s = " "

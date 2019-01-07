@@ -1,7 +1,7 @@
 ************* Module week2
-week2.py:5:20: C0326: No space allowed before :
-        if i == "[" :
-                    ^ (bad-whitespace)
+week2.py:5:23: C0326: No space allowed before :
+        if each == "[" :
+                       ^ (bad-whitespace)
 week2.py:16:15: C0326: Exactly one space required around comparison
         if s[i]=="[":
                ^^ (bad-whitespace)
