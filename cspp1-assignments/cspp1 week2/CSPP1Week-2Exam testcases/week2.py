@@ -6,8 +6,8 @@ def depth(data):
             c += 1
         if i == "]":
             li.append(c)
-    print(li)
-    print(c)
+        print(li)
+        print(c)
 def count(data):
     c = 0
     s = " "
