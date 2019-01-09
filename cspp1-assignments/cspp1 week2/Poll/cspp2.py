@@ -51,9 +51,9 @@ def main():
     res = []
     for each in survey:
         maximum = max(each.values())
-        if x in each:
-            if each[x] == maximum:
-                res.append(x)
+        for each1 in each:
+            if each[each1] == maximum:
+                res.append(each1)
     # print(Counter(survey))
     i = 0
     for key in dic:

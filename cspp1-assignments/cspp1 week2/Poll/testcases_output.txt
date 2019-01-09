@@ -2,12 +2,7 @@
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 Your Output: 
-Traceback (most recent call last):
-  File "cspp2.py", line 71, in <module>
-    main()
-  File "cspp2.py", line 60, in main
-    print("Highest number of votes for question : " + key + " : " + res[i])
-IndexError: list index out of range
+Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -15,12 +10,9 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 Highest number of votes for question : Who will be the next cm for Telangana? : KCR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
-Traceback (most recent call last):
-  File "cspp2.py", line 71, in <module>
-    main()
-  File "cspp2.py", line 60, in main
-    print("Highest number of votes for question : " + key + " : " + res[i])
-IndexError: list index out of range
+Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
+Highest number of votes for question : Who will be the next cm for Telangana? : NarendraModi
+Highest number of votes for question : Who will be the next cm for AP? : ManmohanSingh
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -28,10 +20,7 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 Highest number of votes for question : Who will be the next cm for Telangana? : KTR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
-Traceback (most recent call last):
-  File "cspp2.py", line 71, in <module>
-    main()
-  File "cspp2.py", line 60, in main
-    print("Highest number of votes for question : " + key + " : " + res[i])
-IndexError: list index out of range
+Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
+Highest number of votes for question : Who will be the next cm for Telangana? : NarendraModi
+Highest number of votes for question : Who will be the next cm for AP? : ManmohanSingh
 ----------------------------------------
