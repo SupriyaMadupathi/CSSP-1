@@ -55,13 +55,13 @@ choice 1     choice 2     choice 3     choice 4
 | Score Report |
 |--------------|
 question text 1
-Correct Answer! - Marks Awarded: 1
+ Correct Answer! - Marks Awarded: 1
 question text 2
-Correct Answer! - Marks Awarded: 2
+ Correct Answer! - Marks Awarded: 2
 question text 3
-Correct Answer! - Marks Awarded: 3
+ Correct Answer! - Marks Awarded: 3
 question text 4
-Correct Answer! - Marks Awarded: 4
+ Correct Answer! - Marks Awarded: 4
 Total Score:  10
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -187,7 +187,7 @@ choice 1     choice 2     choice 3     choice 4
 | Score Report |
 |--------------|
 question text 1
-Correct Answer! - Marks Awarded: 1
+ Correct Answer! - Marks Awarded: 1
 question text 2
  Wrong Answer! - Penalty: -4 -3
 question text 3
