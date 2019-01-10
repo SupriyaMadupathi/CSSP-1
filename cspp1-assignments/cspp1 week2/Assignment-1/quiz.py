@@ -35,13 +35,14 @@ def score(data):
     summ = 0
     for i in li:
         print(i[0])
-        if i[2]== i[5]:
-            print(" Correct Answer! - Marks Awarded:", i[3])
-            summ = summ+int(i[3])
-            # print(summ)
-        else:
-            print(" Wrong Answer! - Penalty:", i[4])
-            summ = summ + int(i[4])
+        if i[0] >= 1:
+            if i[2]== i[5]:
+                print(" Correct Answer! - Marks Awarded:", i[3])
+                summ = summ+int(i[3])
+                # print(summ)
+            else:
+                print(" Wrong Answer! - Penalty:", i[4])
+                summ = summ + int(i[4])
     print("Total Score:", summ)
 
 
