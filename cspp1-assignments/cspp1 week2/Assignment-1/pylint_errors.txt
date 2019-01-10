@@ -1,49 +1,49 @@
 ************* Module quiz
-quiz.py:24:23: C0326: Exactly one space required after comma
+quiz.py:28:23: C0326: Exactly one space required after comma
         print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                        ^ (bad-whitespace)
-quiz.py:24:29: C0326: Exactly one space required after comma
+quiz.py:28:29: C0326: Exactly one space required after comma
         print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                              ^ (bad-whitespace)
-quiz.py:24:39: C0326: Exactly one space required after comma
+quiz.py:28:39: C0326: Exactly one space required after comma
         print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                                        ^ (bad-whitespace)
-quiz.py:24:45: C0326: Exactly one space required after comma
+quiz.py:28:45: C0326: Exactly one space required after comma
         print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                                              ^ (bad-whitespace)
-quiz.py:24:55: C0326: Exactly one space required after comma
+quiz.py:28:55: C0326: Exactly one space required after comma
         print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                                                        ^ (bad-whitespace)
-quiz.py:24:61: C0326: Exactly one space required after comma
+quiz.py:28:61: C0326: Exactly one space required after comma
         print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                                                              ^ (bad-whitespace)
-quiz.py:31:15: C0326: Exactly one space required before comparison
+quiz.py:38:15: C0326: Exactly one space required before comparison
         if i[2]== i[5]:
                ^^ (bad-whitespace)
-quiz.py:44:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
-quiz.py:45:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
-quiz.py:48:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz.py:49:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz.py:50:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
-quiz.py:51:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz.py:52:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
-quiz.py:53:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz.py:54:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
-quiz.py:55:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+quiz.py:51:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+quiz.py:52:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+quiz.py:55:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
 quiz.py:56:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz.py:70:0: C0304: Final newline missing (missing-final-newline)
+quiz.py:57:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+quiz.py:58:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:59:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+quiz.py:60:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:61:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+quiz.py:62:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+quiz.py:63:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:77:0: C0304: Final newline missing (missing-final-newline)
 quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 quiz.py:1:0: C0103: Constant name "li" doesn't conform to UPPER_CASE naming style (invalid-name)
 quiz.py:2:0: C0111: Missing function docstring (missing-docstring)
-quiz.py:6:8: W0612: Unused variable 'i' (unused-variable)
-quiz.py:13:0: C0111: Missing function docstring (missing-docstring)
-quiz.py:18:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-quiz.py:17:4: W0612: Unused variable 'inp1' (unused-variable)
-quiz.py:27:0: C0111: Missing function docstring (missing-docstring)
-quiz.py:41:4: W0107: Unnecessary pass statement (unnecessary-pass)
-quiz.py:27:10: W0613: Unused argument 'data' (unused-argument)
-quiz.py:43:0: C0111: Missing function docstring (missing-docstring)
+quiz.py:8:8: W0612: Unused variable 'i' (unused-variable)
+quiz.py:15:0: C0111: Missing function docstring (missing-docstring)
+quiz.py:22:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+quiz.py:21:4: W0612: Unused variable 'inp1' (unused-variable)
+quiz.py:31:0: C0111: Missing function docstring (missing-docstring)
+quiz.py:48:4: W0107: Unnecessary pass statement (unnecessary-pass)
+quiz.py:31:10: W0613: Unused argument 'data' (unused-argument)
+quiz.py:50:0: C0111: Missing function docstring (missing-docstring)
 
------------------------------------
-Your code has been rated at 3.02/10
+------------------------------------------------------------------
+Your code has been rated at 4.00/10 (previous run: 3.02/10, +0.98)
 

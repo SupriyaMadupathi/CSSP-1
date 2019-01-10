@@ -1,6 +1,8 @@
 li = []
 def loadquestions(data):
-    print("Load Questions")
+    print("|----------------|")
+    print("| Load Questions |")
+    print("|----------------|")
     inp = int(data[1])
     # print(inp)
     for i in range(0, inp):
@@ -12,7 +14,9 @@ def loadquestions(data):
 
 def startquiz(data):
     # li = []
-    print("Start Quiz")
+    print("|------------|")
+    print("| Start Quiz |")
+    print("|------------|")
     # print("hi")
     inp1 = int(data[1])
     for x in li:
@@ -25,6 +29,9 @@ def startquiz(data):
 
     # print(inp1)
 def score(data):
+    print("|--------------|")
+    print("| Score Report |")
+    print("|--------------|")
     summ = 0
     for i in li:
         print(i[0])
