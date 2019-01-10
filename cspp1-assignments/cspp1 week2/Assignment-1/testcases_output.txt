@@ -61,8 +61,8 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: 'question text 1'
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -127,8 +127,8 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: 'question text 1'
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -193,8 +193,8 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: 'question text 1'
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -307,8 +307,8 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: 'question a'
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -349,10 +349,10 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: 'question text 1'
 ----------------------------------------
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -375,7 +375,6 @@ Quiz does not have questions
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -410,8 +409,8 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: 'question text 1'
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -446,8 +445,8 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: 'question text 1'
 ----------------------------------------
 ########## Testcase 8: Failed ##########
 Expected Output: 
@@ -608,6 +607,6 @@ Traceback (most recent call last):
   File "quiz.py", line 62, in main
     score(data)
   File "quiz.py", line 38, in score
-    if i[0] >= 1:
-TypeError: '>=' not supported between instances of 'str' and 'int'
+    if int(i[0]) >= 1:
+ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
