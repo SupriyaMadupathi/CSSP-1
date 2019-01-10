@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -35,7 +35,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -64,7 +64,7 @@ question text 4
  Correct Answer! - Marks Awarded: 4
 Total Score: 10
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -101,7 +101,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -130,7 +130,7 @@ question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -10
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -167,7 +167,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -322,7 +322,7 @@ question j
  Wrong Answer! - Penalty: 0
 Total Score: 0
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -344,7 +344,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -399,7 +399,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -436,7 +436,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -466,7 +466,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -502,7 +502,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -532,7 +532,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -562,7 +562,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
@@ -592,7 +592,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
