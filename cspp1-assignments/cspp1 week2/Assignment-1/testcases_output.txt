@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -35,6 +35,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -64,7 +68,7 @@ question text 4
  Correct Answer! - Marks Awarded: 4
 Total Score: 10
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -101,6 +105,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -130,7 +138,7 @@ question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -10
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -167,6 +175,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -263,6 +275,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
+Error! Malformed question
 10 are added to the quiz
 |------------|
 | Start Quiz |
@@ -322,7 +338,7 @@ question j
  Wrong Answer! - Penalty: 0
 Total Score: 0
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -344,6 +360,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -399,6 +416,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -412,11 +430,11 @@ choice 1	choice 2	choice 3	choice 4
 question text 1
  Wrong Answer! - Penalty: 
 Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
+  File "quiz.py", line 81, in <module>
     main()
-  File "quiz.py", line 62, in main
+  File "quiz.py", line 65, in main
     score(data)
-  File "quiz.py", line 45, in score
+  File "quiz.py", line 48, in score
     summ = summ + int(i[4])
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
@@ -436,6 +454,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -466,17 +485,18 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
 trick question (1)
 Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
+  File "quiz.py", line 81, in <module>
     main()
-  File "quiz.py", line 60, in main
+  File "quiz.py", line 63, in main
     startquiz(data)
-  File "quiz.py", line 28, in startquiz
+  File "quiz.py", line 31, in startquiz
     print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
@@ -502,17 +522,18 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
+  File "quiz.py", line 81, in <module>
     main()
-  File "quiz.py", line 60, in main
+  File "quiz.py", line 63, in main
     startquiz(data)
-  File "quiz.py", line 28, in startquiz
+  File "quiz.py", line 31, in startquiz
     print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
@@ -532,17 +553,18 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
 question about sony(-1)
 Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
+  File "quiz.py", line 81, in <module>
     main()
-  File "quiz.py", line 60, in main
+  File "quiz.py", line 63, in main
     startquiz(data)
-  File "quiz.py", line 28, in startquiz
+  File "quiz.py", line 31, in startquiz
     print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
@@ -562,17 +584,18 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
+  File "quiz.py", line 81, in <module>
     main()
-  File "quiz.py", line 60, in main
+  File "quiz.py", line 63, in main
     startquiz(data)
-  File "quiz.py", line 28, in startquiz
+  File "quiz.py", line 31, in startquiz
     print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
@@ -592,6 +615,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+Error! Malformed question
 1 are added to the quiz
 |------------|
 | Start Quiz |
