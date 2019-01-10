@@ -35,7 +35,7 @@ def score(data):
     summ = 0
     for i in li:
         print(i[0])
-        # if int(i[0]) >= 1:Quiz does not have questions
+        # if int(i[0]) >= 1:
         if i[2]== i[5]:
             print(" Correct Answer! - Marks Awarded:", i[3])
             summ = summ+int(i[3])
