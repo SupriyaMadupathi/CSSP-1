@@ -27,5 +27,5 @@ quiz.py:31:10: W0613: Unused argument 'data' (unused-argument)
 quiz.py:50:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+Your code has been rated at 5.10/10 (previous run: 5.00/10, +0.10)
 

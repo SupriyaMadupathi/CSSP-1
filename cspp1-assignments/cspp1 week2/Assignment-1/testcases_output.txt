@@ -322,7 +322,7 @@ question j
  Wrong Answer! - Penalty: 0
 Total Score: 0
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -344,7 +344,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -374,7 +373,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-0 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -399,7 +397,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -436,7 +433,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -466,7 +462,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -502,7 +497,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -532,7 +526,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -562,7 +555,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -592,7 +584,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|

@@ -7,8 +7,8 @@ def loadquestions(data):
     # print(inp)
     for i in range(0, inp):
         li.append(input().split(":"))
-    # if inp > 1:
-    print(inp, "are added to the quiz")
+    if inp > 1:
+        print(inp, "are added to the quiz")
     # else:
         # print("no questions are to be added")
 
