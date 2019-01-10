@@ -1,115 +1,49 @@
-************* Module 1
-1.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:6:19: C0326: Exactly one space required around comparison
-			if case_input[0]=="LOAD_QUESTIONS":
-                   ^^ (bad-whitespace)
-1.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:9:21: C0326: Exactly one space required around comparison
-			elif case_input[0]=="START_QUIZ":
-                     ^^ (bad-whitespace)
-1.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:22:17: C0326: Exactly one space required after comma
-	for i in range(0,questions_count):
-                 ^ (bad-whitespace)
-1.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:37:24: C0326: Exactly one space required after comma
-		print(questions_obj[0],"(",questions_obj[3],")")
-                        ^ (bad-whitespace)
-1.py:37:28: C0326: Exactly one space required after comma
-		print(questions_obj[0],"(",questions_obj[3],")")
-                            ^ (bad-whitespace)
-1.py:37:45: C0326: Exactly one space required after comma
-		print(questions_obj[0],"(",questions_obj[3],")")
-                                             ^ (bad-whitespace)
-1.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:39:17: C0326: Exactly one space required after comma
-		print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
-                 ^ (bad-whitespace)
-1.py:39:23: C0326: Exactly one space required after comma
-		print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+************* Module quiz
+quiz.py:24:23: C0326: Exactly one space required after comma
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                        ^ (bad-whitespace)
-1.py:39:33: C0326: Exactly one space required after comma
-		print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
-                                 ^ (bad-whitespace)
-1.py:39:39: C0326: Exactly one space required after comma
-		print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+quiz.py:24:29: C0326: Exactly one space required after comma
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+                             ^ (bad-whitespace)
+quiz.py:24:39: C0326: Exactly one space required after comma
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                                        ^ (bad-whitespace)
-1.py:39:49: C0326: Exactly one space required after comma
-		print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
-                                                 ^ (bad-whitespace)
-1.py:39:55: C0326: Exactly one space required after comma
-		print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+quiz.py:24:45: C0326: Exactly one space required after comma
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+                                             ^ (bad-whitespace)
+quiz.py:24:55: C0326: Exactly one space required after comma
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
                                                        ^ (bad-whitespace)
-1.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:49:21: C0326: Exactly one space required around comparison
-		if questions_obj[2]==questions_obj[5]:
-                     ^^ (bad-whitespace)
-1.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:50:43: C0326: Exactly one space required after comma
-			print("correct Answer!- Marks Awarded: ",questions_obj[3])
-                                           ^ (bad-whitespace)
-1.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:51:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
-1.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:53:36: C0326: Exactly one space required after comma
-			print("wrong Answer! - Penalty: ",questions_obj[4])
-                                    ^ (bad-whitespace)
-1.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:54:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
-1.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-1.py:58:0: C0304: Final newline missing (missing-final-newline)
-1.py:1:0: C0103: Module name "1" doesn't conform to snake_case naming style (invalid-name)
-1.py:1:0: C0111: Missing module docstring (missing-docstring)
-1.py:1:0: C0111: Missing function docstring (missing-docstring)
-1.py:8:4: W0107: Unnecessary pass statement (unnecessary-pass)
-1.py:11:4: W0107: Unnecessary pass statement (unnecessary-pass)
-1.py:14:4: W0107: Unnecessary pass statement (unnecessary-pass)
-1.py:18:0: C0103: Constant name "questions_objects" doesn't conform to UPPER_CASE naming style (invalid-name)
-1.py:19:0: C0111: Missing function docstring (missing-docstring)
-1.py:22:5: W0612: Unused variable 'i' (unused-variable)
-1.py:30:0: C0111: Missing function docstring (missing-docstring)
-1.py:42:1: W0107: Unnecessary pass statement (unnecessary-pass)
-1.py:32:1: W0612: Unused variable 'choice_count' (unused-variable)
-1.py:44:0: C0111: Missing function docstring (missing-docstring)
-1.py:46:1: C0103: Variable name "totalScore" doesn't conform to snake_case naming style (invalid-name)
-1.py:47:5: R1704: Redefining argument with the local name 'questions_obj' (redefined-argument-from-local)
-1.py:51:3: C0103: Variable name "totalScore" doesn't conform to snake_case naming style (invalid-name)
-1.py:54:3: C0103: Variable name "totalScore" doesn't conform to snake_case naming style (invalid-name)
-1.py:56:1: W0107: Unnecessary pass statement (unnecessary-pass)
+quiz.py:24:61: C0326: Exactly one space required after comma
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+                                                             ^ (bad-whitespace)
+quiz.py:31:15: C0326: Exactly one space required before comparison
+        if i[2]== i[5]:
+               ^^ (bad-whitespace)
+quiz.py:44:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+quiz.py:45:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+quiz.py:48:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:49:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:50:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+quiz.py:51:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:52:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+quiz.py:53:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:54:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+quiz.py:55:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+quiz.py:56:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz.py:70:0: C0304: Final newline missing (missing-final-newline)
+quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
+quiz.py:1:0: C0103: Constant name "li" doesn't conform to UPPER_CASE naming style (invalid-name)
+quiz.py:2:0: C0111: Missing function docstring (missing-docstring)
+quiz.py:6:8: W0612: Unused variable 'i' (unused-variable)
+quiz.py:13:0: C0111: Missing function docstring (missing-docstring)
+quiz.py:18:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+quiz.py:17:4: W0612: Unused variable 'inp1' (unused-variable)
+quiz.py:27:0: C0111: Missing function docstring (missing-docstring)
+quiz.py:41:4: W0107: Unnecessary pass statement (unnecessary-pass)
+quiz.py:27:10: W0613: Unused argument 'data' (unused-argument)
+quiz.py:43:0: C0111: Missing function docstring (missing-docstring)
 
-------------------------------------
-Your code has been rated at -7.39/10
+-----------------------------------
+Your code has been rated at 3.02/10
 

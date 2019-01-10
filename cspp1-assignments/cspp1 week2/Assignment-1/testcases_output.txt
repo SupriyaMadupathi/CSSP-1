@@ -32,33 +32,26 @@ question text 4
  Correct Answer! - Marks Awarded: 4
 Total Score: 10
 Your Output: 
-load_questions
-4 are added to quiz
-start_quiz
-question text 1 ( 1 )
+Load Questions
+4 are added to the quiz
+Start Quiz
+question text 1(1)
 choice 1     choice 2     choice 3     choice 4
-question text 2 ( 2 )
+question text 2(2)
 choice 1     choice 2     choice 3     choice 4
-question text 3 ( 3 )
+question text 3(3)
 choice 1     choice 2     choice 3     choice 4
-question text 4 ( 4 )
+question text 4(4)
 choice 1     choice 2     choice 3     choice 4
-display_score_report
 question text 1
-correct Answer!- Marks Awarded:  1
+Correct Answer! - Marks Awarded: 1
 question text 2
-correct Answer!- Marks Awarded:  2
+Correct Answer! - Marks Awarded: 2
 question text 3
-correct Answer!- Marks Awarded:  3
+Correct Answer! - Marks Awarded: 3
 question text 4
-correct Answer!- Marks Awarded:  4
-Total Score 10
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+Correct Answer! - Marks Awarded: 4
+Total Score:  10
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -94,33 +87,26 @@ question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -10
 Your Output: 
-load_questions
-4 are added to quiz
-start_quiz
-question text 1 ( 1 )
+Load Questions
+4 are added to the quiz
+Start Quiz
+question text 1(1)
 choice 1     choice 2     choice 3     choice 4
-question text 2 ( 2 )
+question text 2(2)
 choice 1     choice 2     choice 3     choice 4
-question text 3 ( 3 )
+question text 3(3)
 choice 1     choice 2     choice 3     choice 4
-question text 4 ( 4 )
+question text 4(4)
 choice 1     choice 2     choice 3     choice 4
-display_score_report
 question text 1
-wrong Answer! - Penalty:  -4
+ Wrong Answer! - Penalty: -4 -4
 question text 2
-wrong Answer! - Penalty:  -3
+ Wrong Answer! - Penalty: -4 -3
 question text 3
-wrong Answer! - Penalty:  -2
+ Wrong Answer! - Penalty: -4 -2
 question text 4
-wrong Answer! - Penalty:  -1
-Total Score -10
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+ Wrong Answer! - Penalty: -4 -1
+Total Score:  -10
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -156,33 +142,26 @@ question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -5
 Your Output: 
-load_questions
-4 are added to quiz
-start_quiz
-question text 1 ( 1 )
+Load Questions
+4 are added to the quiz
+Start Quiz
+question text 1(1)
 choice 1     choice 2     choice 3     choice 4
-question text 2 ( 2 )
+question text 2(2)
 choice 1     choice 2     choice 3     choice 4
-question text 3 ( 3 )
+question text 3(3)
 choice 1     choice 2     choice 3     choice 4
-question text 4 ( 4 )
+question text 4(4)
 choice 1     choice 2     choice 3     choice 4
-display_score_report
 question text 1
-correct Answer!- Marks Awarded:  1
+Correct Answer! - Marks Awarded: 1
 question text 2
-wrong Answer! - Penalty:  -3
+ Wrong Answer! - Penalty: -4 -3
 question text 3
-wrong Answer! - Penalty:  -2
+ Wrong Answer! - Penalty: -4 -2
 question text 4
-wrong Answer! - Penalty:  -1
-Total Score -5
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+ Wrong Answer! - Penalty: -4 -1
+Total Score:  -5
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -248,57 +227,50 @@ question j
  Wrong Answer! - Penalty: 0
 Total Score: 3
 Your Output: 
-load_questions
-10 are added to quiz
-start_quiz
-question a ( 1 )
+Load Questions
+10 are added to the quiz
+Start Quiz
+question a(1)
 choice a     choice b     choice c     choice d
-question b ( 2 )
+question b(2)
 choice a     choice b     choice c     choice d
-question c ( 3 )
+question c(3)
 choice a     choice b     choice c     choice d
-question d ( 4 )
+question d(4)
 choice a     choice b     choice c     choice d
-question e ( 1 )
+question e(1)
 choice a     choice b     choice c     choice d
-question f ( 2 )
+question f(2)
 choice a     choice b     choice c     choice d
-question g ( 3 )
+question g(3)
 choice a     choice b     choice c     choice d
-question h ( 4 )
+question h(4)
 choice a     choice b     choice c     choice d
-question i ( 1 )
+question i(1)
 choice a     choice b     choice c     choice d
-question j ( 2 )
+question j(2)
 choice a     choice b     choice c     choice d
-display_score_report
 question a
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question b
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question c
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question d
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question e
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question f
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question g
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question h
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question i
-wrong Answer! - Penalty:  0
+ Wrong Answer! - Penalty: -4 0
 question j
-wrong Answer! - Penalty:  0
-Total Score 0
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+ Wrong Answer! - Penalty: -4 0
+Total Score:  0
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -319,21 +291,14 @@ question text 1
  Wrong Answer! - Penalty: -4
 Total Score: -4
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-question text 1 ( 1 )
+Load Questions
+no questions are to be added
+Start Quiz
+question text 1(1)
 choice 1     choice 2     choice 3     choice 4
-display_score_report
 question text 1
-wrong Answer! - Penalty:  -4
-Total Score -4
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+ Wrong Answer! - Penalty: -4 -4
+Total Score:  -4
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -348,19 +313,10 @@ Quiz does not have questions
 | Score Report |
 |--------------|
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-display_score_report
-Total Score 0
-display_score_report
-Total Score 0
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+Load Questions
+no questions are to be added
+Start Quiz
+Total Score:  0
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -375,21 +331,20 @@ Error! Malformed question
 | Score Report |
 |--------------|
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-question text 1 ( 1 )
+Load Questions
+no questions are to be added
+Start Quiz
+question text 1(1)
 choice 1     choice 2     choice 3     choice 4
-display_score_report
 question text 1
-wrong Answer! - Penalty:  
+ Wrong Answer! - Penalty: -4 
 Traceback (most recent call last):
-  File "1.py", line 58, in <module>
+  File "quiz.py", line 70, in <module>
     main()
-  File "1.py", line 13, in main
-    display_score_report(case_input)
-  File "1.py", line 54, in display_score_report
-    totalScore = totalScore + int(questions_obj[4]);
+  File "quiz.py", line 54, in main
+    score(data)
+  File "quiz.py", line 37, in score
+    summ = summ + int(i[4])
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 ########## Testcase 7: Failed ##########
@@ -405,21 +360,14 @@ Error! Correct answer choice number is out of range for question text 1
 | Score Report |
 |--------------|
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-question text 1 ( 1 )
+Load Questions
+no questions are to be added
+Start Quiz
+question text 1(1)
 choice 1     choice 2     choice 3     choice 4
-display_score_report
 question text 1
-wrong Answer! - Penalty:  -1
-Total Score -1
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+ Wrong Answer! - Penalty: -4 -1
+Total Score:  -1
 ----------------------------------------
 ########## Testcase 8: Failed ##########
 Expected Output: 
@@ -434,16 +382,16 @@ trick question  does not have enough answer choices
 | Score Report |
 |--------------|
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-trick question  ( 1 )
+Load Questions
+no questions are to be added
+Start Quiz
+trick question (1)
 Traceback (most recent call last):
-  File "1.py", line 58, in <module>
+  File "quiz.py", line 70, in <module>
     main()
-  File "1.py", line 10, in main
-    start_quiz(case_input)
-  File "1.py", line 39, in start_quiz
+  File "quiz.py", line 52, in main
+    startquiz(data)
+  File "quiz.py", line 24, in startquiz
     print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
 IndexError: list index out of range
 ----------------------------------------
@@ -466,16 +414,16 @@ question about sony
  Correct Answer! - Marks Awarded: 1
 Total Score: 1
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-question about sony ( 1 )
+Load Questions
+no questions are to be added
+Start Quiz
+question about sony(1)
 Traceback (most recent call last):
-  File "1.py", line 58, in <module>
+  File "quiz.py", line 70, in <module>
     main()
-  File "1.py", line 10, in main
-    start_quiz(case_input)
-  File "1.py", line 39, in start_quiz
+  File "quiz.py", line 52, in main
+    startquiz(data)
+  File "quiz.py", line 24, in startquiz
     print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
 IndexError: list index out of range
 ----------------------------------------
@@ -492,16 +440,16 @@ Invalid max marks for question about sony
 | Score Report |
 |--------------|
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-question about sony ( -1 )
+Load Questions
+no questions are to be added
+Start Quiz
+question about sony(-1)
 Traceback (most recent call last):
-  File "1.py", line 58, in <module>
+  File "quiz.py", line 70, in <module>
     main()
-  File "1.py", line 10, in main
-    start_quiz(case_input)
-  File "1.py", line 39, in start_quiz
+  File "quiz.py", line 52, in main
+    startquiz(data)
+  File "quiz.py", line 24, in startquiz
     print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
 IndexError: list index out of range
 ----------------------------------------
@@ -518,16 +466,16 @@ Invalid penalty for question about sony
 | Score Report |
 |--------------|
 Your Output: 
-load_questions
-no questions are added
-start_quiz
-question about sony ( 1 )
+Load Questions
+no questions are to be added
+Start Quiz
+question about sony(1)
 Traceback (most recent call last):
-  File "1.py", line 58, in <module>
+  File "quiz.py", line 70, in <module>
     main()
-  File "1.py", line 10, in main
-    start_quiz(case_input)
-  File "1.py", line 39, in start_quiz
+  File "quiz.py", line 52, in main
+    startquiz(data)
+  File "quiz.py", line 24, in startquiz
     print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
 IndexError: list index out of range
 ----------------------------------------
@@ -544,19 +492,12 @@ Error! Malformed question
 | Score Report |
 |--------------|
 Your Output: 
-load_questions
-no questions are added
-start_quiz
- ( 1 )
+Load Questions
+no questions are to be added
+Start Quiz
+(1)
 choice 1     choice 2     choice 3     choice 4
-display_score_report
 
-wrong Answer! - Penalty:  -1
-Total Score -1
-Traceback (most recent call last):
-  File "1.py", line 58, in <module>
-    main()
-  File "1.py", line 3, in main
-    case_input = input()
-EOFError: EOF when reading a line
+ Wrong Answer! - Penalty: -4 -1
+Total Score:  -1
 ----------------------------------------
