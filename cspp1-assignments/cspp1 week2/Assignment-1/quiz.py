@@ -25,7 +25,7 @@ def startquiz(data):
         x.append(ans[1])
         print(x[0]+"("+ x[3]+")")
         choice = x[1].split(",")
-        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
+        print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 
     # print(inp1)
 def score(data):

@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -40,16 +40,16 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 2(2)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 3(3)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 4(4)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
@@ -106,16 +106,16 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 2(2)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 3(3)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 4(4)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
@@ -172,16 +172,16 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 2(2)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 3(3)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 question text 4(4)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
@@ -268,34 +268,34 @@ Your Output:
 | Start Quiz |
 |------------|
 question a(1)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question b(2)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question c(3)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question d(4)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question e(1)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question f(2)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question g(3)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question h(4)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question i(1)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 question j(2)
-choice a     choice b     choice c     choice d
+choice a	choice b	choice c	choice d
 
 |--------------|
 | Score Report |
@@ -349,7 +349,7 @@ no questions are to be added
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
@@ -404,7 +404,7 @@ no questions are to be added
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
@@ -441,7 +441,7 @@ no questions are to be added
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
@@ -477,7 +477,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
+    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 9: Failed ##########
@@ -513,7 +513,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
+    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 10: Failed ##########
@@ -543,7 +543,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
+    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 11: Failed ##########
@@ -573,7 +573,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
+    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 12: Failed ##########
@@ -597,7 +597,7 @@ no questions are to be added
 | Start Quiz |
 |------------|
 (1)
-choice 1     choice 2     choice 3     choice 4
+choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
