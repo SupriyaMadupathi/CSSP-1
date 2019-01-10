@@ -35,7 +35,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -101,7 +105,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -167,7 +175,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -264,6 +276,16 @@ Your Output:
 | Load Questions |
 |----------------|
 10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -344,7 +366,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -374,7 +397,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -399,7 +422,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -436,7 +460,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -466,7 +491,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -502,7 +528,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -532,7 +559,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -562,7 +590,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -592,7 +621,8 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Error! Malformed question
+1 are added to the quiz
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
