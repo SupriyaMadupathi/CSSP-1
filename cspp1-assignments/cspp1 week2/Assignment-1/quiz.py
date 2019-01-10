@@ -7,10 +7,10 @@ def loadquestions(data):
     # print(inp)
     for i in range(0, inp):
         li.append(input().split(":"))
-        if len(li) < 5:
-            print("Error! Malformed question")
     if inp >= 1:
         print(inp, "are added to the quiz")
+    elif len(li) < 5:
+        print("Error! Malformed question")
         # print("Error! Malformed question")
     else:
         print("Quiz does not have questions")
