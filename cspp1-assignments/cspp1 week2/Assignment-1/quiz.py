@@ -42,7 +42,7 @@ def score(data):
         else:
             print(" Wrong Answer! - Penalty: -4", i[4])
             summ = summ + int(i[4])
-    print("Total Score: ", summ)
+    print("Total Score:", summ)
 
 
     pass

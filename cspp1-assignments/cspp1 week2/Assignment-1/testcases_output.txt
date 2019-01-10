@@ -62,7 +62,7 @@ question text 3
  Correct Answer! - Marks Awarded: 3
 question text 4
  Correct Answer! - Marks Awarded: 4
-Total Score:  10
+Total Score: 10
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -128,7 +128,7 @@ question text 3
  Wrong Answer! - Penalty: -4 -2
 question text 4
  Wrong Answer! - Penalty: -4 -1
-Total Score:  -10
+Total Score: -10
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -194,7 +194,7 @@ question text 3
  Wrong Answer! - Penalty: -4 -2
 question text 4
  Wrong Answer! - Penalty: -4 -1
-Total Score:  -5
+Total Score: -5
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -320,7 +320,7 @@ question i
  Wrong Answer! - Penalty: -4 0
 question j
  Wrong Answer! - Penalty: -4 0
-Total Score:  0
+Total Score: 0
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -356,7 +356,7 @@ choice 1     choice 2     choice 3     choice 4
 |--------------|
 question text 1
  Wrong Answer! - Penalty: -4 -4
-Total Score:  -4
+Total Score: -4
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -381,7 +381,7 @@ no questions are to be added
 |--------------|
 | Score Report |
 |--------------|
-Total Score:  0
+Total Score: 0
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -448,7 +448,7 @@ choice 1     choice 2     choice 3     choice 4
 |--------------|
 question text 1
  Wrong Answer! - Penalty: -4 -1
-Total Score:  -1
+Total Score: -1
 ----------------------------------------
 ########## Testcase 8: Failed ##########
 Expected Output: 
@@ -604,5 +604,5 @@ choice 1     choice 2     choice 3     choice 4
 |--------------|
 
  Wrong Answer! - Penalty: -4 -1
-Total Score:  -1
+Total Score: -1
 ----------------------------------------
