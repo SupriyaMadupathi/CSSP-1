@@ -1,21 +1,21 @@
 ************* Module quiz
 quiz.py:28:23: C0326: Exactly one space required after comma
-        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
                        ^ (bad-whitespace)
 quiz.py:28:29: C0326: Exactly one space required after comma
-        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
                              ^ (bad-whitespace)
 quiz.py:28:39: C0326: Exactly one space required after comma
-        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
                                        ^ (bad-whitespace)
 quiz.py:28:45: C0326: Exactly one space required after comma
-        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
                                              ^ (bad-whitespace)
 quiz.py:28:55: C0326: Exactly one space required after comma
-        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
                                                        ^ (bad-whitespace)
 quiz.py:28:61: C0326: Exactly one space required after comma
-        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+        print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
                                                              ^ (bad-whitespace)
 quiz.py:38:15: C0326: Exactly one space required before comparison
         if i[2]== i[5]:
@@ -45,5 +45,5 @@ quiz.py:31:10: W0613: Unused argument 'data' (unused-argument)
 quiz.py:50:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.00/10 (previous run: 3.02/10, +0.98)
+Your code has been rated at 4.00/10 (previous run: 4.00/10, +0.00)
 

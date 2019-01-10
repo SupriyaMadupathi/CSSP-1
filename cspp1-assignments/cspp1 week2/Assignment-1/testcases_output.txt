@@ -41,12 +41,16 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1     choice 2     choice 3     choice 4
+
 question text 2(2)
 choice 1     choice 2     choice 3     choice 4
+
 question text 3(3)
 choice 1     choice 2     choice 3     choice 4
+
 question text 4(4)
 choice 1     choice 2     choice 3     choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -103,12 +107,16 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1     choice 2     choice 3     choice 4
+
 question text 2(2)
 choice 1     choice 2     choice 3     choice 4
+
 question text 3(3)
 choice 1     choice 2     choice 3     choice 4
+
 question text 4(4)
 choice 1     choice 2     choice 3     choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -165,12 +173,16 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1     choice 2     choice 3     choice 4
+
 question text 2(2)
 choice 1     choice 2     choice 3     choice 4
+
 question text 3(3)
 choice 1     choice 2     choice 3     choice 4
+
 question text 4(4)
 choice 1     choice 2     choice 3     choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -257,24 +269,34 @@ Your Output:
 |------------|
 question a(1)
 choice a     choice b     choice c     choice d
+
 question b(2)
 choice a     choice b     choice c     choice d
+
 question c(3)
 choice a     choice b     choice c     choice d
+
 question d(4)
 choice a     choice b     choice c     choice d
+
 question e(1)
 choice a     choice b     choice c     choice d
+
 question f(2)
 choice a     choice b     choice c     choice d
+
 question g(3)
 choice a     choice b     choice c     choice d
+
 question h(4)
 choice a     choice b     choice c     choice d
+
 question i(1)
 choice a     choice b     choice c     choice d
+
 question j(2)
 choice a     choice b     choice c     choice d
+
 |--------------|
 | Score Report |
 |--------------|
@@ -328,6 +350,7 @@ no questions are to be added
 |------------|
 question text 1(1)
 choice 1     choice 2     choice 3     choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -382,6 +405,7 @@ no questions are to be added
 |------------|
 question text 1(1)
 choice 1     choice 2     choice 3     choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -418,6 +442,7 @@ no questions are to be added
 |------------|
 question text 1(1)
 choice 1     choice 2     choice 3     choice 4
+
 |--------------|
 | Score Report |
 |--------------|
@@ -452,7 +477,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 9: Failed ##########
@@ -488,7 +513,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 10: Failed ##########
@@ -518,7 +543,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 11: Failed ##########
@@ -548,7 +573,7 @@ Traceback (most recent call last):
   File "quiz.py", line 59, in main
     startquiz(data)
   File "quiz.py", line 28, in startquiz
-    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3])
+    print(choice[0],"   ",choice[1],"   ",choice[2],"   ",choice[3]+ "\n")
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 12: Failed ##########
@@ -573,6 +598,7 @@ no questions are to be added
 |------------|
 (1)
 choice 1     choice 2     choice 3     choice 4
+
 |--------------|
 | Score Report |
 |--------------|
