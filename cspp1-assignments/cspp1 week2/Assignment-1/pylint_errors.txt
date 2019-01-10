@@ -17,7 +17,6 @@ quiz.py:81:0: C0304: Final newline missing (missing-final-newline)
 quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 quiz.py:1:0: C0103: Constant name "li" doesn't conform to UPPER_CASE naming style (invalid-name)
 quiz.py:2:0: C0111: Missing function docstring (missing-docstring)
-quiz.py:15:4: W0120: Else clause on loop without a break statement (useless-else-on-loop)
 quiz.py:8:8: W0612: Unused variable 'i' (unused-variable)
 quiz.py:18:0: C0111: Missing function docstring (missing-docstring)
 quiz.py:25:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
@@ -28,5 +27,5 @@ quiz.py:34:10: W0613: Unused argument 'data' (unused-argument)
 quiz.py:54:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.90/10 (previous run: 5.38/10, -0.49)
+Your code has been rated at 5.20/10 (previous run: 4.90/10, +0.30)
 
