@@ -1,7 +1,7 @@
 ************* Module quiz
-quiz.py:39:19: C0326: Exactly one space required before comparison
-            if i[2]== i[5]:
-                   ^^ (bad-whitespace)
+quiz.py:39:15: C0326: Exactly one space required before comparison
+        if i[2]== i[5]:
+               ^^ (bad-whitespace)
 quiz.py:52:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
 quiz.py:53:0: W0311: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
 quiz.py:56:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
@@ -27,5 +27,5 @@ quiz.py:31:10: W0613: Unused argument 'data' (unused-argument)
 quiz.py:51:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.29/10 (previous run: 5.29/10, +0.00)
+Your code has been rated at 5.20/10 (previous run: 5.29/10, -0.09)
 
