@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -56,18 +56,15 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Correct Answer! - Marks Awarded: 1
-Total Score: 1
 question text 2
  Correct Answer! - Marks Awarded: 2
-Total Score: 3
 question text 3
  Correct Answer! - Marks Awarded: 3
-Total Score: 6
 question text 4
  Correct Answer! - Marks Awarded: 4
 Total Score: 10
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -125,18 +122,15 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Wrong Answer! - Penalty: -4
-Total Score: -4
 question text 2
  Wrong Answer! - Penalty: -3
-Total Score: -7
 question text 3
  Wrong Answer! - Penalty: -2
-Total Score: -9
 question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -10
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -194,13 +188,10 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Correct Answer! - Marks Awarded: 1
-Total Score: 1
 question text 2
  Wrong Answer! - Penalty: -3
-Total Score: -2
 question text 3
  Wrong Answer! - Penalty: -2
-Total Score: -4
 question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -5
@@ -311,31 +302,22 @@ choice a	choice b	choice c	choice d
 |--------------|
 question a
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question b
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question c
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question d
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question e
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question f
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question g
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question h
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question i
  Wrong Answer! - Penalty: 0
-Total Score: 0
 question j
  Wrong Answer! - Penalty: 0
 Total Score: 0
@@ -376,7 +358,7 @@ question text 1
  Wrong Answer! - Penalty: -4
 Total Score: -4
 ----------------------------------------
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -399,6 +381,7 @@ Quiz does not have questions
 |--------------|
 | Score Report |
 |--------------|
+Total Score: 0
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 

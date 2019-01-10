@@ -46,7 +46,7 @@ def score(data):
         else:
             print(" Wrong Answer! - Penalty:", i[4])
             summ = summ + int(i[4])
-        print("Total Score:", summ)
+    print("Total Score:", summ)
 
 def main():
         while True:
