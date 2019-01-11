@@ -196,7 +196,7 @@ question text 4
  Wrong Answer! - Penalty: -1
 Total Score: -5
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -305,7 +305,7 @@ question a
 question b
  Wrong Answer! - Penalty: 0
 question c
- Wrong Answer! - Penalty: 0
+ Correct Answer! - Marks Awarded: 3
 question d
  Wrong Answer! - Penalty: 0
 question e
@@ -320,7 +320,7 @@ question i
  Wrong Answer! - Penalty: 0
 question j
  Wrong Answer! - Penalty: 0
-Total Score: 0
+Total Score: 3
 ----------------------------------------
 ########## Testcase 4: Passed ##########
 Expected Output: 
@@ -358,7 +358,7 @@ question text 1
  Wrong Answer! - Penalty: -4
 Total Score: -4
 ----------------------------------------
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -381,9 +381,8 @@ Quiz does not have questions
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
 ----------------------------------------
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -399,28 +398,15 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Wrong Answer! - Penalty: 
-Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
-    main()
-  File "quiz.py", line 62, in main
-    score(data)
-  File "quiz.py", line 48, in score
-    summ = summ + int(i[4])
-ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -436,21 +422,15 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Correct answer choice number is out of range for question text 1
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Wrong Answer! - Penalty: -1
-Total Score: -1
 ----------------------------------------
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -466,21 +446,15 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+trick question  does not have enough answer choices
 |------------|
 | Start Quiz |
 |------------|
-trick question (1)
-Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
-    main()
-  File "quiz.py", line 60, in main
-    startquiz(data)
-  File "quiz.py", line 31, in startquiz
-    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
-IndexError: list index out of range
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
-########## Testcase 9: Failed ##########
+########## Testcase 9: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -507,16 +481,16 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(1)
-Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
-    main()
-  File "quiz.py", line 60, in main
-    startquiz(data)
-  File "quiz.py", line 31, in startquiz
-    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
-IndexError: list index out of range
+choice 4	choice 2
+
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+ Correct Answer! - Marks Awarded: 1
+Total Score: 1
 ----------------------------------------
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -532,21 +506,15 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Invalid max marks for question about sony
 |------------|
 | Start Quiz |
 |------------|
-question about sony(-1)
-Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
-    main()
-  File "quiz.py", line 60, in main
-    startquiz(data)
-  File "quiz.py", line 31, in startquiz
-    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
-IndexError: list index out of range
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -562,21 +530,15 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Invalid penalty for question about sony
 |------------|
 | Start Quiz |
 |------------|
-question about sony(1)
-Traceback (most recent call last):
-  File "quiz.py", line 78, in <module>
-    main()
-  File "quiz.py", line 60, in main
-    startquiz(data)
-  File "quiz.py", line 31, in startquiz
-    print(choice[0] + "\t"+choice[1]+"\t"+choice[2]+"\t"+choice[3]+ "\n")
-IndexError: list index out of range
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -592,17 +554,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
-(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-
- Wrong Answer! - Penalty: -1
-Total Score: -1
 ----------------------------------------
