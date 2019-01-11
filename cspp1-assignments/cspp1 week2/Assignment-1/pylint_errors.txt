@@ -141,6 +141,6 @@ quizzzz2.py:100:10: W0612: Unused variable 'i' (unused-variable)
 quizzzz2.py:84:0: R0912: Too many branches (18/12) (too-many-branches)
 quizzzz2.py:84:0: R0915: Too many statements (53/50) (too-many-statements)
 
-------------------------------------
-Your code has been rated at -2.52/10
+--------------------------------------------------------------------
+Your code has been rated at -2.52/10 (previous run: -2.52/10, +0.00)
 
