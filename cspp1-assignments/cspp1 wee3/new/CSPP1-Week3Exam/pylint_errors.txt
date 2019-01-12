@@ -1,0 +1,33 @@
+************* Module quiz_report
+quiz_report.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:36:21: C0303: Trailing whitespace (trailing-whitespace)
+quiz_report.py:60:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+quiz_report.py:61:0: C0305: Trailing newlines (trailing-newlines)
+quiz_report.py:1:0: C0111: Missing module docstring (missing-docstring)
+quiz_report.py:2:0: C0111: Missing function docstring (missing-docstring)
+quiz_report.py:6:1: C0103: Variable name "li" doesn't conform to snake_case naming style (invalid-name)
+quiz_report.py:7:1: C0103: Variable name "l2" doesn't conform to snake_case naming style (invalid-name)
+quiz_report.py:24:5: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+quiz_report.py:7:1: W0612: Unused variable 'l2' (unused-variable)
+quiz_report.py:8:1: W0612: Unused variable 'total' (unused-variable)
+quiz_report.py:10:5: W0612: Unused variable 'i' (unused-variable)
+
+------------------------------------
+Your code has been rated at -4.00/10
+
