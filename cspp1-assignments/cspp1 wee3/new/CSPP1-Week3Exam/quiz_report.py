@@ -78,43 +78,12 @@ def main():
 					adict[string[0]] += int(string[4])
 				else:
 					adict[string[0]] -= int(string[4])
-			# print(adict)
-			# print(adict1)
+			print(adict)
+			print(adict1)
 			display(adict, adict1)
 		except ValueError:
 			print("Invalid Points")
-		# try:
-		# 	for i in range(n):
-		# 		string = input().split("|")
-		# 		int(string[4])
-		# 		if string[0] not in adict:
-		# 			ques = {}
-		# 			if string[2] == string[3]:
-		# 				ques[string[1]] = int(string[4])
-		# 				adict[string[0]] = ques
-		# 				adict1[string[0]] = int(string[4])
-		# 			else:
-		# 				ques[string[1]] = "-" + string[4]
-		# 				adict[string[0]] = ques
-		# 				adict1[string[0]] = int(string[4])
-
-		# 			# print(adict)
-		# 		else:
-		# 			adict1[string[0]] += int(string[4])
-		# 			for each in adict:
-		# 				if each == string[0]:
-		# 					if string[2] == string[3]:
-		# 						ques = adict[string[0]]
-		# 						ques[string[1]] = int(string[4])
-		# 					else:
-		# 						ques = adict[string[0]]
-		# 						ques[string[1]] = "-" + string[4]
-
-
-
-			# print(adict)
-			# print(adict1)
-			# displaynew(adict, adict1)
+		
 
 		except ValueError:
 			print("Invalid Points")
