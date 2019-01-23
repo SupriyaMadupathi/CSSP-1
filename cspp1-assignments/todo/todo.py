@@ -14,10 +14,10 @@ def todo(data):
 		# print(str1)
 			# print(str1)
 		if data[5] == "y" :
-			str1 += "Urgent" + ","
+			str1 += "Urgent" + ", "
 			# print(str1)
 		else: 
-			str1+= "Not Urgent " + ", "
+			str1+= "Not Urgent" + ", "
 		# print(str1)
 
 		if data[6] == "todo" or data[6] == "done":

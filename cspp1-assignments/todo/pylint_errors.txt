@@ -19,7 +19,7 @@ todo.py:19:7: C0303: Trailing whitespace (trailing-whitespace)
 todo.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:20:7: C0326: Exactly one space required before assignment
-			str1+= "Not Urgent " + ", "
+			str1+= "Not Urgent" + ", "
        ^^ (bad-whitespace)
 todo.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
