@@ -32,12 +32,15 @@ def todo(data):
 
 def main():
 	while True:
-		data = input().split(",")
-		if data[1] == "":
-			print("Title not provided")
-		
-		elif data[0] == "task":
-			todo(data)
+		try:
+			data = input().split(",")
+			if data[1] == "":
+				print("Title not provided")
+			
+			elif data[0] == "task":
+				todo(data)
+		except EOFError:
+			break
 		
 
 if __name__ == '__main__':
