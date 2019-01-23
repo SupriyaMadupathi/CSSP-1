@@ -35,7 +35,7 @@ def main():
 	if data[1] == "":
 		print("Title not provided")
 	
-	if data[0] == "task":
+	elif data[0] == "task":
 		todo(data)
 		
 
