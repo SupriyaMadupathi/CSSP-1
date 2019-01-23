@@ -46,8 +46,10 @@ def addtask(data):
 		str2 += "Not Urgent" + ", "
 	if data[6] == "todo" or data[6] == "done":
 		str2 += data[6]
-
-	print(str2)
+	commonstr = str2
+	print_todoist(str2)
+	# print(str2)
+# def print_todoist():
 
 def main():
 	while True:
@@ -58,6 +60,9 @@ def main():
 
 			elif data[0] == "add-task":
 				addtask(data)
+			elif data[0] == "print-todoist":
+				print_todoist()
+
 		except EOFError:
 			break
 		
