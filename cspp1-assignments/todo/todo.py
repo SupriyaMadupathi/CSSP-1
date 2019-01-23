@@ -41,7 +41,7 @@ def addtask(data):
 	else :
 		str2 += "Not Important" + ", "
 	if data[5] == "y":
-		str2 += "Urgent" + ","
+		str2 += "Urgent" + ", "
 	else:
 		str2 += "Not Urgent" + ", "
 	if data[6] == "todo" or data[6] == "done":
