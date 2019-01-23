@@ -71,7 +71,7 @@ def main():
 				for each in list1:
 					str3 = ""
 					for i in each:
-						str3 += i + ","
+						str3 += i + ", "
 
 					print(str3)
 				# print_todoist()
