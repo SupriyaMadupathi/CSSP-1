@@ -30,6 +30,22 @@ def todo(data):
 		# 	continue
 	print(str1)
 
+def addtask(data):
+	str2 = ""
+	str2 = data[1] + ", " + data[2] + ", " + data[3] + ", "
+	if data[4] == "y":
+		str2 += "Important"
+	else :
+		str2 += "Not Important" + ", "
+	if data[5] == "y":
+		str2 += "Urgent"
+	else:
+		str2 += "Not Urgent" + ", "
+	if data[6] == "todo" or data[6] == "done":
+		str2 += data[6]
+
+	print(str2)
+
 def main():
 	while True:
 		try:
@@ -39,6 +55,9 @@ def main():
 			
 			elif data[0] == "task":
 				todo(data)
+
+			elif data[0] == "add-task":
+				addtask(data)
 		except EOFError:
 			break
 		

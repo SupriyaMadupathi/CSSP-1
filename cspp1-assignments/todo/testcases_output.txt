@@ -40,10 +40,13 @@ task1, akshay, 30, Important, Urgent, todo
 task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 Your Output: 
+task1, akshay, 30, ImportantUrgenttodo
+task2, manoj, 10, Not Important, Not Urgent, done
+taska, tarun, 120, ImportantNot Urgent, todo
 Traceback (most recent call last):
-  File "todo.py", line 47, in <module>
+  File "todo.py", line 66, in <module>
     main()
-  File "todo.py", line 37, in main
+  File "todo.py", line 53, in main
     if data[1] == "":
 IndexError: list index out of range
 ----------------------------------------
@@ -71,10 +74,31 @@ task-h, akshay, 30, Important, Urgent, todo
 task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 Your Output: 
+task-1, akshay, 30, ImportantUrgenttodo
+task-2, manoj, 10, Not Important, Not Urgent, done
+task-a, tarun, 120, ImportantNot Urgent, todo
+task-b, akshay, 30, ImportantUrgenttodo
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-p, tarun, 120, ImportantNot Urgent, todo
+task-q, akshay, 30, ImportantUrgenttodo
+task-r, manoj, 10, Not Important, Not Urgent, done
+task-s, tarun, 120, ImportantNot Urgent, todo
+task-9, akshay, 30, ImportantUrgenttodo
+task-8, manoj, 10, Not Important, Not Urgent, done
+task-7, tarun, 120, ImportantNot Urgent, todo
+task-6, akshay, 30, ImportantUrgenttodo
+task-7, manoj, 10, Not Important, Not Urgent, done
+task-4, tarun, 120, ImportantNot Urgent, todo
+task-3, akshay, 30, ImportantUrgenttodo
+task-t, manoj, 10, Not Important, Not Urgent, done
+task-e, tarun, 120, ImportantNot Urgent, todo
+task-h, akshay, 30, ImportantUrgenttodo
+task-x, manoj, 10, Not Important, Not Urgent, done
+task-z, tarun, 120, ImportantNot Urgent, todo
 Traceback (most recent call last):
-  File "todo.py", line 47, in <module>
+  File "todo.py", line 66, in <module>
     main()
-  File "todo.py", line 37, in main
+  File "todo.py", line 53, in main
     if data[1] == "":
 IndexError: list index out of range
 ----------------------------------------
@@ -84,30 +108,63 @@ task-b, akshay, 30, Important, Not Urgent, todo
 null
 task-h, tarun, 27, Important, Not Urgent, todo
 Your Output: 
-
+task-1, akshay, 30, ImportantUrgenttodo
+task-6, akshay, 130, ImportantNot Urgent, done
+task-2, manoj, 10, Not Important, Urgentdone
+task-a, tarun, 120, ImportantUrgenttodo
+task-b, akshay, 30, ImportantNot Urgent, todo
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-c, manoj, 10, Not Important, Urgenttodo
+task-p, tarun, 120, Not Important, Not Urgent, todo
+task-h, tarun, 27, ImportantNot Urgent, todo
 ----------------------------------------
 ########## Testcase 9: Failed ##########
 Expected Output: 
 task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 Your Output: 
-
+task-j1, john, 30, ImportantNot Urgent, todo
+task-j6, john, 130, ImportantNot Urgent, todo
+task-j2, john, 10, ImportantNot Urgent, todo
+task-ta, tom, 120, ImportantNot Urgent, todo
+task-jb, john, 30, ImportantNot Urgent, todo
+task-jc, john, 10, ImportantNot Urgent, todo
+task-jc, john, 10, ImportantNot Urgent, todo
+task-tp, tom, 120, ImportantNot Urgent, todo
+task-th, tom, 27, ImportantNot Urgent, todo
 ----------------------------------------
 ########## Testcase 10: Failed ##########
 Expected Output: 
 [task-j1, john, 30, Important, Not Urgent, todo, task-j6, john, 130, Important, Not Urgent, todo, task-j2, john, 10, Important, Not Urgent, todo]
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 Your Output: 
-
+task-j1, john, 30, ImportantNot Urgent, todo
+task-j6, john, 130, ImportantNot Urgent, todo
+task-j2, john, 10, ImportantNot Urgent, todo
+task-ta, tom, 120, ImportantNot Urgent, done
+task-jb, john, 30, ImportantNot Urgent, todo
+task-jc, john, 10, ImportantNot Urgent, todo
+task-jc, john, 10, ImportantNot Urgent, todo
+task-tp, tom, 120, ImportantNot Urgent, todo
+task-th, tom, 27, ImportantNot Urgent, todo
 ----------------------------------------
 ########## Testcase 11: Failed ##########
 Expected Output: 
 337
 Your Output: 
+task-1, akshay, 30, ImportantUrgenttodo
+task-6, akshay, 130, ImportantNot Urgent, done
+task-2, manoj, 10, Not Important, Urgentdone
+task-a, tarun, 120, ImportantUrgenttodo
+task-b, akshay, 30, ImportantNot Urgent, todo
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-c, manoj, 10, Not Important, Urgenttodo
+task-p, tarun, 120, Not Important, Not Urgent, todo
+task-h, tarun, 27, ImportantNot Urgent, todo
 Traceback (most recent call last):
-  File "todo.py", line 47, in <module>
+  File "todo.py", line 66, in <module>
     main()
-  File "todo.py", line 37, in main
+  File "todo.py", line 53, in main
     if data[1] == "":
 IndexError: list index out of range
 ----------------------------------------
@@ -115,10 +172,19 @@ IndexError: list index out of range
 Expected Output: 
 0
 Your Output: 
+task-1, akshay, 30, ImportantUrgentdone
+task-6, akshay, 130, ImportantNot Urgent, done
+task-2, manoj, 10, Not Important, Urgentdone
+task-a, tarun, 120, ImportantUrgentdone
+task-b, akshay, 30, ImportantNot Urgent, done
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-c, manoj, 10, Not Important, Urgentdone
+task-p, tarun, 120, Not Important, Not Urgent, done
+task-h, tarun, 27, ImportantNot Urgent, done
 Traceback (most recent call last):
-  File "todo.py", line 47, in <module>
+  File "todo.py", line 66, in <module>
     main()
-  File "todo.py", line 37, in main
+  File "todo.py", line 53, in main
     if data[1] == "":
 IndexError: list index out of range
 ----------------------------------------
@@ -126,10 +192,19 @@ IndexError: list index out of range
 Expected Output: 
 487
 Your Output: 
+task-1, akshay, 30, ImportantUrgenttodo
+task-6, akshay, 130, ImportantNot Urgent, todo
+task-2, manoj, 10, Not Important, Urgenttodo
+task-a, tarun, 120, ImportantUrgenttodo
+task-b, akshay, 30, ImportantNot Urgent, todo
+task-c, manoj, 10, Not Important, Not Urgent, todo
+task-c, manoj, 10, Not Important, Urgenttodo
+task-p, tarun, 120, Not Important, Not Urgent, todo
+task-h, tarun, 27, ImportantNot Urgent, todo
 Traceback (most recent call last):
-  File "todo.py", line 47, in <module>
+  File "todo.py", line 66, in <module>
     main()
-  File "todo.py", line 37, in main
+  File "todo.py", line 53, in main
     if data[1] == "":
 IndexError: list index out of range
 ----------------------------------------
