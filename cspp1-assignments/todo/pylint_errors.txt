@@ -74,5 +74,5 @@ todo.py:33:0: C0111: Missing function docstring (missing-docstring)
 todo.py:49:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.95/10 (previous run: -7.86/10, +1.90)
+Your code has been rated at -5.95/10 (previous run: -5.95/10, +0.00)
 

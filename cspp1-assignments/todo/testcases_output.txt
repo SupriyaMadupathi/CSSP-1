@@ -40,7 +40,7 @@ task1, akshay, 30, Important, Urgent, todo
 task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 Your Output: 
-task1, akshay, 30, ImportantUrgenttodo
+task1, akshay, 30, ImportantUrgent,todo
 task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, ImportantNot Urgent, todo
 Traceback (most recent call last):
@@ -74,25 +74,25 @@ task-h, akshay, 30, Important, Urgent, todo
 task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 Your Output: 
-task-1, akshay, 30, ImportantUrgenttodo
+task-1, akshay, 30, ImportantUrgent,todo
 task-2, manoj, 10, Not Important, Not Urgent, done
 task-a, tarun, 120, ImportantNot Urgent, todo
-task-b, akshay, 30, ImportantUrgenttodo
+task-b, akshay, 30, ImportantUrgent,todo
 task-c, manoj, 10, Not Important, Not Urgent, done
 task-p, tarun, 120, ImportantNot Urgent, todo
-task-q, akshay, 30, ImportantUrgenttodo
+task-q, akshay, 30, ImportantUrgent,todo
 task-r, manoj, 10, Not Important, Not Urgent, done
 task-s, tarun, 120, ImportantNot Urgent, todo
-task-9, akshay, 30, ImportantUrgenttodo
+task-9, akshay, 30, ImportantUrgent,todo
 task-8, manoj, 10, Not Important, Not Urgent, done
 task-7, tarun, 120, ImportantNot Urgent, todo
-task-6, akshay, 30, ImportantUrgenttodo
+task-6, akshay, 30, ImportantUrgent,todo
 task-7, manoj, 10, Not Important, Not Urgent, done
 task-4, tarun, 120, ImportantNot Urgent, todo
-task-3, akshay, 30, ImportantUrgenttodo
+task-3, akshay, 30, ImportantUrgent,todo
 task-t, manoj, 10, Not Important, Not Urgent, done
 task-e, tarun, 120, ImportantNot Urgent, todo
-task-h, akshay, 30, ImportantUrgenttodo
+task-h, akshay, 30, ImportantUrgent,todo
 task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, ImportantNot Urgent, todo
 Traceback (most recent call last):
@@ -108,13 +108,13 @@ task-b, akshay, 30, Important, Not Urgent, todo
 null
 task-h, tarun, 27, Important, Not Urgent, todo
 Your Output: 
-task-1, akshay, 30, ImportantUrgenttodo
+task-1, akshay, 30, ImportantUrgent,todo
 task-6, akshay, 130, ImportantNot Urgent, done
-task-2, manoj, 10, Not Important, Urgentdone
-task-a, tarun, 120, ImportantUrgenttodo
+task-2, manoj, 10, Not Important, Urgent,done
+task-a, tarun, 120, ImportantUrgent,todo
 task-b, akshay, 30, ImportantNot Urgent, todo
 task-c, manoj, 10, Not Important, Not Urgent, done
-task-c, manoj, 10, Not Important, Urgenttodo
+task-c, manoj, 10, Not Important, Urgent,todo
 task-p, tarun, 120, Not Important, Not Urgent, todo
 task-h, tarun, 27, ImportantNot Urgent, todo
 ----------------------------------------
@@ -152,13 +152,13 @@ task-th, tom, 27, ImportantNot Urgent, todo
 Expected Output: 
 337
 Your Output: 
-task-1, akshay, 30, ImportantUrgenttodo
+task-1, akshay, 30, ImportantUrgent,todo
 task-6, akshay, 130, ImportantNot Urgent, done
-task-2, manoj, 10, Not Important, Urgentdone
-task-a, tarun, 120, ImportantUrgenttodo
+task-2, manoj, 10, Not Important, Urgent,done
+task-a, tarun, 120, ImportantUrgent,todo
 task-b, akshay, 30, ImportantNot Urgent, todo
 task-c, manoj, 10, Not Important, Not Urgent, done
-task-c, manoj, 10, Not Important, Urgenttodo
+task-c, manoj, 10, Not Important, Urgent,todo
 task-p, tarun, 120, Not Important, Not Urgent, todo
 task-h, tarun, 27, ImportantNot Urgent, todo
 Traceback (most recent call last):
@@ -172,13 +172,13 @@ IndexError: list index out of range
 Expected Output: 
 0
 Your Output: 
-task-1, akshay, 30, ImportantUrgentdone
+task-1, akshay, 30, ImportantUrgent,done
 task-6, akshay, 130, ImportantNot Urgent, done
-task-2, manoj, 10, Not Important, Urgentdone
-task-a, tarun, 120, ImportantUrgentdone
+task-2, manoj, 10, Not Important, Urgent,done
+task-a, tarun, 120, ImportantUrgent,done
 task-b, akshay, 30, ImportantNot Urgent, done
 task-c, manoj, 10, Not Important, Not Urgent, done
-task-c, manoj, 10, Not Important, Urgentdone
+task-c, manoj, 10, Not Important, Urgent,done
 task-p, tarun, 120, Not Important, Not Urgent, done
 task-h, tarun, 27, ImportantNot Urgent, done
 Traceback (most recent call last):
@@ -192,13 +192,13 @@ IndexError: list index out of range
 Expected Output: 
 487
 Your Output: 
-task-1, akshay, 30, ImportantUrgenttodo
+task-1, akshay, 30, ImportantUrgent,todo
 task-6, akshay, 130, ImportantNot Urgent, todo
-task-2, manoj, 10, Not Important, Urgenttodo
-task-a, tarun, 120, ImportantUrgenttodo
+task-2, manoj, 10, Not Important, Urgent,todo
+task-a, tarun, 120, ImportantUrgent,todo
 task-b, akshay, 30, ImportantNot Urgent, todo
 task-c, manoj, 10, Not Important, Not Urgent, todo
-task-c, manoj, 10, Not Important, Urgenttodo
+task-c, manoj, 10, Not Important, Urgent,todo
 task-p, tarun, 120, Not Important, Not Urgent, todo
 task-h, tarun, 27, ImportantNot Urgent, todo
 Traceback (most recent call last):
