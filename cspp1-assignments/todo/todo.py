@@ -57,6 +57,7 @@ def addtask(data):
 
 def main():
 	list1 = []
+	l2 = []
 	while True:
 		try:
 			data = input().split(",")
@@ -65,6 +66,7 @@ def main():
 
 			elif data[0] == "add-task":
 				temp = addtask(data)
+				l2.append(data[3])
 				list1.append(temp)
 			elif data[0] == "print-todoist":
 				# temp = addtask(data)
@@ -75,6 +77,11 @@ def main():
 
 					print(str3[0: len(str3) -2])
 				# print_todoist()
+			elif data[0] == "total-time":
+				summ = 0
+				for each in l2:
+					summ += each
+					print(summ)
 
 		except EOFError:
 			break
