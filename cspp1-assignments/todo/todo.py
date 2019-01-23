@@ -31,12 +31,13 @@ def todo(data):
 	print(str1)
 
 def main():
-	data = input().split(",")
-	if data[1] == "":
-		print("Title not provided")
-	
-	elif data[0] == "task":
-		todo(data)
+	while True:
+		data = input().split(",")
+		if data[1] == "":
+			print("Title not provided")
+		
+		elif data[0] == "task":
+			todo(data)
 		
 
 if __name__ == '__main__':

@@ -37,12 +37,13 @@ todo.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 todo.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
-todo.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:38:0: C0303: Trailing whitespace (trailing-whitespace)
 todo.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
-todo.py:43:0: C0304: Final newline missing (missing-final-newline)
-todo.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+todo.py:44:0: C0304: Final newline missing (missing-final-newline)
+todo.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:1:0: C0111: Missing module docstring (missing-docstring)
 todo.py:1:0: C0111: Missing function docstring (missing-docstring)
 todo.py:26:3: W0104: Statement seems to have no effect (pointless-statement)
@@ -51,5 +52,5 @@ todo.py:26:33: E0602: Undefined variable 'done' (undefined-variable)
 todo.py:33:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -9.17/10 (previous run: -9.17/10, +0.00)
+Your code has been rated at -8.80/10 (previous run: -9.17/10, +0.37)
 
