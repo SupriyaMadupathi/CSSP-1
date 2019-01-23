@@ -3,59 +3,59 @@ todo.py:2:0: C0303: Trailing whitespace (trailing-whitespace)
 todo.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:6:0: C0303: Trailing whitespace (trailing-whitespace)
 todo.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
 todo.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+todo.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:16:20: C0326: No space allowed before :
+todo.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:19:20: C0326: No space allowed before :
 		if data[5] == "y" :
                     ^ (bad-whitespace)
-todo.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:19:7: C0303: Trailing whitespace (trailing-whitespace)
-todo.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:20:7: C0326: Exactly one space required before assignment
+todo.py:22:7: C0303: Trailing whitespace (trailing-whitespace)
+todo.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:23:7: C0326: Exactly one space required before assignment
 			str1+= "Not Urgent" + ", "
        ^^ (bad-whitespace)
-todo.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:24:7: C0326: Exactly one space required before assignment
+todo.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:27:7: C0326: Exactly one space required before assignment
 			str1+= data[6]
        ^^ (bad-whitespace)
-todo.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:27:28: C0303: Trailing whitespace (trailing-whitespace)
-todo.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:27:7: C0326: Exactly one space required around assignment
+todo.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:30:28: C0303: Trailing whitespace (trailing-whitespace)
+todo.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:30:7: C0326: Exactly one space required around assignment
 			str1="Invalid status dud"		
        ^ (bad-whitespace)
-todo.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:38:6: C0326: No space allowed before :
-	else :
-      ^ (bad-whitespace)
 todo.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:41:6: C0326: No space allowed before :
+	else :
+      ^ (bad-whitespace)
 todo.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:55:0: C0303: Trailing whitespace (trailing-whitespace)
+todo.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -67,11 +67,11 @@ todo.py:66:0: C0304: Final newline missing (missing-final-newline)
 todo.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:1:0: C0111: Missing module docstring (missing-docstring)
 todo.py:1:0: C0111: Missing function docstring (missing-docstring)
-todo.py:26:3: W0104: Statement seems to have no effect (pointless-statement)
-todo.py:26:3: W0143: Comparing against a callable, did you omit the parenthesis? (comparison-with-callable)
-todo.py:26:33: E0602: Undefined variable 'done' (undefined-variable)
-todo.py:33:0: C0111: Missing function docstring (missing-docstring)
-todo.py:49:0: C0111: Missing function docstring (missing-docstring)
+todo.py:29:3: W0104: Statement seems to have no effect (pointless-statement)
+todo.py:29:3: W0143: Comparing against a callable, did you omit the parenthesis? (comparison-with-callable)
+todo.py:29:33: E0602: Undefined variable 'done' (undefined-variable)
+todo.py:36:0: C0111: Missing function docstring (missing-docstring)
+todo.py:52:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
 Your code has been rated at -5.95/10 (previous run: -5.95/10, +0.00)

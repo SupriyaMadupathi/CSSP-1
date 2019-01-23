@@ -1,7 +1,10 @@
 def todo(data):
 	
 	str1 = ""
-	if int(data[3]) < 1:
+	if data[1] == "":
+				print("Title not provided")
+			
+	elif int(data[3]) < 1:
 		print("Invalid timeToComplete " + data[3])
 	else:
 		str1 = data[1] + ", " +data[2] + ", "+ data[3] + ", "
@@ -34,7 +37,7 @@ def addtask(data):
 	str2 = ""
 	str2 = data[1] + ", " + data[2] + ", " + data[3] + ", "
 	if data[4] == "y":
-		str2 += "Important"
+		str2 += "Important" + ", "
 	else :
 		str2 += "Not Important" + ", "
 	if data[5] == "y":
@@ -50,10 +53,7 @@ def main():
 	while True:
 		try:
 			data = input().split(",")
-			if data[1] == "":
-				print("Title not provided")
-			
-			elif data[0] == "task":
+			if data[0] == "task":
 				todo(data)
 
 			elif data[0] == "add-task":
