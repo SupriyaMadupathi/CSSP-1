@@ -56,6 +56,7 @@ def addtask(data):
 
 
 def main():
+	list1 = []
 	while True:
 		try:
 			data = input().split(",")
@@ -63,10 +64,11 @@ def main():
 				todo(data)
 
 			elif data[0] == "add-task":
-				addtask(data)
-			elif data[0] == "print-todoist":
 				temp = addtask(data)
-				print(temp)
+				list1.append(temp)
+			elif data[0] == "print-todoist":
+				# temp = addtask(data)
+				print(list1)
 				# print_todoist()
 
 		except EOFError:
