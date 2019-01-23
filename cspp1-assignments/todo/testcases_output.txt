@@ -8,13 +8,13 @@ task1, akshay, 30, Important, Urgent,todo
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 Your Output: 
-task2, manoj, 10, Not Important, Not Urgent,todo
+task2, manoj, 10, Not Important, Not Urgent ,todo
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 Your Output: 
-taska, tarun, 120, Important, Not Urgent,todo
+taska, tarun, 120, Important, Not Urgent ,todo
 ----------------------------------------
 ########## Testcase 3: Passed ##########
 Expected Output: 
