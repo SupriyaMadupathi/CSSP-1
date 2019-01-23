@@ -75,8 +75,7 @@ todo.py:29:3: W0143: Comparing against a callable, did you omit the parenthesis?
 todo.py:29:33: E0602: Undefined variable 'done' (undefined-variable)
 todo.py:36:0: C0111: Missing function docstring (missing-docstring)
 todo.py:55:0: C0111: Missing function docstring (missing-docstring)
-todo.py:65:11: E1120: No value for argument 'data' in function call (no-value-for-parameter)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.67/10 (previous run: -8.00/10, +1.33)
+Your code has been rated at -5.56/10 (previous run: -6.67/10, +1.11)
 

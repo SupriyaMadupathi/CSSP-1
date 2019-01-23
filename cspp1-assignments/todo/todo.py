@@ -62,7 +62,7 @@ def main():
 			elif data[0] == "add-task":
 				addtask(data)
 			elif data[0] == "print-todoist":
-				temp = addtask()
+				temp = addtask(data)
 				print(temp)
 				# print_todoist()
 
