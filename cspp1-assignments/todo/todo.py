@@ -37,13 +37,13 @@ def addtask(data):
 	str2 = []
 	str2 = data[1] + ", " + data[2] + ", " + data[3] + ", "
 	if data[4] == "y":
-		str2.append("Important" + ", ")
+		str2.append("Important")
 	else :
-		str2.append("Not Important" + ", ")
+		str2.append("Not Important")
 	if data[5] == "y":
-		str2.append("Urgent" + ", ")
+		str2.append("Urgent")
 	else:
-		str2.append("Not Urgent" + ", ")
+		str2.append("Not Urgent")
 	if data[6] == "todo" or data[6] == "done":
 		str2.append(data[6]) 
 	return str2

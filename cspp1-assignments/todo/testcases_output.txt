@@ -46,7 +46,7 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
 ########## Testcase 7: Failed ##########
@@ -79,7 +79,7 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
 ########## Testcase 8: Failed ##########
@@ -94,7 +94,7 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
 ########## Testcase 9: Failed ##########
@@ -108,7 +108,7 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
 ########## Testcase 10: Failed ##########
@@ -122,7 +122,7 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
 ########## Testcase 11: Failed ##########
@@ -135,7 +135,7 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
 ########## Testcase 12: Failed ##########
@@ -148,7 +148,7 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
 ########## Testcase 13: Failed ##########
@@ -161,6 +161,6 @@ Traceback (most recent call last):
   File "todo.py", line 63, in main
     addtask(data)
   File "todo.py", line 40, in addtask
-    str2.append("Important" + ", ")
+    str2.append("Important")
 AttributeError: 'str' object has no attribute 'append'
 ----------------------------------------
