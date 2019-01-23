@@ -73,7 +73,7 @@ def main():
 					for i in each:
 						str3 += i + ","
 
-				print(str3)
+					print(str3)
 				# print_todoist()
 
 		except EOFError:
