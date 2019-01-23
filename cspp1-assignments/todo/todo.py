@@ -68,7 +68,12 @@ def main():
 				list1.append(temp)
 			elif data[0] == "print-todoist":
 				# temp = addtask(data)
-				print(list1)
+				for each in list1:
+					str3 = ""
+					for i in each:
+						str3 += i + ","
+
+				print(str3)
 				# print_todoist()
 
 		except EOFError:
