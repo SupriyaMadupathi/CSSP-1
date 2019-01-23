@@ -41,13 +41,11 @@ task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 Your Output: 
 Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
+  File "todo.py", line 74, in <module>
     main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+  File "todo.py", line 65, in main
+    temp = addtask()
+TypeError: addtask() missing 1 required positional argument: 'data'
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -74,13 +72,11 @@ task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 Your Output: 
 Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
+  File "todo.py", line 74, in <module>
     main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+  File "todo.py", line 65, in main
+    temp = addtask()
+TypeError: addtask() missing 1 required positional argument: 'data'
 ----------------------------------------
 ########## Testcase 8: Failed ##########
 Expected Output: 
@@ -88,79 +84,37 @@ task-b, akshay, 30, Important, Not Urgent, todo
 null
 task-h, tarun, 27, Important, Not Urgent, todo
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
-    main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+
 ----------------------------------------
 ########## Testcase 9: Failed ##########
 Expected Output: 
 task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
-    main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+
 ----------------------------------------
 ########## Testcase 10: Failed ##########
 Expected Output: 
 [task-j1, john, 30, Important, Not Urgent, todo, task-j6, john, 130, Important, Not Urgent, todo, task-j2, john, 10, Important, Not Urgent, todo]
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
-    main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+
 ----------------------------------------
 ########## Testcase 11: Failed ##########
 Expected Output: 
 337
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
-    main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+
 ----------------------------------------
 ########## Testcase 12: Failed ##########
 Expected Output: 
 0
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
-    main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+
 ----------------------------------------
 ########## Testcase 13: Failed ##########
 Expected Output: 
 487
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 71, in <module>
-    main()
-  File "todo.py", line 62, in main
-    addtask(data)
-  File "todo.py", line 50, in addtask
-    print_todoist(str2)
-NameError: name 'print_todoist' is not defined
+
 ----------------------------------------
