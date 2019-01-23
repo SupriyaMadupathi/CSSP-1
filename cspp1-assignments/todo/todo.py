@@ -66,8 +66,9 @@ def main():
 
 			elif data[0] == "add-task":
 				temp = addtask(data)
-				l2.append(data[3])
 				list1.append(temp)
+				if data[6] == "todo":
+					l2.append(data[3])
 			elif data[0] == "print-todoist":
 				# temp = addtask(data)
 				for each in list1:
