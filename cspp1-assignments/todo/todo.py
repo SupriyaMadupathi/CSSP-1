@@ -81,7 +81,7 @@ def main():
 				summ = 0
 				for each in l2:
 					summ += int(each)
-					print(summ)
+				print(summ)
 
 		except EOFError:
 			break
