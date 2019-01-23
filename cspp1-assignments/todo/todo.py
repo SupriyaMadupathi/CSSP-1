@@ -35,7 +35,10 @@ def todo(data):
 
 def addtask(data):
 	str2 = []
-	str2 = data[1] + ", " + data[2] + ", " + data[3] + ", "
+	str2.append(data[1])
+	str2.append(data[2])
+	str2.append(data[3])
+	# str2 = data[1] + ", " + data[2] + ", " + data[3] + ", "
 	if data[4] == "y":
 		str2.append("Important")
 	else :
