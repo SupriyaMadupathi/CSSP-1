@@ -116,32 +116,41 @@ Your Output:
 Expected Output: 
 337
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 91, in <module>
-    main()
-  File "todo.py", line 83, in main
-    summ += each
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+30
+160
+170
+290
+320
+330
+340
+460
+487
 ----------------------------------------
 ########## Testcase 12: Failed ##########
 Expected Output: 
 0
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 91, in <module>
-    main()
-  File "todo.py", line 83, in main
-    summ += each
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+30
+160
+170
+290
+320
+330
+340
+460
+487
 ----------------------------------------
 ########## Testcase 13: Failed ##########
 Expected Output: 
 487
 Your Output: 
-Traceback (most recent call last):
-  File "todo.py", line 91, in <module>
-    main()
-  File "todo.py", line 83, in main
-    summ += each
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+30
+160
+170
+290
+320
+330
+340
+460
+487
 ----------------------------------------

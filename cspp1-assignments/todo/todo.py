@@ -80,7 +80,7 @@ def main():
 			elif data[0] == "total-time":
 				summ = 0
 				for each in l2:
-					summ += each
+					summ += int(each)
 					print(summ)
 
 		except EOFError:
