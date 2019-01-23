@@ -24,7 +24,7 @@ todo.py:20:7: C0326: Exactly one space required before assignment
 todo.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:24:7: C0326: Exactly one space required before assignment
-			str1+= "todo"
+			str1+= data[6]
        ^^ (bad-whitespace)
 todo.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -55,5 +55,5 @@ todo.py:26:33: E0602: Undefined variable 'done' (undefined-variable)
 todo.py:33:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -7.86/10 (previous run: -8.80/10, +0.94)
+Your code has been rated at -7.86/10 (previous run: -7.86/10, +0.00)
 

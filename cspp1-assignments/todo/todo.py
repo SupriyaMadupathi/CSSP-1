@@ -21,7 +21,7 @@ def todo(data):
 		# print(str1)
 
 		if data[6] == "todo" or data[6] == "done":
-			str1+= "todo"
+			str1+= data[6]
 		else:
 			data[6] != todo or data[6] != done
 			str1="Invalid status dud"		
