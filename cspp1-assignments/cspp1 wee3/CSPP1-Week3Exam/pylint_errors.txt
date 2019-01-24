@@ -1,0 +1,18 @@
+************* Module quiz_report
+quiz_report.py:16:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz_report.py:17:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+quiz_report.py:1:0: C0111: Missing module docstring (missing-docstring)
+quiz_report.py:1:0: C0111: Missing function docstring (missing-docstring)
+quiz_report.py:4:4: C0103: Constant name "flag" doesn't conform to UPPER_CASE naming style (invalid-name)
+quiz_report.py:4:4: W0601: Global variable 'flag' undefined at the module level (global-variable-undefined)
+quiz_report.py:6:4: C0103: Variable name "full_Score" doesn't conform to snake_case naming style (invalid-name)
+quiz_report.py:2:4: W0612: Unused variable 'total_score' (unused-variable)
+quiz_report.py:1:0: R0912: Too many branches (13/12) (too-many-branches)
+quiz_report.py:38:0: C0111: Missing function docstring (missing-docstring)
+quiz_report.py:40:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
+quiz_report.py:40:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
+quiz_report.py:42:8: W0612: Unused variable 'i' (unused-variable)
+
+-------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: -2.00/10, +8.67)
+
