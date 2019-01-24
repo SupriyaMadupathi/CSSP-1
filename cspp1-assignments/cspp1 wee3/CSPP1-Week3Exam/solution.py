@@ -5,7 +5,7 @@ def main():
     d2 = {}
     for i in range(n):
         data = input().split("|")
-        if data[4] == "a":
+        if str(data[4]) == "a":
             print("Invalid Points")
             # break
 
