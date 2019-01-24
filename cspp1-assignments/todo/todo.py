@@ -89,7 +89,7 @@ def main():
 							# print("hiiii")
 							print("null")
 						else:
-							if list1[4] == "Important" and list1[5] == "Not Urgent":
+							if list1[3] == "Important" and list1[4] == "Not Urgent":
 								for i in each:
 									str4 += i + ", "
 								print(str4[0 : len(str4) - 2])
