@@ -1,12 +1,17 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 1234: 45.0%
 1235: 100.0%
 Your Output: 
-1234: 45.0%
-1235: 100.0%
+Invalid Points
+Traceback (most recent call last):
+  File "solution.py", line 35, in <module>
+    main()
+  File "solution.py", line 18, in main
+    d2[data[0]] -= int(data[4])
+KeyError: '1234'
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 1233: 100.0%
 1234: 0.0%
@@ -14,22 +19,25 @@ Expected Output:
 1236: 0.0%
 1239: 0.0%
 Your Output: 
-1233: 100.0%
-1234: 0.0%
-1235: 0.0%
-1236: 0.0%
-1239: 0.0%
+Invalid Points
+Traceback (most recent call last):
+  File "solution.py", line 35, in <module>
+    main()
+  File "solution.py", line 18, in main
+    d2[data[0]] -= int(data[4])
+KeyError: '1234'
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 Invalid Points
 Your Output: 
+Invalid Points
 Traceback (most recent call last):
-  File "solution.py", line 33, in <module>
+  File "solution.py", line 35, in <module>
     main()
-  File "solution.py", line 12, in main
-    d[data[0]] += int(data[4])
-ValueError: invalid literal for int() with base 10: 'a'
+  File "solution.py", line 18, in main
+    d2[data[0]] -= int(data[4])
+KeyError: '1234'
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -43,29 +51,37 @@ Expected Output:
 12310: 0.0%
 12311: 0.0%
 Your Output: 
-12310: 0.0%
-12311: 0.0%
-1233: 0.0%
-1234: 0.0%
-1235: 59.0%
-1236: 33.0%
-1237: 0.0%
-1238: 11.0%
-1239: 0.0%
+Invalid Points
+Traceback (most recent call last):
+  File "solution.py", line 35, in <module>
+    main()
+  File "solution.py", line 18, in main
+    d2[data[0]] -= int(data[4])
+KeyError: '1235'
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 12342: 100.0%
 12345: 57.0%
 12349: 50.0%
 Your Output: 
-12342: 100.0%
-12345: 57.0%
-12349: 50.0%
+Invalid Points
+Traceback (most recent call last):
+  File "solution.py", line 35, in <module>
+    main()
+  File "solution.py", line 16, in main
+    d2[data[0]] += int(data[4])
+KeyError: '12345'
 ----------------------------------------
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 12345: 100.0%
 Your Output: 
-12345: 100.0%
+Invalid Points
+Traceback (most recent call last):
+  File "solution.py", line 35, in <module>
+    main()
+  File "solution.py", line 16, in main
+    d2[data[0]] += int(data[4])
+KeyError: '12345'
 ----------------------------------------
