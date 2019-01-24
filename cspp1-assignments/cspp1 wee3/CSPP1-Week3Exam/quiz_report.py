@@ -1,6 +1,7 @@
 def check_response(data):
     total_score = 0
     scored = {}
+    print(scored)
     global flag
     flag = 0
     full_Score = {}
