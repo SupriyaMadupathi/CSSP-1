@@ -3,13 +3,11 @@ def main():
     # print(n)
     d = {}
     d2 = {}
-    flag = 0
     for i in range(n):
         data = input().split("|")
         if data[4] not in "123456789":
             print("Invalid Points")
-            flag = 1
-            # break
+            break
 
         else:
             if data[0] not in d:
@@ -25,15 +23,13 @@ def main():
     # for x in range(n):
     #   if data[0] not in d2:
     # print(d2)
-    result = 0
     for id1 in sorted(d):
         for id2 in d2:
             # print(type(id1))
-            if flag == 0:
-                if id1 == id2:
-                    result = int((int(d2[id1])/ int(d[id2]))*100)
-                    if result < 0:
-                        result = 0.0
+            if id1 == id2:
+                result = int((int(d2[id1])/ int(d[id2]))*100)
+                if result < 0:
+                    result = 0.0
         print(id1+": "+str(float(result))+"%" )
 
 
