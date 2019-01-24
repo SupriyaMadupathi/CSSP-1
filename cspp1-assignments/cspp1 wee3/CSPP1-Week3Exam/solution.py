@@ -3,22 +3,25 @@ def main():
     # print(n)
     d = {}
     d2 = {}
+    flag = 0
     for i in range(n):
         data = input().split("|")
-        if int(data[4]) != type(int):
+        if data[4] not in "123456789":
             print("Invalid Points")
-            break
+            flag = 1
+            # break
 
-        elif int(data[4]) == type(int):
-            if data[0] not in d:
-                d[data[0]] = int(data[4])
-                d2[data[0]] = 0
-            else:
-                d[data[0]] += int(data[4])
-            if data[2] == data[3]:
-                d2[data[0]] += int(data[4])
-            else:
-                d2[data[0]] -= int(data[4])
+        else:
+            if flag == 0:
+                if data[0] not in d:
+                    d[data[0]] = int(data[4])
+                    d2[data[0]] = 0
+                else:
+                    d[data[0]] += int(data[4])
+                if data[2] == data[3]:
+                    d2[data[0]] += int(data[4])
+                else:
+                    d2[data[0]] -= int(data[4])
     # print(d)
     # for x in range(n):
     #   if data[0] not in d2:

@@ -1,5 +1,5 @@
 ************* Module solution
-solution.py:33:46: C0326: No space allowed before bracket
+solution.py:36:46: C0326: No space allowed before bracket
         print(id1+": "+str(float(result))+"%" )
                                               ^ (bad-whitespace)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -7,8 +7,8 @@ solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 solution.py:2:4: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 solution.py:4:4: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
 solution.py:5:4: C0103: Variable name "d2" doesn't conform to snake_case naming style (invalid-name)
-solution.py:6:8: W0612: Unused variable 'i' (unused-variable)
+solution.py:7:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.31/10 (previous run: 7.20/10, +0.11)
+Your code has been rated at 7.41/10 (previous run: 7.31/10, +0.10)
 
