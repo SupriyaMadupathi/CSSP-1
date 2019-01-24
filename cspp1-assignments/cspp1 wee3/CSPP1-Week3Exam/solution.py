@@ -12,16 +12,15 @@ def main():
             # break
 
         else:
-            if flag == 0:
-                if data[0] not in d:
-                    d[data[0]] = int(data[4])
-                    d2[data[0]] = 0
-                else:
-                    d[data[0]] += int(data[4])
-                if data[2] == data[3]:
-                    d2[data[0]] += int(data[4])
-                else:
-                    d2[data[0]] -= int(data[4])
+            if data[0] not in d:
+                d[data[0]] = int(data[4])
+                d2[data[0]] = 0
+            else:
+                d[data[0]] += int(data[4])
+            if data[2] == data[3]:
+                d2[data[0]] += int(data[4])
+            else:
+                d2[data[0]] -= int(data[4])
     # print(d)
     # for x in range(n):
     #   if data[0] not in d2:
@@ -29,10 +28,11 @@ def main():
     for id1 in sorted(d):
         for id2 in d2:
             # print(type(id1))
-            if id1 == id2:
-                result = int((int(d2[id1])/ int(d[id2]))*100)
-                if result < 0:
-                    result = 0.0
+            if flag == 0:
+                if id1 == id2:
+                    result = int((int(d2[id1])/ int(d[id2]))*100)
+                    if result < 0:
+                        result = 0.0
         print(id1+": "+str(float(result))+"%" )
 
 

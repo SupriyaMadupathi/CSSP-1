@@ -27,7 +27,12 @@ Your Output:
 Invalid Points
 Invalid Points
 Invalid Points
-1234: 0.0%
+Traceback (most recent call last):
+  File "solution.py", line 41, in <module>
+    main()
+  File "solution.py", line 36, in main
+    print(id1+": "+str(float(result))+"%" )
+UnboundLocalError: local variable 'result' referenced before assignment
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -58,8 +63,12 @@ Expected Output:
 12349: 50.0%
 Your Output: 
 Invalid Points
-12345: 100.0%
-12349: 0.0%
+Traceback (most recent call last):
+  File "solution.py", line 41, in <module>
+    main()
+  File "solution.py", line 36, in main
+    print(id1+": "+str(float(result))+"%" )
+UnboundLocalError: local variable 'result' referenced before assignment
 ----------------------------------------
 ########## Testcase 5: Passed ##########
 Expected Output: 
