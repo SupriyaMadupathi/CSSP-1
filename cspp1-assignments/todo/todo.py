@@ -85,7 +85,7 @@ def main():
 					if list1[6] == "done":
 						print("null")
 					else:
-						if data[4] == "y" and data[5] == "n":
+						if list1[4] == "y" and list1[5] == "n":
 							for i in each:
 								str4 += i + ", "
 							print(str4[0 : len(str4) - 2])
