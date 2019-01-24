@@ -84,7 +84,7 @@ def main():
 					# print(list1)
 					str4 = ""
 					for i in each:
-						print(str4)
+						print(list1)
 						if list1[5] == "done":
 							# print("hiiii")
 							print("null")
