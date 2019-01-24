@@ -9,11 +9,11 @@ quiz_report.py:5:4: W0601: Global variable 'flag' undefined at the module level 
 quiz_report.py:7:4: C0103: Variable name "full_Score" doesn't conform to snake_case naming style (invalid-name)
 quiz_report.py:2:4: W0612: Unused variable 'total_score' (unused-variable)
 quiz_report.py:1:0: R0912: Too many branches (13/12) (too-many-branches)
-quiz_report.py:40:0: C0111: Missing function docstring (missing-docstring)
-quiz_report.py:42:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
-quiz_report.py:42:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
-quiz_report.py:44:8: W0612: Unused variable 'i' (unused-variable)
+quiz_report.py:41:0: C0111: Missing function docstring (missing-docstring)
+quiz_report.py:43:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
+quiz_report.py:43:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
+quiz_report.py:45:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.50/10 (previous run: 6.75/10, -0.25)
+Your code has been rated at 6.50/10 (previous run: 6.50/10, +0.00)
 
