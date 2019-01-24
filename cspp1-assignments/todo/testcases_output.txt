@@ -99,8 +99,8 @@ Your Output:
 Traceback (most recent call last):
   File "todo.py", line 105, in <module>
     main()
-  File "todo.py", line 85, in main
-    if data[6] == "done":
+  File "todo.py", line 88, in main
+    if data[4] == "y" and data[5] == "n":
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 9: Failed ##########
@@ -111,8 +111,8 @@ Your Output:
 Traceback (most recent call last):
   File "todo.py", line 105, in <module>
     main()
-  File "todo.py", line 85, in main
-    if data[6] == "done":
+  File "todo.py", line 88, in main
+    if data[4] == "y" and data[5] == "n":
 IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 10: Failed ##########

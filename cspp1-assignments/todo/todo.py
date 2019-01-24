@@ -82,7 +82,7 @@ def main():
 			elif data[0] == "get-next":
 				for each in list1:
 					str4 = ""
-					if data[6] == "done":
+					if list1[6] == "done":
 						print("null")
 					else:
 						if data[4] == "y" and data[5] == "n":
