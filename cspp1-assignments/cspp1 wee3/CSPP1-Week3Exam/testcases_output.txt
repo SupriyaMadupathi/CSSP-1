@@ -4,11 +4,6 @@ Expected Output:
 1235: 100.0%
 Your Output: 
 Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -19,43 +14,12 @@ Expected Output:
 1239: 0.0%
 Your Output: 
 Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Invalid Points
 Your Output: 
 Invalid Points
-Invalid Points
-Traceback (most recent call last):
-  File "solution.py", line 38, in <module>
-    main()
-  File "solution.py", line 8, in main
-    if int(data[4]) != type(int):
-ValueError: invalid literal for int() with base 10: 'a'
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -70,65 +34,6 @@ Expected Output:
 12311: 0.0%
 Your Output: 
 Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -137,28 +42,10 @@ Expected Output:
 12349: 50.0%
 Your Output: 
 Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 12345: 100.0%
 Your Output: 
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
-Invalid Points
 Invalid Points
 ----------------------------------------

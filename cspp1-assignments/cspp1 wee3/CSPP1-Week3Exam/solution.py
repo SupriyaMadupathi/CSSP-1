@@ -7,7 +7,7 @@ def main():
         data = input().split("|")
         if int(data[4]) != type(int):
             print("Invalid Points")
-            # break
+            break
 
         else:
             if data[0] not in d:
