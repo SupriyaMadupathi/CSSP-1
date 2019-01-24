@@ -84,16 +84,17 @@ todo.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 todo.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:90:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:91:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:102:0: C0303: Trailing whitespace (trailing-whitespace)
-todo.py:105:0: C0304: Final newline missing (missing-final-newline)
-todo.py:105:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+todo.py:106:0: C0304: Final newline missing (missing-final-newline)
+todo.py:106:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:1:0: C0111: Missing module docstring (missing-docstring)
 todo.py:1:0: C0111: Missing function docstring (missing-docstring)
 todo.py:29:3: W0104: Statement seems to have no effect (pointless-statement)
@@ -106,5 +107,5 @@ todo.py:61:1: R1702: Too many nested blocks (7/5) (too-many-nested-blocks)
 todo.py:58:0: R0912: Too many branches (15/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.35/10 (previous run: -4.35/10, +0.00)
+Your code has been rated at -4.29/10 (previous run: -4.35/10, +0.06)
 

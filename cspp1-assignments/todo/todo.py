@@ -81,6 +81,7 @@ def main():
 
 			elif data[0] == "get-next":
 				for each in list1:
+					print("hii")
 					str4 = ""
 					if list1[6] == "done":
 						print("null")
