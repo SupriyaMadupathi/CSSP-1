@@ -7,7 +7,7 @@ def main():
 		data = input().split("|")
 		if data[4] not in "123456789":
 			print("Invalid Points")
-			break
+		break
 		if data[0] not in d:
 			d[data[0]] = int(data[4])
 			d2[data[0]] = 0
