@@ -1,7 +1,7 @@
 def check_response(data):
     total_score = 0
     scored = {}
-    print(scored)
+    # print(scored)
     global flag
     flag = 0
     full_Score = {}
@@ -16,6 +16,7 @@ def check_response(data):
         if item[0] not in scored:
                 full_Score[item[0]] = int(item[4])
                 scored[item[0]] = 0
+                print(scored)
         else:
             full_Score[item[0]] += int(item[4])
         if item[2] == item[3]:
