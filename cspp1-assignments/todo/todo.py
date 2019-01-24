@@ -81,6 +81,7 @@ def main():
 
 			elif data[0] == "get-next":
 				for each in list1:
+					print(list1)
 					str4 = ""
 					for i in each:
 						print(str4)
