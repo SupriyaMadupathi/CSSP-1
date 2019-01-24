@@ -83,6 +83,7 @@ def main():
 				for each in list1:
 					str4 = ""
 					for i in each:
+						print(str4)
 						if list1[6] == "done":
 							print("hiiii")
 						# print("null")
