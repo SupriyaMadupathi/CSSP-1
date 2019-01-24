@@ -3,8 +3,12 @@ Expected Output:
 1234: 45.0%
 1235: 100.0%
 Your Output: 
-1234 : 45 %
-1235 : 100 %
+Traceback (most recent call last):
+  File "solution.py", line 33, in <module>
+    main()
+  File "solution.py", line 28, in main
+    print(id1+":"+float(result)+"%" )
+TypeError: can only concatenate str (not "float") to str
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -14,11 +18,12 @@ Expected Output:
 1236: 0.0%
 1239: 0.0%
 Your Output: 
-1233 : 100 %
-1234 : 0.0 %
-1235 : 0.0 %
-1236 : 0 %
-1239 : 0.0 %
+Traceback (most recent call last):
+  File "solution.py", line 33, in <module>
+    main()
+  File "solution.py", line 28, in main
+    print(id1+":"+float(result)+"%" )
+TypeError: can only concatenate str (not "float") to str
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -43,15 +48,12 @@ Expected Output:
 12310: 0.0%
 12311: 0.0%
 Your Output: 
-12310 : 0.0 %
-12311 : 0.0 %
-1233 : 0.0 %
-1234 : 0.0 %
-1235 : 59 %
-1236 : 33 %
-1237 : 0.0 %
-1238 : 11 %
-1239 : 0.0 %
+Traceback (most recent call last):
+  File "solution.py", line 33, in <module>
+    main()
+  File "solution.py", line 28, in main
+    print(id1+":"+float(result)+"%" )
+TypeError: can only concatenate str (not "float") to str
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -59,13 +61,21 @@ Expected Output:
 12345: 57.0%
 12349: 50.0%
 Your Output: 
-12342 : 100 %
-12345 : 57 %
-12349 : 50 %
+Traceback (most recent call last):
+  File "solution.py", line 33, in <module>
+    main()
+  File "solution.py", line 28, in main
+    print(id1+":"+float(result)+"%" )
+TypeError: can only concatenate str (not "float") to str
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
 12345: 100.0%
 Your Output: 
-12345 : 100 %
+Traceback (most recent call last):
+  File "solution.py", line 33, in <module>
+    main()
+  File "solution.py", line 28, in main
+    print(id1+":"+float(result)+"%" )
+TypeError: can only concatenate str (not "float") to str
 ----------------------------------------

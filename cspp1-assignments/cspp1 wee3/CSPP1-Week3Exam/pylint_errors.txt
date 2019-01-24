@@ -20,18 +20,9 @@ solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:28:11: C0326: Exactly one space required after comma
-		print(id1,":" ,result, "%" )
-           ^ (bad-whitespace)
-solution.py:28:16: C0326: No space allowed before comma
-		print(id1,":" ,result, "%" )
-                ^ (bad-whitespace)
-solution.py:28:16: C0326: Exactly one space required after comma
-		print(id1,":" ,result, "%" )
-                ^ (bad-whitespace)
-solution.py:28:29: C0326: No space allowed before bracket
-		print(id1,":" ,result, "%" )
-                             ^ (bad-whitespace)
+solution.py:28:34: C0326: No space allowed before bracket
+		print(id1+":"+float(result)+"%" )
+                                  ^ (bad-whitespace)
 solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 solution.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -41,5 +32,5 @@ solution.py:5:1: C0103: Variable name "d2" doesn't conform to snake_case naming 
 solution.py:6:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.55/10 (previous run: -4.09/10, -0.45)
+Your code has been rated at -3.18/10 (previous run: -4.55/10, +1.36)
 
