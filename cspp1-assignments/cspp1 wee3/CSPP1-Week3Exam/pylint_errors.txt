@@ -20,9 +20,9 @@ solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:28:39: C0326: No space allowed before bracket
-		print(id1+":"+str(float(result))+"%" )
-                                       ^ (bad-whitespace)
+solution.py:28:40: C0326: No space allowed before bracket
+		print(id1+": "+str(float(result))+"%" )
+                                        ^ (bad-whitespace)
 solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 solution.py:1:0: C0111: Missing function docstring (missing-docstring)

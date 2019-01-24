@@ -25,7 +25,7 @@ def main():
 				result = int((int(d2[id1])/ int(d[id2]))*100)
 				if result < 0:
 					result = 0.0
-		print(id1+":"+str(float(result))+"%" )
+		print(id1+": "+str(float(result))+"%" )
 
 
 
