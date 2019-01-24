@@ -19,13 +19,10 @@ def main():
                 d2[data[0]] += int(data[4])
             else:
                 d2[data[0]] -= int(data[4])
-    # print(d)
-    # for x in range(n):
-    #   if data[0] not in d2:
-    # print(d2)
+
     for id1 in sorted(d):
         for id2 in d2:
-            # print(type(id1))
+        
             if id1 == id2:
                 result = int((int(d2[id1])/ int(d[id2]))*100)
                 if result < 0:
