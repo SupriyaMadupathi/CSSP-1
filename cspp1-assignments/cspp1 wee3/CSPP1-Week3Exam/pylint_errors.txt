@@ -1,19 +1,42 @@
-************* Module quiz_report
-quiz_report.py:17:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz_report.py:18:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz_report.py:19:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-quiz_report.py:1:0: C0111: Missing module docstring (missing-docstring)
-quiz_report.py:1:0: C0111: Missing function docstring (missing-docstring)
-quiz_report.py:5:4: C0103: Constant name "flag" doesn't conform to UPPER_CASE naming style (invalid-name)
-quiz_report.py:5:4: W0601: Global variable 'flag' undefined at the module level (global-variable-undefined)
-quiz_report.py:7:4: C0103: Variable name "full_Score" doesn't conform to snake_case naming style (invalid-name)
-quiz_report.py:2:4: W0612: Unused variable 'total_score' (unused-variable)
-quiz_report.py:1:0: R0912: Too many branches (13/12) (too-many-branches)
-quiz_report.py:41:0: C0111: Missing function docstring (missing-docstring)
-quiz_report.py:43:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
-quiz_report.py:43:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
-quiz_report.py:45:8: W0612: Unused variable 'i' (unused-variable)
+************* Module solution
+solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:28:17: C0326: No space allowed before comma
+		print(id1, ":" ,result, "%" )
+                 ^ (bad-whitespace)
+solution.py:28:17: C0326: Exactly one space required after comma
+		print(id1, ":" ,result, "%" )
+                 ^ (bad-whitespace)
+solution.py:28:30: C0326: No space allowed before bracket
+		print(id1, ":" ,result, "%" )
+                              ^ (bad-whitespace)
+solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+solution.py:1:0: C0111: Missing function docstring (missing-docstring)
+solution.py:2:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+solution.py:4:1: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+solution.py:5:1: C0103: Variable name "d2" doesn't conform to snake_case naming style (invalid-name)
+solution.py:6:5: W0612: Unused variable 'i' (unused-variable)
 
-------------------------------------------------------------------
-Your code has been rated at 6.50/10 (previous run: 6.50/10, +0.00)
+------------------------------------
+Your code has been rated at -4.09/10
 

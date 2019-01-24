@@ -15,7 +15,6 @@ def check_response(data):
             break
         if item[0] not in scored:
                 full_Score[item[0]] = int(item[4])
-                print(full_Score)
                 scored[item[0]] = 0
                 # print(scored)
         else:
