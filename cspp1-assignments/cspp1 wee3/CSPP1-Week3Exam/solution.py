@@ -22,10 +22,10 @@ def main():
 		for id2 in d2:
 			# print(type(id1))
 			if id1 == id2:
-				result = (int(d2[id1])/ int(d[id2]))*100
+				result = int((int(d2[id1])/ int(d[id2]))*100)
 				if result < 0:
 					result = 0.0
-		print(id1, ":" ,result, "%" )
+		print(id1,":" ,result, "%" )
 
 
 
