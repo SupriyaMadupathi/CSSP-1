@@ -9,7 +9,7 @@ def main():
             print("Invalid Points")
             break
 
-        else:
+        elif int(data[4]) == type(int):
             if data[0] not in d:
                 d[data[0]] = int(data[4])
                 d2[data[0]] = 0
