@@ -25,6 +25,7 @@ def main():
     # for x in range(n):
     #   if data[0] not in d2:
     # print(d2)
+    result = 0
     for id1 in sorted(d):
         for id2 in d2:
             # print(type(id1))
