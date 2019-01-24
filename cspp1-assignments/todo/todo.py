@@ -82,14 +82,15 @@ def main():
 			elif data[0] == "get-next":
 				for each in list1:
 					str4 = ""
-					if list1[6] == "done":
-						print("hiiii")
+					for i in each:
+						if list1[6] == "done":
+							print("hiiii")
 						# print("null")
-					else:
-						if list1[4] == "y" and list1[5] == "n":
-							for i in each:
-								str4 += i + ", "
-							print(str4[0 : len(str4) - 2])
+						else:
+							if list1[4] == "y" and list1[5] == "n":
+								for i in each:
+									str4 += i + ", "
+								print(str4[0 : len(str4) - 2])
 
 
 			elif data[0] == "total-time":
