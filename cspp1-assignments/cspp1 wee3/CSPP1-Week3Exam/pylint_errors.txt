@@ -34,5 +34,5 @@ solution.py:5:1: C0103: Variable name "d2" doesn't conform to snake_case naming 
 solution.py:6:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.92/10 (previous run: -3.18/10, +0.27)
+Your code has been rated at -2.92/10 (previous run: -2.92/10, +0.00)
 

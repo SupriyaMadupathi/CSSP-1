@@ -5,9 +5,9 @@ def main():
 	d2 = {}
 	for i in range(n):
 		data = input().split("|")
-		if data[4] != int:
+		if data[4] not in "123456789":
 			print("Invalid Points")
-		elif data[0] not in d:
+		if data[0] not in d:
 			d[data[0]] = int(data[4])
 			d2[data[0]] = 0
 		else:
