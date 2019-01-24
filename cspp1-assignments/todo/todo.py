@@ -80,19 +80,20 @@ def main():
 				# print_todoist()
 
 			elif data[0] == "get-next":
-				for each in list1:
-					# print(list1)
-					str4 = ""
-					for i in each:
-						print(list1)
-						if list1[5] == "done":
-							# print("hiiii")
-							print("null")
-						else:
-							if list1[3] == "Important" and list1[4] == "Not Urgent":
-								for i in each:
-									str4 += i + ", "
-								print(str4[0 : len(str4) - 2])
+				if data[1] == list1[1]:
+					for each in list1:
+						# print(list1)
+						str4 = ""
+						for i in each:
+							print(list1)
+							if list1[5] == "done":
+								# print("hiiii")
+								print("null")
+							else:
+								if list1[3] == "Important" and list1[4] == "Not Urgent":
+									for i in each:
+										str4 += i + ", "
+									print(str4[0 : len(str4) - 2])
 
 
 			elif data[0] == "total-time":
