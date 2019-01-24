@@ -25,7 +25,13 @@ Expected Output:
 Invalid Points
 Your Output: 
 Invalid Points
-1234: 0.0%
+Invalid Points
+Traceback (most recent call last):
+  File "solution.py", line 38, in <module>
+    main()
+  File "solution.py", line 17, in main
+    d[data[0]] += int(data[4])
+ValueError: invalid literal for int() with base 10: 'd'
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -49,15 +55,15 @@ Your Output:
 1238: 11.0%
 1239: 0.0%
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 12342: 100.0%
 12345: 57.0%
 12349: 50.0%
 Your Output: 
-Invalid Points
-12345: 100.0%
-12349: 0.0%
+12342: 100.0%
+12345: 57.0%
+12349: 50.0%
 ----------------------------------------
 ########## Testcase 5: Passed ##########
 Expected Output: 
