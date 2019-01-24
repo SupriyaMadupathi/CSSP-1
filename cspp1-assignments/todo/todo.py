@@ -78,6 +78,19 @@ def main():
 
 					print(str3[0: len(str3) -2])
 				# print_todoist()
+
+			elif data[0] == "get-next":
+				for each in list1:
+					str4 = ""
+					if data[6] == "done":
+						print("null")
+					else:
+						if data[4] == "y" and data[5] == "n":
+							for i in each:
+								str4 += i + ", "
+							print(str4[0 : len(str4) - 2])
+
+
 			elif data[0] == "total-time":
 				summ = 0
 				for each in l2:

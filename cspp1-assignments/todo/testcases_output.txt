@@ -96,14 +96,24 @@ task-b, akshay, 30, Important, Not Urgent, todo
 null
 task-h, tarun, 27, Important, Not Urgent, todo
 Your Output: 
-
+Traceback (most recent call last):
+  File "todo.py", line 105, in <module>
+    main()
+  File "todo.py", line 85, in main
+    if data[6] == "done":
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 9: Failed ##########
 Expected Output: 
 task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 Your Output: 
-
+Traceback (most recent call last):
+  File "todo.py", line 105, in <module>
+    main()
+  File "todo.py", line 85, in main
+    if data[6] == "done":
+IndexError: list index out of range
 ----------------------------------------
 ########## Testcase 10: Failed ##########
 Expected Output: 
