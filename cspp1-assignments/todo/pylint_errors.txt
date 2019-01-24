@@ -78,7 +78,7 @@ todo.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 todo.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todo.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todo.py:86:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todo.py:90:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -106,5 +106,5 @@ todo.py:61:1: R1702: Too many nested blocks (7/5) (too-many-nested-blocks)
 todo.py:58:0: R0912: Too many branches (15/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.35/10 (previous run: -4.29/10, -0.06)
+Your code has been rated at -4.35/10 (previous run: -4.35/10, +0.00)
 

@@ -83,8 +83,8 @@ def main():
 				for each in list1:
 					str4 = ""
 					if list1[6] == "done":
-						# print("hiiii")
-						print("null")
+						print("hiiii")
+						# print("null")
 					else:
 						if list1[4] == "y" and list1[5] == "n":
 							for i in each:
